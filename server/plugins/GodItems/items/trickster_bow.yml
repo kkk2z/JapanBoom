@@ -1,0 +1,25 @@
+teleport_cooldown: 10 # seconds
+potion_cloud_cooldown: 5 # seconds
+potion_cloud_duration: 5 # seconds
+potion_cloud_radius: 3 # blocks
+effect_duration: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item
+
+teleport_custom_name: "§8§lTeleport"
+potion_cloud_custom_name: "§8§lPotion Cloud"
+
+appearance:
+  display_name: "§8§lTrickster's Bow"
+  lore: "§7A weapon for the most cunning"
+  description: "§7§o(Shoot) - Apply random negative affect to an area/§7§o(Sneak + Shoot) - Teleport"
+  texture_id: 1000012
+
+
+enchantments:
+  flame: 1
+  infinity: 1
+  power: 5
+  punch: 2
+  unbreaking: 3
+  curse_of_vanishing: 0

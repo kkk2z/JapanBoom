@@ -1,0 +1,79 @@
+################## CHOLERA #########################
+
+name: Cholera
+
+description: Deadly waterborne virus contracted by drinking bad water.
+
+################## Disease settings #################
+
+infectionMethod: consume
+
+## options environmentDamage/biome/mobDamage/proximity/consume
+
+infectionMethodType: POTION
+
+## options 
+##fall/swamp/zombie/arrow/chicken/potion
+
+infectious: true
+
+infectionChance: 10  
+
+## %chance on infection method being true
+infectionMessage: That water tasted funny
+
+prerequisiteDisease: none  
+##name of disease that needs to be contracted first
+
+sicknessIncrease: 5
+
+cure: BrightWater
+
+vialEnabled: false 
+arrowEnabled: false
+
+
+
+################## Disease Actions ################
+## actions: cough sneeze lashOut damage-1
+
+##actions enabled
+enabledSickActions:
+  - cough
+  - damage-1
+
+## which actions happen at which sickness level 
+sickActions:  
+  cough: 30
+  damage-1: 80
+
+
+
+################## Disease Effects ################
+## effects: vomit sweat poop bleedBody bleedHead blindness slowness confusion  
+
+##effects enabled
+enabledSickEffects:
+  - sweat
+  - blindness
+
+## which effects happen at which sickness level 
+sickEffects:
+  sweat: 50 
+  blindness: 80
+  
+################## Disease Sounds ################
+## sounds: burp heavyBreath sneeze choke cough crunch
+
+##sounds enabled
+enabledSickSounds:
+  - heavyBreath 
+  - cough
+
+## which sounds happen at which sickness level 
+
+sickSounds:
+  heavyBreath: 50 
+  cough: 80
+
+

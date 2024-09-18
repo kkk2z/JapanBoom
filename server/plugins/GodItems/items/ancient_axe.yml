@@ -1,0 +1,21 @@
+cooldown_per_block: 1 # seconds added to cooldown per block cut
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 0.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§6§lAncient Axe"
+  lore: "§eHundreds of years old and still sharp as a razor"
+  description: "§7§oBreak a single block to cut the whole tree"
+  texture_id: 1000033
+
+
+enchantments:
+  efficiency: 3
+  fortune: 2
+  silk_touch: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 7  # Attack damage
+  speed: 1  # Attack speed

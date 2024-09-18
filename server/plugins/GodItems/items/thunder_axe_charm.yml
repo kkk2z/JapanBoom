@@ -1,0 +1,30 @@
+
+bonus_damage_level_1: 2  # bonus damage when striking lightning
+bonus_damage_level_2: 5
+bonus_damage_level_3: 10
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§3§lAmulet of the Thunder God"
+  lore: "§bYou feel electricity sparking from this amulet"
+  description: "§7§oGives damage when using lightning"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Basic "
+  prefix_level_2: "§b§lMastercrafted "
+  prefix_level_3: "§1§l§nDivine§r "
+  addition_lore_1: "Rusty and worn"
+  addition_lore_2: "A fine craftsman's work"
+  addition_lore_3: "A divine glow is emanating from this amulet"
+  texture_id_level_1: 1001001
+  texture_id_level_2: 1002001
+  texture_id_level_3: 1003001

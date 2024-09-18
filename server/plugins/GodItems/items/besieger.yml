@@ -1,0 +1,19 @@
+explosion_strength: 4 # 4 equals tnt
+consumes_gunpowder: true # true -> explosive shots consume gunpowder, false -> they don't
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§1§lBesieger"
+  lore: "§9Where heavy artillery is needed"
+  description: "§7§o(Shoot) - Explosive arrow"
+  texture_id: 1000011
+
+
+enchantments:
+  multishot: 0
+  piercing: 0
+  quick_charge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0

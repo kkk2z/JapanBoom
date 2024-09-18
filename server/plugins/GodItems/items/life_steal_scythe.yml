@@ -1,0 +1,28 @@
+life_steal_fraction: 0.9 # fraction of the damage to the enemy that gets added to the HP
+attack_angle: 90 # sweep angle of attacks in degrees
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§5§lHarvester of Souls"
+  lore: "§4Foes that see this terrible weapon/§4know their time has come"
+  description: "§7§o(Hit) - Life steal/§7§oWider hitting angle/§7§oDual-wielded (requires empty offhand)"
+  texture_id: 1000030
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 3
+  sharpness: 0
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 0
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 15  # Attack damage
+  speed: 0.5  # Attack speed (for this weapon values above 0.5 may not work very well)
+  attack_range: 5 #survival default is 3

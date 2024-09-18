@@ -1,0 +1,11 @@
+name: kkk2z1
+temp: 37.0
+normalTemp: 37.0
+infection: none
+sickness: 0
+immunity:
+  BrokenLeg: 0
+  Plague: 0
+  SwampFever: 0
+  ChickenPox: 0
+  Cholera: 0

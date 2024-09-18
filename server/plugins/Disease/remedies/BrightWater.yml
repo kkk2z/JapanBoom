@@ -1,0 +1,28 @@
+################## Cholera cure #########################
+
+name: BrightWater
+
+description: Light brew with cholera curing effects
+
+craftDescription: Mix glowstone dust, and water bottle 
+
+curedDisease: Cholera
+cureMessage: The potion cures Cholera
+
+craftResultAmount: 1
+craftResultMaterial: POTION
+
+innoculationPossible: true
+
+
+recipeType: shapeless
+cureRecipe:
+  1: AIR
+  2: AIR
+  3: POTION
+  4: AIR
+  5: AIR
+  6: GLOWSTONE_DUST
+  7: AIR
+  8: AIR
+  9: AIR

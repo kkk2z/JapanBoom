@@ -1,0 +1,13 @@
+dragon_drop: 5 # How many dropped on dragon death
+
+appearance:
+  display_name: "§5§lDragon Scale"
+  lore: "§dA scale of a mighty dragon,/§dincredibly light and strong"
+  description: "§7§oUsed for crafting"
+  texture_id: 1000026
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0

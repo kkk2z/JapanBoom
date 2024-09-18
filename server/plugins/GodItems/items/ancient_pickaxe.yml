@@ -1,0 +1,26 @@
+overworld_chance: 10 #percent
+overworld_max_y: 0
+nether_chance: 10 # percent
+nether_max_y: 64
+end_chance: 10 #percent
+end_max_y: 100
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 0.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§6§lAncient Pickaxe"
+  lore: "§eForged by dwarven craftsmen for their nether mines/§eIs able to excavate ores where normal pickaxes can't"
+  description: "§7§oWhile mining you can find hidden resources/§7§o(Sneak + Mine) - Mine a tunnel in the direction of looking[Requires charm]"
+  texture_id: 1000032
+
+
+enchantments:
+  efficiency: 5
+  fortune: 0
+  silk_touch: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 11  # Attack damage
+  speed: 1  # Attack speed

@@ -1,0 +1,29 @@
+damage: 10  # damage from lightning ability
+cooldown: 5 # seconds
+push_strength: 2
+range: 5 # blocks
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§4§lHammer of the Underworld"
+  lore: "§4Your foes tremble in fear at the look of this terrible weapon"
+  description: "§7§o(Sneak + Left Click) - Throw entities around you away"
+  texture_id: 1000016
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 0
+  sharpness: 5
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 11  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 3 #survival default is 3

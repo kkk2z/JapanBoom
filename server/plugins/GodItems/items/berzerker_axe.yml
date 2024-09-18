@@ -1,0 +1,31 @@
+bonus_attack_speed: 1 # double, basic axe speed is 1, sword 1.6
+berzerk_threshold: 6 #hp points below which berzerk ability triggered
+strength_level: 2 #effect level when berzerk is active
+speed_level: 2 #effect level when berzerk active
+throw_damage: 10  # damage from lightning ability
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§4§lBerzerker Axe"
+  lore: "§cOnce belonged to the fiercest fighter"
+  description: "§7§o(Sneak + Left CLick) - Throw Axe/§7§oBonus attack speed + other bonuses at low health/§7§oRequires §4§lBerzerker Offhand§7§o equipped in offhand"
+  texture_id: 1000013
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 0
+  sharpness: 5
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 11  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 3 #survival default is 3

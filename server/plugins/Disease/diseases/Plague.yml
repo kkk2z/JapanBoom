@@ -1,0 +1,65 @@
+################## Broken Leg #########################
+
+name: Plague
+
+description: Fever caused by bites from the mosquitoes found in swampy ground.
+
+
+##Enabled worlds
+biomes:
+  - world
+  - world_nether
+  - world_the_end
+
+################## Disease settings #################
+
+infectionMethod: mobDamage
+infectionMethodType: zombie
+infectious: true
+infectionChance: 60  ## %chance on damage
+infectionMessage: The zombie bite starts to itch
+prerequisiteDisease: none
+
+sicknessIncrease: 1
+
+cure: WormwoodPotion
+
+################## Disease Actions ################
+## actions
+
+enabledSickActions:
+  - cough
+  - sneeze
+  - damage-4
+
+sickActions:
+  cough: 20
+  sneeze: 40
+  damage-4: 80
+  
+################## Disease Effects ################
+## particles
+
+
+enabledSickEffects:
+  - sweat
+  - vomit
+
+
+sickEffects:
+  sweat: 40 
+  vomit: 70
+  
+################## Disease Sounds ################
+## particles
+
+
+enabledSickSounds:
+  - heavyBreath
+  - sneeze
+
+
+sickSounds:
+  heavyBreath: 40 
+  sneeze: 60
+

@@ -1,0 +1,70 @@
+################## Broken Leg #########################
+
+name: SwampFever
+
+description: Fever caused by bites from the mosquitoes found in swampy ground.
+
+##Enabled worlds
+biomes:
+  - world
+  - world_nether
+  - world_the_end
+
+################## Disease settings #################
+
+infectionMethod: biome
+infectionMethodType: swamp
+infectious: true
+infectionChance: 10  ## %chance on damage
+infectionMessage: A mosquito bites your neck, it turns red
+prerequisiteDisease: none
+
+sicknessIncrease: 2
+
+cure: MudbanePotion
+
+################## Disease Actions ################
+## actions
+
+enabledSickActions:
+  - cough
+  - sneeze
+  - damage-1
+  - damage-4
+
+sickActions:
+  cough: 20
+  sneeze: 40
+  damage-1: 40
+  damage-4: 80
+  
+################## Disease Effects ################
+## particles
+
+
+enabledSickEffects:
+  - sweat
+  - vomit
+  - poop
+
+
+sickEffects:
+  sweat: 20 
+  vomit: 40
+  poop: 70
+  
+################## Disease Sounds ################
+## particles
+
+
+enabledSickSounds:
+  - burp
+  - sneeze
+  - heavyBreath
+
+
+sickSounds:
+  burp: 20 
+  sneeze: 40
+  heavyBreath: 70
+

@@ -1,0 +1,4273 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="en-US" dir="LTR" class="Public LoggedOut NoSidebar" xmlns:fb="//www.facebook.com/2008/fbml">
+<head>
+
+    <meta charset="utf-8" />
+<meta name="google-site-verification" content="fnjUrmd3azc4GH8dDBhYuQnAslOqYeuxnygs4oK9-Kg" />
+
+<script defer src="https://content.overwolf.com/web/bukkit/bukkitnpinit.js"></script>
+
+<meta name="bitly-verification" content="272f2f58ee21"/>
+     
+
+<script>
+document.write('<base href="' + 'https://bukkit.org/'.replace('http:', 'https:') + '" />');
+</script>
+<noscript>
+		<base href="https://bukkit.org/" />
+</noscript>
+
+	   
+    <title>Solved - Error when using Economy | Bukkit Forums</title>
+    
+    <noscript><style>.JsOnly { display: none !important; }</style></noscript>
+    <link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=10&amp;dir=LTR&amp;d=1726522477" />
+    <link rel="stylesheet" href="css.php?css=bb_code,bbcm_js,login_bar,message,message_user_info,share_page,thread_view&amp;style=10&amp;dir=LTR&amp;d=1726522477" />
+
+    
+
+    <script>
+
+	var _gaq = [['_setAccount', 'UA-20541082-1'], ['_trackPageview']];
+	!function(d, t)
+	{
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];	
+		g.async = true;
+		g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	}
+	(document, 'script');
+
+	</script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
+	
+		<script>if (!window.jQuery) { document.write('<scr'+'ipt type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"><\/scr'+'ipt>'); }</script>
+		
+	<script src="js/xenforo/xenforo.js?_v=c2a3bd65"></script>
+
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS feed for Bukkit Forums" href="forums/-/index.rss" />
+    
+    
+	<link rel="canonical" href="https://bukkit.org/threads/error-when-using-economy.486064/" />
+	<meta name="description" content="Hi, I'm making a plugin and there is one part which deducts money from a player's account. But when I use the withdrawPlayer or getBalance function,..." />
+
+        <!-- App Indexing for Google Search -->
+        <link href="android-app://com.quoord.tapatalkpro.activity/tapatalk/bukkit.org?location=topic&amp;tid=486064&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <link href="ios-app://307880732/tapatalk/bukkit.org?location=topic&amp;tid=486064&amp;page=1&amp;perpage=30&amp;channel=google-indexing" rel="alternate" />
+        <!-- Tapatalk Detect style start -->
+<style type="text/css">
+.ui-mobile [data-role="page"], .ui-mobile [data-role="dialog"], .ui-page
+{
+top:auto;
+}
+</style>
+<!-- Tapatalk Detect banner style end -->
+                
+	
+	<script type="text/javascript" src="js/kingk/bbcm/bbcodes.js"></script>
+
+
+    <script>
+        var script = document.createElement('script');
+        var tstamp = new Date();
+        script.id = 'factorem';
+        script.src = '//cdm.cursecdn.com/js/bukkit/cdmfactorem_min.js?misc=' + tstamp.getTime();
+        script.async = false;
+        script.type='text/javascript';
+        document.head.appendChild(script);
+    </script>
+
+<!-- Begin comScore Tag -->
+  <script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "20631572" });
+    (function() {
+      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+      s.src = "https://sb.scorecardresearch.com/cs/20631572/beacon.js";
+      el.parentNode.insertBefore(s, el);
+    })();
+  </script>
+  <noscript>
+    <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=20631572&amp;cv=3.6.0&amp;cj=1">
+  </noscript>
+  <!-- End comScore Tag -->
+<script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1726523614 23.97.62.128';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		</head>
+<body class="node5 node1 SelectQuotable">
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const adPlacements = [
+        { divId: 'bukkit_D_R', size: 'sky' },
+        { divId: 'bukkit_D_A', size: 'leaderboard' },
+        { divId: 'bukkit_D_1', size: 'largeleaderboard' }
+      ];
+      
+      try {
+        npCreateAds(adPlacements);
+      } catch(e) {
+        console.error(e);
+      }
+    });
+  </script>
+
+
+
+
+
+    
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Log in or Sign up</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+    <div id="headerProxy"></div>
+
+<div id="content" class="thread_view">
+    <div class="pageWidth">
+        
+
+        
+									
+		
+		       
+                    
+<div class="atflb" style="text-align: center; margin-bottom: 25px;">
+<div id='cdm-zone-01'></div>
+</div>
+                    
+        <div class="pageContent">
+
+            <!-- main content area -->
+
+            
+                        
+
+                        
+                        <div class="breadBoxTop">
+                            
+                            
+
+<nav>
+	
+		
+			
+				
+			
+		
+			
+				
+			
+		
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-5" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://bukkit.org/forums/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/#bukkit.1" class="crumb" rel="up" itemprop="url"><span itemprop="title">Bukkit</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="https://bukkit.org/forums/plugin-development.5/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Plugin Development</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav>
+                        </div>
+                        
+                        
+                        
+
+                        
+                                              
+                            <!-- h1 title, description -->
+                            <div class="titleBar">
+                            	
+                                <h1><span class="prefix prefixGreen">Solved</span> Error when using Economy</h1>
+                                
+                                <p id="pageDescription" class="muted ">
+	Discussion in '<a href="forums/plugin-development.5/">Plugin Development</a>' started by <a href="members/yjjcoolcool.91337378/" class="username" dir="auto">YJJcoolcool</a>, <a href="threads/error-when-using-economy.486064/"><span class="DateTime" title="Apr 11, 2020 at 12:38 AM">Apr 11, 2020</span></a>.
+</p>
+                            </div>
+                        
+                        
+
+                        
+                        
+                        <!-- main template -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<dl class="threadAlerts secondaryContent">
+			<dt>Thread Status:</dt>
+			
+				
+	
+				
+					<dd class="lockedAlert">
+						<span class="icon Tooltip" title="Locked" data-tipclass="iconTip"></span>
+							Not open for further replies.</dd>
+				
+			
+		</dl>
+	
+
+
+
+
+<div class="pageNavLinkGroup">
+	<div class="linkGroup SelectionCountContainer">
+		
+		
+	</div>
+
+	
+</div>
+
+
+
+
+
+<form action="inline-mod/post/switch" method="post"
+	class="InlineModForm section"
+	data-cookieName="posts"
+	data-controls="#InlineModControls"
+	data-imodOptions="#ModerationSelect option">
+
+	<ol class="messageList" id="messageList">
+		
+			
+				
+
+
+<li id="post-3620413" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Hi, I&#039;m making a plugin and there is one part which deducts money from a player&#039;s account. But when I use the withdrawPlayer or getBalance function, the plugin doesn&#039;t work and just throws an error.<br />
+<br />
+Here is the main class:<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>package yjjcity.plugins.Cashiers;
+
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.RegisteredServiceProvider;
+import org.bukkit.plugin.java.JavaPlugin;
+import net.milkbowl.vault.economy.Economy;
+import net.milkbowl.vault.economy.Economy;
+
+import net.md_5.bungee.api.ChatColor;
+import yjjcity.plugins.Cashiers.Events.EventsClass;
+
+public class Cashiers extends JavaPlugin {
+   
+    @Override
+    public void onEnable() {
+        setupEconomy();
+        getServer().getConsoleSender().sendMessage(ChatColor.YELLOW+&quot;\n\nYJJ City Plugins - Cashiers&quot;+ChatColor.GREEN+&quot; has been ENABLED.\n\n&quot;);
+        getServer().getPluginManager().registerEvents(new EventsClass(), this);
+    }
+   
+    public static Economy economy = null;
+    
+    private boolean setupEconomy(){
+
+        RegisteredServiceProvider&lt;Economy&gt; economyProvider = getServer().getServicesManager().getRegistration(net.milkbowl.vault.economy.Economy.class);
+
+        if(economyProvider != null){
+            economy = economyProvider.getProvider();
+        }
+
+        return (economy != null);
+
+    }
+   
+    @Override
+    public void onDisable() {
+        getServer().getConsoleSender().sendMessage(ChatColor.YELLOW+&quot;\n\nYJJ City Plugins - Cashiers&quot;+ChatColor.RED+&quot; has been DISABLED.\n\n&quot;);
+    }
+}
+</pre>
+</div>Here is the part of the Events class code which involves the Economy:<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>else if (line3.equalsIgnoreCase(&quot;Click to Pay&quot;)) {
+                        double amount = Double.parseDouble(line2.substring(3));
+                        player.sendMessage(ChatColor.GREEN+&quot;Amount: YC$&quot;+amount);
+                        player.sendMessage(ChatColor.GREEN+&quot;You have YC$&quot;+economy.getBalance(player)+&quot; in your account.&quot;);
+                        EconomyResponse r = economy.withdrawPlayer(player, amount);
+                        player.sendMessage(ChatColor.GREEN+&quot;Deducted YC$&quot;+amount+&quot; from your account.&quot;);
+                        if (r.transactionSuccess()) {
+                            player.sendMessage(ChatColor.GREEN+line2+&quot; has been deducted from your account.&quot;);
+                        } else {
+                            player.sendMessage(ChatColor.RED+&quot;An error occured. Do you have enough money in your account?&quot;);</pre>
+</div>And here is the error that pops up in the console:<br />
+<span style="color: #ff0000">
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>[15:36:50 ERROR]: Could not pass event PlayerInteractEvent to YJJCityPlugins-Cashiers v1.0
+
+java.lang.NullPointerException: null
+        at yjjcity.plugins.Cashiers.Events.EventsClass.onInteract(EventsClass.java:97) ~[?:?]
+        at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor333.execute(Unknown Source) ~[?:?]
+        at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69) ~[patched_1.15.2.jar:git-Paper-168]
+        at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.15.2.jar:git-Paper-168]
+        at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.15.2.jar:git-Paper-168]
+        at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.15.2.jar:git-Paper-168]
+        at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:463) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.PlayerInteractManager.a(PlayerInteractManager.java:448) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1378) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:27) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.PacketPlayInUseItem.a(PacketPlayInUseItem.java:5) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.TickTask.run(SourceFile:18) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.MinecraftServer.ba(MinecraftServer.java:1053) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:1046) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:1016) ~[patched_1.15.2.jar:git-Paper-168]
+        at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:939) ~[patched_1.15.2.jar:git-Paper-168]
+        at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]</pre>
+</div></span>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 11, 2020 at 12:38 AM">Apr 11, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620413/permalink">#1</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620413"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620414" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink">@YJJcoolcool</a> Do you ever check if economy is null?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620414" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 11, 2020 at 1:10 AM">Apr 11, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620414" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620414/permalink">#2</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620414"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620496" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					So I put a<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>if (economy == null) {
+    setupEconomy();
+}</pre>
+</div>in onEnable()?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620496" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 12, 2020 at 6:59 AM">Apr 12, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620496" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620496/permalink">#3</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620496"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620497" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink">@YJJcoolcool</a> No, before you start using it. <br />
+You don&#039;t check the result of setupEconomy()
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620497" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 12, 2020 at 6:59 AM">Apr 12, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620497" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620497/permalink">#4</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620497"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620702" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Ok I copied the Economy setup from the VaultApi repo. But all the examples I see elsewhere show Economy being used in the Main class. How do I &quot;import&quot; it into the Events class?<br />
+<br />
+Below is the main class:<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>package yjjcity.plugins.Cashiers;
+
+import java.util.logging.Logger;
+
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.RegisteredServiceProvider;
+import org.bukkit.plugin.java.JavaPlugin;
+import net.milkbowl.vault.chat.Chat;
+import net.milkbowl.vault.economy.Economy;
+import net.milkbowl.vault.economy.EconomyResponse;
+
+import net.md_5.bungee.api.ChatColor;
+import yjjcity.plugins.Cashiers.Events.EventsClass;
+
+public class Cashiers extends JavaPlugin {
+    private static final Logger log = Logger.getLogger(&quot;Minecraft&quot;);
+    private static Economy econ = null;
+    private static Chat chat = null;
+   
+    @Override
+    public void onEnable() {
+        if (!setupEconomy() ) {
+            log.severe(String.format(&quot;[%s] - Disabled due to no Vault dependency found!&quot;, getDescription().getName()));
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+        getServer().getConsoleSender().sendMessage(ChatColor.YELLOW+&quot;\n\nYJJ City Plugins - Cashiers&quot;+ChatColor.GREEN+&quot; has been ENABLED.\n\n&quot;);
+        getServer().getPluginManager().registerEvents(new EventsClass(), this);
+        setupChat();
+    }
+   
+    private boolean setupEconomy() {
+        if (getServer().getPluginManager().getPlugin(&quot;Vault&quot;) == null) {
+            return false;
+        }
+        RegisteredServiceProvider&lt;Economy&gt; rsp = getServer().getServicesManager().getRegistration(Economy.class);
+        if (rsp == null) {
+            return false;
+        }
+        econ = rsp.getProvider();
+        return econ != null;
+    }
+   
+    private boolean setupChat() {
+        RegisteredServiceProvider&lt;Chat&gt; rsp = getServer().getServicesManager().getRegistration(Chat.class);
+        chat = rsp.getProvider();
+        return chat != null;
+    }
+   
+    @Override
+    public void onDisable() {
+        getServer().getConsoleSender().sendMessage(ChatColor.YELLOW+&quot;\n\nYJJ City Plugins - Cashiers&quot;+ChatColor.RED+&quot; has been DISABLED.\n\n&quot;);
+    }
+   
+    public static Economy getEconomy() {
+        return econ;
+    }
+   
+    public static Chat getChat() {
+        return chat;
+    }
+}
+</pre>
+</div>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620702" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 14, 2020 at 9:53 PM">Apr 14, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620702" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620702/permalink">#5</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620702"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620704" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink">@YJJcoolcool</a> You make a getter for it.<br />
+And then you give the EventsClass an instance to the main class.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620704" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 14, 2020 at 11:05 PM">Apr 14, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620704" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620704/permalink">#6</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620704"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620879" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="timtower">
+	<aside>
+		
+			<div class="attribution type">timtower said:
+				
+					<a href="goto/post?id=3620704#post-3620704" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote"><a href="members/yjjcoolcool.91337378/" class="internalLink" rel="nofollow">@YJJcoolcool</a> You make a getter for it.<br />
+And then you give the EventsClass an instance to the main class.</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>Sorry, I don&#039;t know how to do this. Do you know how?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620879" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 16, 2020 at 9:25 PM">Apr 16, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620879" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620879/permalink">#7</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620879"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620884" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="YJJcoolcool">
+	<aside>
+		
+			<div class="attribution type">YJJcoolcool said:
+				
+					<a href="goto/post?id=3620879#post-3620879" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Sorry, I don&#039;t know how to do this. Do you know how?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div><a href="https://www.codejava.net/coding/java-getter-and-setter-tutorial-from-basics-to-best-practices" target="_blank" class="externalLink">https://www.codejava.net/coding/java-getter-and-setter-tutorial-from-basics-to-best-practices</a><br />
+Basic java thing.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620884" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 16, 2020 at 11:22 PM">Apr 16, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620884" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620884/permalink">#8</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620884"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620937" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Sorry, I am completely lost. Do I replace private static Economy econ with public static Economy econ? And what should I do after that?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620937" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 17, 2020 at 5:44 AM">Apr 17, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620937" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620937/permalink">#9</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620937"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620943" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="YJJcoolcool">
+	<aside>
+		
+			<div class="attribution type">YJJcoolcool said:
+				
+					<a href="goto/post?id=3620937#post-3620937" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Sorry, I am completely lost. Do I replace private static Economy econ with public static Economy econ? And what should I do after that?</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>No, you remove the static all together.<br />
+You move the field to the main class (and the setupEconomy method)<br />
+Then you add a getter for econ.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620943" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 17, 2020 at 7:32 AM">Apr 17, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620943" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620943/permalink">#10</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620943"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620992" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Is this what I&#039;m supposed to do?<br />
+Here is the main class:<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>package yjjcity.plugins.Cashiers;
+
+import java.util.logging.Logger;
+
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.RegisteredServiceProvider;
+import org.bukkit.plugin.java.JavaPlugin;
+import net.milkbowl.vault.chat.Chat;
+import net.milkbowl.vault.economy.Economy;
+import net.milkbowl.vault.economy.EconomyResponse;
+
+import net.md_5.bungee.api.ChatColor;
+import yjjcity.plugins.Cashiers.Events.EventsClass;
+
+public class Cashiers extends JavaPlugin {
+    private static final Logger log = Logger.getLogger(&quot;Minecraft&quot;);
+    public static Economy econ = null;
+    private static Chat chat = null;
+   
+    @Override
+    public void onEnable() {
+        if (!setupEconomy() ) {
+            log.severe(String.format(&quot;[%s] - Disabled due to no Vault dependency found!&quot;, getDescription().getName()));
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+        getServer().getConsoleSender().sendMessage(ChatColor.YELLOW+&quot;\n\nYJJ City Plugins - Cashiers&quot;+ChatColor.GREEN+&quot; has been ENABLED.\n\n&quot;);
+        getServer().getPluginManager().registerEvents(new EventsClass(), this);
+        setupChat();
+    }
+   
+    private boolean setupEconomy() {
+        if (getServer().getPluginManager().getPlugin(&quot;Vault&quot;) == null) {
+            return false;
+        }
+        RegisteredServiceProvider&lt;Economy&gt; rsp = getServer().getServicesManager().getRegistration(Economy.class);
+        if (rsp == null) {
+            return false;
+        }
+        econ = rsp.getProvider();
+        return econ != null;
+    }
+   
+    private boolean setupChat() {
+        RegisteredServiceProvider&lt;Chat&gt; rsp = getServer().getServicesManager().getRegistration(Chat.class);
+        chat = rsp.getProvider();
+        return chat != null;
+    }
+   
+    @Override
+    public void onDisable() {
+        getServer().getConsoleSender().sendMessage(ChatColor.YELLOW+&quot;\n\nYJJ City Plugins - Cashiers&quot;+ChatColor.RED+&quot; has been DISABLED.\n\n&quot;);
+    }
+   
+    public static Economy getEconomy() {
+        return econ;
+    }
+   
+    public static Chat getChat() {
+        return chat;
+    }
+}
+</pre>
+</div>And in the Events class I added this<br />
+
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>public class EventsClass implements Listener {
+    private static Economy econ = null;
+    public static Economy getEcon(){
+        return econ;
+    }
+...
+                        EconomyResponse r = econ.withdrawPlayer(player, amount);
+                        player.sendMessage(ChatColor.GREEN+&quot;Deducted YC$&quot;+amount+&quot; from your account.&quot;);
+</pre>
+</div>
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620992" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 17, 2020 at 9:56 PM">Apr 17, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620992" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620992/permalink">#11</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620992"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3620999" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink">@YJJcoolcool</a> And where do you set the economy now?<br />
+Should only have 1 econ variable
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3620999" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 18, 2020 at 2:14 AM">Apr 18, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3620999" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3620999/permalink">#12</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3620999"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621070" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					So I want to set the economy in the Events class, so I should remove the 
+
+<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>public static Economy econ = null;</pre>
+</div> in the Main class? But if so then the Main class would have an error since setupEconomy() uses econ.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621070" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 18, 2020 at 8:18 PM">Apr 18, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621070" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621070/permalink">#13</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621070"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621081" class="message   " data-author="caderapee">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/caderapee.91250331/" class="avatar Av91250331m" data-avatarhtml="true"><span class="img m" style="background-image: url('styles/flexile/xenforo/avatars/avatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/caderapee.91250331/" class="username" dir="auto" itemprop="name">caderapee</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink" rel="nofollow">@YJJcoolcool</a> No create it in your main class, and when you instancie your event class, pass an instance of ur main class in the parameter of the constructor, then in your event class, you will able to access to variable into your mainclass
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/caderapee.91250331/" class="username author" dir="auto">caderapee</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621081" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 19, 2020 at 1:35 AM">Apr 19, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621081" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621081/permalink">#14</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621081"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621240" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Sorry, I&#039;m a bit confused.<br />
+But what I did was removed the getEcon() function in the Events class.<br />
+Just to verify, nothing needs to be changed in the Main class as it is right now right?<br />
+What do I do in the Event&#039;s class?<br />
+<br />
+I put a Economy econ = new Economy in the Events class but it doesn&#039;t work.<br />
+<br />
+EDIT by Moderator: merged posts, please use the edit button instead of double posting.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621240" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:15 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621240" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621240/permalink">#15</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621240"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621243" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink">@YJJcoolcool</a> in the events class you do main.getEcon()<br />
+When you make a getting for econ in the main class.<br />
+And you pass the main instance along to the event.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621243" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:19 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621243" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621243/permalink">#16</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621243"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621247" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					I put Economy econ = new main.getEcon() in the Events class but it gave an error which said <br />
+main cannot be resolved to a type
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621247" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:26 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621247" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621247/permalink">#17</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621247"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621248" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="YJJcoolcool">
+	<aside>
+		
+			<div class="attribution type">YJJcoolcool said:
+				
+					<a href="goto/post?id=3621247#post-3621247" class="AttributionLink">&uarr;</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">I put Economy econ = new main.getEcon() in the Events class but it gave an error which said<br />
+main cannot be resolved to a type</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>You can do new there, you need to pass the main instance along using a constructor.<br />
+<br />
+Does your event class have a constructor?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621248" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:29 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621248" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621248/permalink">#18</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621248"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621249" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeCode">
+	<div class="type">Code:</div>
+	<pre>public class EventsClass implements Listener {
+      private Plugin plugin = Cashiers.getPlugin(Cashiers.class);
+      @EventHandler
+      public void onInteract(PlayerInteractEvent event) {
+            Economy econ = new main.getEcon();</pre>
+</div>Is this a constructor?
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621249" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:32 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621249" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621249/permalink">#19</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621249"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621250" class="message  staff " data-author="timtower">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/timtower.87695/" class="avatar Av87695m" data-avatarhtml="true"><span class="img m" style="background-image: url('data/avatars/m/87/87695.jpg?1560332783')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/timtower.87695/" class="username" dir="auto" itemprop="name"><span class="style3">timtower</span></a>
+
+
+    <em class="userTitle" itemprop="title">
+        Administrator
+    </em>
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+    <span class="userrankadmin">Administrator</span>
+
+
+<!-- Moderator -->
+
+    <span class="userrankmod">Moderator</span>
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<a href="members/yjjcoolcool.91337378/" class="internalLink">@YJJcoolcool</a> No, that is a static getter.<br />
+And in your case it would be plugin.getEcon()
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/timtower.87695/" class="username author" dir="auto">timtower</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621250" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:33 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621250" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621250/permalink">#20</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621250"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-3621254" class="message   " data-author="YJJcoolcool">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock">
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="members/yjjcoolcool.91337378/" class="avatar Av91337378m" data-avatarhtml="true"><span class="img m" style="background-image: url('https://secure.gravatar.com/avatar/12c06b7bb077942c4be4dba51dd438be?s=96&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_m.png')"></span></a>
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	<span class="userUserOffline">Offline</span>
+
+
+	
+		<h3 class="userText">
+			<a href="members/yjjcoolcool.91337378/" class="username" dir="auto" itemprop="name">YJJcoolcool</a>
+
+
+
+<!-- START USER RANK -->
+<!-- Administrator -->
+
+
+<!-- Moderator -->
+
+
+<!-- BukkitDev -->
+
+
+<!-- PR Handling-->
+
+
+<!-- Bleeding -->
+
+
+<!-- Bukkit Help -->
+
+
+<!-- Bukkit Docs -->
+
+
+<!-- Bukkit Mentor -->
+
+
+<!-- Curse Staff -->
+
+
+<!-- Plugin Developer -->
+
+
+
+
+<!-- END USER RANK -->
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					plugin.getEcon() didn&#039;t work but I changed it to Cashiers.getEcon() (name of the main class) and it worked.<br />
+Thank you so much for helping, really appreciate your patience!!
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="members/yjjcoolcool.91337378/" class="username author" dir="auto">YJJcoolcool</a>,</span>
+					<a href="threads/error-when-using-economy.486064/#post-3621254" title="Permalink" class="datePermalink"><span class="DateTime" title="Apr 21, 2020 at 5:47 AM">Apr 21, 2020</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="threads/error-when-using-economy.486064/#post-3621254" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/3621254/permalink">#21</a>
+				
+				<!-- zStart -->
+				
+				<!-- zStop -->
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-3621254"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+		
+	</ol>
+
+	
+
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+
+
+	<div class="pageNavLinkGroup">
+		
+			
+				<div class="linkGroup">
+					
+						<label for="LoginControl"><a href="login/" class="concealed element">(You must log in or sign up to reply here.)</a></label>
+					
+				</div>
+			
+			<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip" title="Show hidden content by ">Show Ignored Content</a></div>
+
+			
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+		<dl class="threadAlerts secondaryContent">
+			<dt>Thread Status:</dt>
+			
+				
+	
+				
+					<dd class="lockedAlert">
+						<span class="icon Tooltip" title="Locked" data-tipclass="iconTip"></span>
+							Not open for further replies.</dd>
+				
+			
+		</dl>
+	
+
+
+
+	
+
+	<div class="sharePage">
+		<h3 class="textHeading larger">Share This Page</h3>
+		
+			
+			
+				<div class="tweet shareControl">
+					<a href="https://twitter.com/share" class="twitter-share-button"
+						data-count="horizontal"
+						data-lang="en-US"
+						data-url="https://bukkit.org/threads/error-when-using-economy.486064/"
+						data-text="Solved - Error when using Economy"
+						data-via="cursenetwork"
+						>Tweet</a>
+				</div>
+			
+			
+				<div class="plusone shareControl">
+					<div class="g-plusone" data-size="medium" data-count="true" data-href="https://bukkit.org/threads/error-when-using-economy.486064/"></div>
+				</div>
+			
+			
+				<div class="facebookLike shareControl">
+					
+					<div class="fb-like" data-href="https://bukkit.org/threads/error-when-using-economy.486064/" data-width="400" data-layout="standard" data-action="recommend" data-show-faces="true" data-colorscheme="light"></div>
+				</div>
+			
+			
+		
+	</div>
+
+
+                        
+                        
+                        
+                            <!-- login form, to be moved to the upper drop-down -->
+                            
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Your name or email address:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Do you already have an account?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						No, create an account now.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Yes, my password is:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+						<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a>
+</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginPhrase="Log in" data-signupPhrase="Sign up" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103" /> Stay logged in</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/threads/error-when-using-economy.486064/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+                        
+                        
+                    
+            
+            <div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu?selected=node-5" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Bukkit Forums</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://bukkit.org/" class="crumb"><span>Home</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb">
+					<a href="https://bukkit.org/forums/" class="crumb"><span>Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/#bukkit.1" class="crumb"><span>Bukkit</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust">
+						<a href="https://bukkit.org/forums/plugin-development.5/" class="crumb"><span>Plugin Development</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav></div>
+
+
+        </div>
+
+        
+    </div>
+     
+            
+<div class="btflb" style="text-align: center; margin-top: 25px;">
+<div id='cdm-zone-04'></div>
+</div>
+            
+</div>
+
+<header>
+    
+<div id="header">
+	
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+
+
+
+
+
+			
+			<div id="logo"><a href="https://bukkit.org/forums/">
+				<span></span>
+				<img src="/logo.png" alt="Bukkit Forums" />
+			</a></div>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+<div class="secondaryBar"></div>
+<div id="navigation" class="pageWidth">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+			
+				<li class="navTab portal Popup PopupControl PopupClosed">
+			
+				<a href="https://bukkit.org/" class="navLink">Home</a>
+				<!--<a href="https://bukkit.org/" class="SplitCtrl" rel="Menu"></a>-->
+				
+				<div class="Menu JsOnly tabMenu">
+					<div class="primaryContent menuHeader">
+						<h3>Home</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+	
+	<li><a href="recent-activity/">Recent Activity</a></li>
+	<li><a href="find-new/threads">What's New?</a></li>
+	<li><a href="help/">Help</a></li>
+	
+</ul>
+				</div>
+			</li>
+			
+		
+		
+		
+		
+		<!-- forums -->
+		
+			
+				<li class="navTab forums selected">
+					<a href="https://bukkit.org/forums/" class="navLink">Forums</a>
+					<!--<a href="https://bukkit.org/forums/" class="SplitCtrl" rel="Menu"></a>-->
+					
+					<div class="tabLinks">
+						<div class="primaryContent menuHeader">
+							<h3>Forums</h3>
+							<div class="muted">Quick Links</div>
+						</div>
+						<ul class="secondaryContent blockLinksList">
+						
+							
+							<li><a href="https://bukkit.org/members/">Members</a></li>
+							<!-- STAFF LINK -->
+							<li><a href="/XenStaff/">Staff</a></li>
+							<!-- END STAFF LINK -->
+							<li><a href="search/?type=post">Search Forums</a></li>
+							
+							<li><a href="find-new/threads">What's New?</a></li>
+						
+						</ul>
+					</div>
+				</li>
+			
+				
+		
+		
+		
+		<!-- extra tabs -->
+		
+		
+		
+		<!-- members -->
+				
+		
+		<!-- help -->
+		
+
+		
+		<!-- extra tabs: end -->
+		
+<li class="navTab PopupClosed">
+					<a href="/help/terms" class="navLink">Rules</a>
+					
+				</li>
+			
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/" class="navLink">Docs</a>
+					
+				</li>
+				<!-- Removed for now.
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Getting_Involved" class="navLink">Get Involved</a>
+				</li>		
+				-->
+			
+				<li class="navTab PopupClosed">
+					<a href="pages/about-us/" class="navLink">About Us</a>
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://bukkit.gamepedia.com/Setting_up_a_server" class="navLink">Get CraftBukkit</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="http://dev.bukkit.org" class="navLink">BukkitDev</a>
+					
+				</li>
+			
+		
+			
+				<li class="navTab PopupClosed">
+					<a href="https://www.curseforge.com/minecraft/bukkit-plugins" class="navLink">Get Plugins</a>
+					
+				</li>
+		
+
+		<!-- no selection -->
+		
+		
+	</ul>
+	<!-- navigation_visitor_tab include here -->
+	
+</div>
+			
+<span class="helper"></span>
+
+		</nav>	
+	</div>
+</div>
+	
+
+<div id="searchBar" class="pageWidth">
+	
+	<!-- <span id="QuickSearchPlaceholder" title="Search">Search</span> -->
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Search..." results="0" title="Enter your search and hit enter" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Search titles only</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Posted by Member:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Separate names with a comma.</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Newer Than:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+								
+									<li><label title="Search only Error when using Economy"><input type="checkbox" name="type[post][thread_id]" value="486064"
+	id="search_bar_thread" class="AutoChecker"
+	data-uncheck="#search_bar_title_only, #search_bar_nodes" /> Search this thread only</label></li>
+								
+									<li><label title="Search only Plugin Development"><input type="checkbox" name="nodes[]" value="5"
+	id="search_bar_nodes" class="Disabler AutoChecker" checked="checked"
+	data-uncheck="#search_bar_thread" /> Search this forum only</label>
+	<ul id="search_bar_nodes_Disabler">
+		<li><label><input type="checkbox" name="type[post][group_discussion]" value="1"
+			id="search_bar_group_discussion" class="AutoChecker"
+			data-uncheck="#search_bar_thread" /> Display results as threads</label></li>
+	</ul></li>
+								
+						</ul></dd>
+					</dl>
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Search" class="button primary Tooltip" title="Find Now" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Useful Searches" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Useful Searches</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/posts?recent=1" rel="nofollow">Recent Posts</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Advanced Search">More...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+
+</header>
+
+</div>
+
+<footer>
+    
+
+
+<div class="footer">
+<script type="text/javascript">
+var _gaq = _gaq || [];
+
+_gaq.push(
+    ['_setAccount', 'UA-1045810-67'],
+    ['_setDomainName', 'bukkit.org'],
+    ['_addIgnoredRef', 'bukkit.org'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-1045810-22'],
+    ['b._setDomainName', 'bukkit.org'],
+    ['b._addIgnoredRef', 'bukkit.org'],
+    ['b._trackPageview'],
+    ['c._setAccount', 'UA-20541082-1'], 
+    ['c._trackPageview']
+);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End Google Analytics -->
+</div>
+
+<div class="footerLegal">
+<div class="PageWidth">
+<div class="pageContent">
+			<div id="copyright"></div>
+
+			<ul id="legal">
+			
+				<li><a href="help/terms">Terms and Rules</a></li>
+				
+			
+			</ul>
+</div></div>
+
+</footer>
+
+<script>
+
+
+var addTag = function(e) {
+  	e.preventDefault();
+  	var editor = $(".redactor_BbCodeWysiwygEditor")[0].contentWindow.document.body;
+  	$(".placeholder").remove()
+  	if (editor.innerHTML == "<p><br></p>") {
+  		editor.innerHTML = $(this).attr("data-content");
+  		return;
+  	} else if (editor.innerHTML.substr(editor.innerHTML.length - 6) != "&nbsp;") {
+  		editor.innerHTML += " ";
+  	}
+  	
+	editor.innerHTML += $(this).attr("data-content");
+};
+$(".TagUser").click(addTag).show();
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1726523614,
+		today: 1726470000,
+		todayDow: 1
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"share_page":true,"bbcm_js":true,"login_bar":true},
+	_cookieConfig: { path: "/", domain: ".bukkit.org", prefix: "f_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "c2a3bd65"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = true;
+
+
+</script>
+
+
+
+
+
+<div id='cdm-zone-skin'></div>
+<div id="cdm-zone-end"></div>
+
+</body>
+</html>

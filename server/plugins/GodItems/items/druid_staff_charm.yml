@@ -1,0 +1,34 @@
+range_increase_level_1: 3 #blocks
+range_increase_level_2: 6 #blocks
+range_increase_level_3: 9 #blocks
+
+amplification_increase_level_1: 0 # levels
+amplification_increase_level_2: 1 # levels
+amplification_increase_level_3: 2 # levels
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§2§lHealing Herbs"
+  lore: "§aPicked up by the wisest druids, able to heal any wound"
+  description: "§7§oIncrease to range and strength of Druid's Staff effects/§7§oRemoves poison effect when Healing Herbs ability used"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Tasty "
+  prefix_level_2: "§a§lMiraculous "
+  prefix_level_3: "§5§l§nEnchanted§r "
+  addition_lore_1: "Questionable healing abilities, but at least taste good"
+  addition_lore_2: "Their healing abilities are famous across the land"
+  addition_lore_3: "There is an unnatural glow from these herbs/but they possess unmatched healing abilities"
+  texture_id_level_1: 1001015
+  texture_id_level_2: 1002015
+  texture_id_level_3: 1003015

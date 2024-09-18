@@ -1,0 +1,8 @@
+GodItems3.0
+https://dev.bukkit.org/projects/goditems
+justplayerTPA
+https://dev.bukkit.org/projects/justplayer-tpa
+zenchantments
+https://dev.bukkit.org/projects/zenchantments
+qualityarmory
+https://dev.bukkit.org/projects/qualityarmory

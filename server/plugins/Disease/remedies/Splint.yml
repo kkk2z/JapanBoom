@@ -1,0 +1,43 @@
+################## Broken Leg #########################
+
+
+
+name: Splint
+
+description: Wooden splint used for repairing broken legs
+
+craftDescription: combine 6 sticks together.
+
+
+curedDisease: BrokenLeg
+
+cureMessage: The splint binds your broken leg
+
+craftResultAmount: 1
+
+craftResultMaterial: STICK
+
+
+
+recipeType: shaped
+
+cureRecipe:
+
+  1: STICK
+
+  2: STICK
+
+  3: AIR
+
+  4: STICK
+
+  5: STICK
+
+  6: AIR
+
+  7: STICK
+
+  8: STICK
+
+  9: AIR
+

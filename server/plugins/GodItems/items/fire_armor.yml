@@ -1,0 +1,145 @@
+fullset:   # full set bonus effects added on top of individual items
+  meteor_count: 100
+  meteor_area_radius: 20 # blocks
+  cooldown: 20 # seconds
+  explosion_strength: 4 # 4 equals tnt explosion
+  speed: 2
+  jump_boost: 2
+
+
+
+helmet:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item
+
+  appearance:
+    display_name: "§4§lSorcerer's Hood"
+    lore: "§cInscribed with mysterious runes"
+    description: "§7§o(Full Set) - Meteor shower ability/§7§o           - (Sneak + F) - Summon a shower of meteors"
+    texture_id: 1100040
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 5
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 5
+    respiration: 0
+    soul_speed: 0
+    thorns: 0
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 1 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 0 #can be an explicit number or one from 'netherite', 'iron', etc.
+
+
+chestplate:
+  fire_resistance: 1  # levels
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item
+
+  appearance:
+    display_name: "§4§lSorcerer's Gown"
+    lore: "§cThe magic inside this gown protects the wearer from fire"
+    description: "§7§oPermanent fire resistance/§7§o(Full Set) - Meteor shower ability/§7§o           - (Sneak + F) - Summon a shower of meteors"
+    texture_id: 1200040
+
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 5
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 0
+    respiration: 0
+    soul_speed: 0
+    thorns: 0
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 1 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 0 #can be an explicit number or one from 'netherite', 'iron', etc.
+
+
+leggings:
+  speed: 1 # levels
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item
+
+  appearance:
+    display_name: "§4§lSorcerer's attire"
+    lore: "§cElegant and comfortable this attire provides/§cprotection without limiting the movement"
+    description: "§7§oPermanent speed/§7§o(Full Set) - Meteor shower ability/§7§o           - (Sneak + F) - Summon a shower of meteors"
+    texture_id: 1300040
+
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 5
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 0
+    respiration: 0
+    soul_speed: 0
+    thorns: 0
+    swift_sneak: 3
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 1 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 0 #can be an explicit number or one from 'netherite', 'iron', etc.
+
+boots:
+  jump_boost: 1 # levels
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item (Max 1.00)
+
+  appearance:
+    display_name: "§4§lSorcerer's Boots"
+    lore: "§cLight and soft"
+    description: "§7§oPermanent jump boost/§7§o(Full Set) - Meteor shower ability/§7§o           - (Sneak + F) - Summon a shower of meteors"
+    texture_id: 1400040
+
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 2
+    fire_protection: 5
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 5
+    respiration: 0
+    soul_speed: 0
+    thorns: 0
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 1 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 0 #can be an explicit number or one from 'netherite', 'iron', etc.

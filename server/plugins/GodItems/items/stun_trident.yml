@@ -1,0 +1,24 @@
+stun_duration: 5 # seconds
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§c§lGladiator's Trident"
+  lore: "§cIts mighty blow can stun even the mightiest foes"
+  description: "§7§o(Throw) - Stun"
+  texture_id: 1000005
+
+enchantments:
+  channeling: 1
+  impaling: 0
+  loyalty: 0
+  riptide: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+
+attributes:
+  damage: 10  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 3 #survival default is 3

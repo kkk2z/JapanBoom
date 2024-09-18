@@ -1,0 +1,39 @@
+fireball_strength: 4 #4 equals tnt
+fireball_speed: 2 # multiplier of the default fireball speed
+fireblast_distance: 10 #blocks
+firecircle_radius: 6   #blocks
+fire_duration: 5 #seconds
+
+cooldown_fireball: 5 #seconds between 2 abilities of that kind
+cooldown_fireblast: 10 #seconds between 2 abilities of that kind
+cooldown_firecircle: 15  #seconds between 2 abilities of that kind
+cooldown_basic: 5 # seconds between any 2 abilities
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+fireball_custom_name: "§4§lFireball"
+fireblast_custom_name: "§4§lFire Blast"
+firecircle_custom_name: "§4§lFire Circle"
+
+appearance:
+  display_name: "§4§lWand of Fire"
+  lore: "§cThis enchanted wand radiates unusual heat/§cIt allows you to create and control fire"
+  description: "§7§o(Sneak + Left Click) - Launch a fireball/§7§o(Right Click) - Blast of fire in the direction of looking/§7§o(Sneak + Right Click) - Surround yourself with a circle of fire"
+  texture_id: 1000010
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 0
+  sharpness: 5
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 7  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 3 #survival default is 3

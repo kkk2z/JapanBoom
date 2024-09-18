@@ -1,0 +1,26 @@
+shield_strength: 200 # damage points
+shield_cooldown: 20 # seconds
+shield_freeze_duration: 3 # seconds
+blast_damage: 10
+blast_cooldown: 7 #seconds
+blast_freeze_duration: 8 #seconds
+freeze_water: false # passive ability that freezes all water around you
+freeze_water_radius: 5 # blocks
+freeze_water_duration: 5 # seconds
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+
+shield_custom_name: "§1§lMagic Barrier"
+blast_custom_name: "§1§lIce Shard"
+
+appearance:
+  display_name: "§1§lArcane Tome of Ice"
+  lore: "§9Ancient knowledge is hidden within these pages,/§9allowing you to control the ice"
+  description: "§7§o(Sheak + Right Click) - Launch an Ice Shard/§7§o(Sneak + Swap) - Magic Barrier"
+  texture_id: 1000035
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0

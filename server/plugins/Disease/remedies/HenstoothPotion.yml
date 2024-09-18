@@ -1,0 +1,28 @@
+################## ChickenPox cure #########################
+
+name: HenstoothPotion
+
+description: Light brew with Chicken Pox curing effects
+
+craftDescription: Mix gunpowder, and water bottle 
+
+curedDisease: ChickenPox
+cureMessage: The potion cures chicken pox symptoms
+
+craftResultAmount: 1
+craftResultMaterial: POTION
+
+innoculationPossible: true
+
+
+recipeType: shapeless
+cureRecipe:
+  1: AIR
+  2: AIR
+  3: POTION
+  4: AIR
+  5: AIR
+  6: GUNPOWDER
+  7: AIR
+  8: AIR
+  9: AIR

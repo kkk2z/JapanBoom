@@ -1,0 +1,29 @@
+damage_players: 10  # damage to players
+damage_mobs: 10 # damage to mobs (non-players)
+backstabbing_damage: 20 #
+cooldown: 259200 # seconds
+unbreakable: false # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§8§lTrickster's dagger"
+  lore: "§7A deadly dagger"
+  description: "§7§oHit enemies from behind to deal more damage"
+  texture_id: 1000037
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 0
+  sharpness: 5
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 5  # Attack damage
+  speed: 1.6  # Attack speed
+  attack_range: 3 #survival default is 3

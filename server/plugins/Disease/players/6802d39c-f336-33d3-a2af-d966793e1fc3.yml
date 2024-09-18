@@ -1,0 +1,11 @@
+name: Ganter
+temp: 36.75000000000001
+normalTemp: 37.0
+infection: Plague
+sickness: 26
+immunity:
+  BrokenLeg: 0
+  Plague: 0
+  SwampFever: 0
+  ChickenPox: 0
+  Cholera: 0

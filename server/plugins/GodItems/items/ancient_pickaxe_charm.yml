@@ -1,0 +1,35 @@
+reach_level_1: 3 #blocks
+reach_level_2: 6 #blocks
+reach_level_3: 9 #blocks
+
+cooldown_level_1: 3 #seconds
+cooldown_level_2: 6 #seconds
+cooldown_level_3: 9 #seconds
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§1§lSigil of the Deep"
+  lore: "§9A dwarven miner's emblem"
+  description: "§7§oAdd Tunnel ability"
+  ability_name: "§1§lTunnel"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Common "
+  prefix_level_2: "§9§lLuxurious "
+  prefix_level_3: "§6§l§nRoyal§r "
+  addition_lore_1: "Awarded for good service. Many are seen across the land."
+  addition_lore_2: "Awarded to the most skilled miners."
+  addition_lore_3: "Belonged to a royalty."
+  texture_id_level_1: 1001032
+  texture_id_level_2: 1002032
+  texture_id_level_3: 1003032

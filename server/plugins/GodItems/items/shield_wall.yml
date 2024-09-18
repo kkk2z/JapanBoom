@@ -1,0 +1,17 @@
+
+wall_size: 4 # blocks in size
+wall_duration: 3 # seconds
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§2§lShield of the Unmovable"
+  lore: "§aHeavy and robust, this shield is able to/§babsorb even the deadliest blows"
+  description: "§7§o(Sneak + Right Click) - Summon wall"
+  texture_id: 1000009
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0

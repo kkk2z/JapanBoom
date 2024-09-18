@@ -1,0 +1,10 @@
+goditems:
+  spawn_in_chest_chance: 10 # percentage, spawn GodItems in naturally generated chests
+  charm_spawn_chance: 75 # percentage, charms spawn only in chests in the deep dark, therefore setting their chance higher accounts for the fact that the deep dark is already hard to find
+  protect_items: true # whether goditems dropped on ground should be protected from burning or cactus(they will still despawn after a period of time)
+  items_despawn: false # false -> stop goditems from despawning(might reduce performance), true -> goditems despawn
+  show_enchantments: false # true -> you can see the enchantments of the items; false -> you can not
+  save_enchantments: false # true -> item enchantments won't be upgraded; false -> item enchantments will be upgraded (like item name and description)
+  custom_textures: true #true -> textures on; false -> textures off (Patreon version required!)
+  use_party_scoreboard: true #true-> you will see a sidebar scoreboard with all members of your party; false -> no scoreboard, view members with /party show (removes clashes with other plugins with scoreboards)
+  charm_slots: 5 # min 1 max 8

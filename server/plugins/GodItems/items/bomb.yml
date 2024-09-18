@@ -1,0 +1,23 @@
+max_explosives: 6 # max explosives contained in the item
+explosive_strength: 4 # strength of the explosives. 4 equals tnt
+place_cooldown: 5 # seconds
+detonate_cooldown: 10 # seconds
+basic_cooldown: 1 # seconds. cooldown between any uses of the item (to prevent spamming)
+explosive_show_duration: 5 #seconds. How long will explosive be shown
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+place_custom_name: "§6§lPlace explosives"
+detonate_custom_name: "§6§lDetonate explosives"
+show_custom_name: "§6§lShow explosives"
+
+appearance:
+  display_name: "§6§lBomb"
+  lore: "§eDefeat your opponents with cunning and planning"
+  description: "§7§o(Right Click) - place explosive/§7§o(Left Click) - show placed explosives/§7§o(Sneak + Left Click) - detonate/§7§o(Sneak + Right Click) - load gunpowder/§7§oMust be loaded with gunpowder from inventory"
+  texture_id: 1000028
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0

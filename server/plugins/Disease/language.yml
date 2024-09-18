@@ -1,0 +1,67 @@
+##### LANGUAGE FILE  ####
+
+###### Disease temperature & sickness Level Messages ########
+
+
+##messages for each temperature level
+warmMessage: You are feeling very warm.
+hotMessage: You are feeling very hot, something isn't right
+feverMessage: You are very hot and sweating, you feel feverish
+coldMessage: You start to feel very cold
+chilledMessage: You start to shiver and feel very chilled
+hypothermicMessage: You stop shivering, your hands start to turn blue
+
+
+##messages for each sickness level
+unwellMessage: You are not feeling well
+queasyMessage: you are feeling ill
+sickMessage: You are feeling very sick
+
+###evironment messages
+tempIsHotMessage: This area is hot find shelter from the sun
+tempIsBoilingMessage: This area is boiling  hot find shelter from the sun
+tempIsColdMessage: This area is very Cold find shelter or light a fire to keep warm
+tempIsFeezingMessage: This area is freezing find shelter, wear warm armour or light a fire to keep warm
+
+
+
+
+################ Disease Contract Messages ################
+
+
+
+infectedByCommandMessage: You have been infected with
+
+infectedByRadiusDamage: The sick person lashes out and hits you..
+
+infectedByRadiusProximity: The sick person lashes out and hits you..
+
+
+########################### Heal Messages ####################
+
+
+
+cureFromCommandMessage: You have been miraculously cured
+
+potionCureMessage: The brew has cured you of
+
+vaccineCureMessage: The vaccine injection has increased your immunity to 
+
+hospitalCureMessage: You have been cured by the hospital
+
+
+################### Item Names and lore ##################### 
+
+
+hotMilkName: Boiling Milk
+
+coldWaterName: Freezing Water
+
+
+
+################### Miscellaneous Messages ################### 
+
+
+wrongCurePotionMessage: can only cure
+
+wrongTempCureMessage: can only ease the effects of

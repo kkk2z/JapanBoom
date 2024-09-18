@@ -1,0 +1,153 @@
+fullset:   # full set bonus effects added on top of individual items
+  guard_spawn_count: 4  # number of guards to spawn
+  guard_health: 40 # 2 = 1 heart
+  guard_name: "§4§lDark Lord Guard"  # Custom names to be displayed above mobs
+  cooldown: 30 # seconds
+  damaged_by_water: true # take damage when in water
+  fire_resistance: 1 # levels
+  hunger: 2 # levels
+  strength: 2 # levels
+  health_boost: 5 # 1 level = 2 hearts
+  slowness: 1 # levels
+  ability_name: "§4§lSummon Guards"
+
+
+
+
+helmet:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 0.00 # higher the number bigger the chance to find that item (0.0 = Not spawned naturally, only given by admins)
+
+
+
+  appearance:
+    display_name: "§4§lCrown of the §5§lDark Lord"
+    lore: "§8There is only one Dark Lord/§8and he does not share power"
+    description: "§7§oPermanent night vision/§7§o(Full Set) - Not targeted by mobs from the Nether/§7§o           - Immune to fire/§7§o           - (Sneak + F) - Summon Guards"
+    texture_id: 1100017
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 0
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 5
+    respiration: 0
+    soul_speed: 0
+    thorns: 4
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 10 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 5 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 3 #can be an explicit number or one from 'netherite', 'iron', etc.
+
+
+chestplate:
+  strength: 1  # levels
+  hunger: 1 # levels
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item
+
+  appearance:
+    display_name: "§4§lInfernal Armor"
+    lore: "§8Gives you inhuman power, but at a terrible cost"
+    description: "§7§oPermanent strength/§7§oPermanent hunger/§7§o(Full Set) - Not targeted by mobs from the Nether/§7§o           - Immune to fire/§7§o           - (Sneak + F) - Summon Guards"
+    texture_id: 1200017
+
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 0
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 5
+    respiration: 0
+    soul_speed: 0
+    thorns: 4
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 10 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 5 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 3 #can be an explicit number or one from 'netherite', 'iron', etc.
+
+
+leggings:
+  fire_resistance: 1 # levels
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item
+
+  appearance:
+    display_name: "§4§lInfernal Legguards"
+    lore: "§8Unleash the forces of darkness"
+    description: "§7§oPermanent resistance to fire/§7§o(Full Set) - Not targeted by mobs from the Nether/§7§o           - Immune to fire/§7§o           - (Sneak + F) - Summon Guards"
+    texture_id: 1300017
+
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 0
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 5
+    respiration: 0
+    soul_speed: 0
+    thorns: 4
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 8 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 5 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 3 #can be an explicit number or one from 'netherite', 'iron', etc.
+
+boots:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.00 # higher the number bigger the chance to find that item (Max 1.00)
+
+  appearance:
+    display_name: "§4§lInfernal Boots"
+    lore: "§8The ground shakes at your steps"
+    description: "§7§oPermanent resistance to fire/§7§o(Full Set) - Not targeted by mobs from the Nether/§7§o           - Immune to fire/§7§o           - (Sneak + F) - Summon Guards"
+    texture_id: 1400017
+
+
+  enchantments:
+    aqua_affinity: 0
+    blast_protection: 0
+    curse_of_binding: 0
+    depth_strider: 0
+    feather_falling: 0
+    fire_protection: 0
+    frost_walker: 0
+    projectile_protection: 0
+    protection: 5
+    respiration: 0
+    soul_speed: 5
+    thorns: 4
+    swift_sneak: 0
+    unbreaking: 3
+    curse_of_vanishing: 0
+
+  attributes:
+    armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+    armor_toughness: 5 #can be an explicit number or one from 'netherite', 'iron', etc.
+    knockback_resistance: 3 #can be an explicit number or one from 'netherite', 'iron', etc.

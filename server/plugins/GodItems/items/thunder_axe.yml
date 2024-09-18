@@ -1,0 +1,28 @@
+
+damage: 10  # damage from lightning ability
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§3§lMight of the Thunder"
+  lore: "§bThis godly weapon allows you to/§bharness the power of thunder"
+  description: "§7§o(Hit) - Strike Lightning"
+  texture_id: 1000001
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 0
+  sharpness: 5
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 11  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 3 #survival default is 3

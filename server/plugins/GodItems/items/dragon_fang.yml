@@ -1,0 +1,27 @@
+target_radius: 7 # blocks
+cooldown: 5 # seconds
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+appearance:
+  display_name: "§5§lDragon Fang"
+  lore: "§5Blade forged from the/§5fang of a fallen dragon"
+  description: "§7§o(Sneak + Hit) - Teleport behind"
+  texture_id: 1000027
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 1
+  knockback: 0
+  looting: 0
+  sharpness: 0
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 0
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 15  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 5 #survival default is 3

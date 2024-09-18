@@ -1,0 +1,102 @@
+################## Broken Leg #########################
+
+
+
+name: BrokenLeg
+
+
+
+description: Leg has been broken by a fall causing slowness and pain.
+
+
+
+##Enabled worlds
+
+biomes:
+
+  - world
+
+  - world_nether
+
+  - world_the_end
+
+
+
+################## Disease settings #################
+
+
+
+infectionMethod: environmentDamage
+
+infectionMethodType: fall
+
+infectious: false
+
+infectionChance: 10  ## %chance on damage
+
+infectionMessage: You feel your legbone crack
+
+prerequisiteDisease: none
+
+
+
+sicknessIncrease: 1
+
+
+
+cure: Splint
+
+
+
+################## Disease Actions ################
+
+## actions
+
+
+
+enabledSickActions:
+
+  - damage-1
+
+
+
+sickActions:
+
+  damage-1: 1
+
+  
+
+################## Disease Effects ################
+
+## particles
+
+
+enabledSickEffects:
+
+  - sweat
+  - slowness
+
+
+
+sickEffects:
+
+  sweat: 1 
+  slowness: 1
+
+  
+
+################## Disease Sounds ################
+
+## sounds
+
+
+enabledSickSounds:
+
+ 
+  - heavyBreath
+
+
+sickSounds:
+
+  heavyBreath: 1
+

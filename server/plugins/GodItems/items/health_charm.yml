@@ -1,0 +1,30 @@
+health_bonus_level_1: 4.00  #HP bonus, 2.00 = 1 heart
+health_bonus_level_2: 10.00  #HP bonus, 2.00 = 1 heart
+health_bonus_level_3: 20.00  #HP bonus, 2.00 = 1 heart
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§c§lHealth Amulet"
+  lore: "§aCrafted with forbidden alchemy, it can prolong one's life"
+  description: "§7§oAdds extra health"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Simple "
+  prefix_level_2: "§4§lMastercrafted "
+  prefix_level_3: "§6§l§nDivine§r "
+  addition_lore_1: "Rusty object of basic make, but you feel healthier around it"
+  addition_lore_2: "A fine specimen that extends your life"
+  addition_lore_3: "There is an unnatural glow from this amulet/and its wearer is gifted with a second life"
+  texture_id_level_1: 1001036
+  texture_id_level_2: 1002036
+  texture_id_level_3: 1003036

@@ -1,0 +1,28 @@
+################## SwampFever cure #########################
+
+name: MudbanePotion
+
+description: Light brew with swamp curing effects
+
+craftDescription: Mix brown mushroom, and water bottle 
+
+curedDisease: SwampFever
+cureMessage: The potion cures swamp fever
+
+craftResultAmount: 1
+craftResultMaterial: POTION
+
+innoculationPossible: true
+
+
+recipeType: shapeless
+cureRecipe:
+  1: AIR
+  2: AIR
+  3: POTION
+  4: AIR
+  5: AIR
+  6: BROWN_MUSHROOM
+  7: AIR
+  8: AIR
+  9: AIR

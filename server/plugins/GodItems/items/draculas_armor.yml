@@ -1,0 +1,39 @@
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item
+cooldown: 5 # seconds
+duration_night: 30 # seconds
+duration_day: 15 # seconds
+fire_ticks: 10 # if it is set to 5 the bats will not die from the fire
+
+# Third party plugins that create some sort of protected regions with disabled mob spawn will break this item.
+# The plugin offers a custom WorldGuard flag to disable the use of GodItems in protected regions that fixes the bug, but
+# it is not compatible with other plugins.  if you use such a plugin, disable this item by setting the rarity to 0.00
+
+appearance:
+  display_name: "§4§lDracula's armor"
+  lore: "§7A This armor once belonged to Vlad the Impaler"
+  description: "§7§o(Sneak + Jump to morph)"
+  texture_id: 1000020
+
+
+enchantments:
+  aqua_affinity: 0
+  blast_protection: 0
+  curse_of_binding: 0
+  depth_strider: 0
+  feather_falling: 5
+  fire_protection: 0
+  frost_walker: 0
+  projectile_protection: 0
+  protection: 5
+  respiration: 0
+  soul_speed: 0
+  thorns: 4
+  swift_sneak: 2
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+  armor_toughness: 1 #can be an explicit number or one from 'netherite', 'iron', etc.
+  knockback_resistance: 0 #can be an explicit number or one from 'netherite', 'iron', etc.

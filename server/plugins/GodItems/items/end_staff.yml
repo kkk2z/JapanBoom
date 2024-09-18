@@ -1,0 +1,38 @@
+target_radius: 50 # blocks
+end_jump_boost: 3 # set level of jump boost effect in the end
+end_speed_boost: 3  # set level of speed boost in the end
+cooldown_projectile: 5 # seconds
+time_teleport: 3 # seconds,  time needed to be stationary before teleporting
+cooldown_teleport: 20 # seconds
+time_set_teleport: 10 # seconds, time needed to be stationary when setting teleport target
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+projectile_custom_name: "§5§lProjectile"
+teleport_custom_name: "§5§lTeleport"
+
+appearance:
+  display_name: "§5§lEnder Sceptre"
+  lore: "§5A symbol of power in the end"
+  description: "§7§o(Sneak + Left Click) - Fire a projectile/§7§o(Sneak + Right Click) - Teleport/§7§o(Sneak + Drop Item) - Set teleport target"
+  texture_id: 1000025
+  set_target_message: "Target set!"
+  set_teleport_abort_message: "Could not set teleport target. Don't move!"
+  teleport_abort_message: "Could not teleport. Don't move!"
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 1
+  looting: 0
+  sharpness: 0
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 0
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 6  # Attack damage
+  speed: 1  # Attack speed
+  attack_range: 3 #survival default is 3

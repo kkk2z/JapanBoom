@@ -1,0 +1,32 @@
+duration_level_1: 3 #seconds
+duration_level_2: 6 #seconds
+duration_level_3: 9 #seconds
+
+extra_cooldown: 5 # seconds, added to the normal cooldown of the shield after using this ability
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§1§lMedal of Honour"
+  lore: "§9A medal for bravery on the battlefield"
+  description: "§7§oAdd Quickfire ability"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Common "
+  prefix_level_2: "§a§lValiant "
+  prefix_level_3: "§6§l§nRoyal§r "
+  addition_lore_1: "Awarded for good service. Many are seen across the land."
+  addition_lore_2: "Awarded to the bravest of warriors."
+  addition_lore_3: "A medal with the sigil of a king."
+  texture_id_level_1: 1001011
+  texture_id_level_2: 1002011
+  texture_id_level_3: 1003011

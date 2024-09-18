@@ -1,0 +1,36 @@
+cooldown_level_1: 3 #seconds
+cooldown_level_2: 6 #seconds
+cooldown_level_3: 9 #seconds
+
+phase_transition_level_1: 10 # seconds before symptoms worsen
+phase_transition_level_2: 7 # seconds before symptoms worsen
+phase_transition_level_3: 5 # seconds before symptoms worsen
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+custom_ability_name: "§4§lVampiric Bite"
+
+appearance:
+  display_name: "§4§lAmulet of Death"
+  lore: "§4The living suffer, while the undead thrive "
+  description: "§7§oAdd Vampire Bite ability"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Disguising "
+  prefix_level_2: "§c§lEvil "
+  prefix_level_3: "§5§l§nTerrible§r "
+  addition_lore_1: "An ugly trinket with a horrible smell."
+  addition_lore_2: "You see strange runes with blood magic."
+  addition_lore_3: "Evil is pulsating from this amulet."
+  texture_id_level_1: 1001020
+  texture_id_level_2: 1002020
+  texture_id_level_3: 1003020

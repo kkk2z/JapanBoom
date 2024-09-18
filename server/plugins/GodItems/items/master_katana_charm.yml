@@ -1,0 +1,29 @@
+range_level_1: 2  # range within which entities are damaged
+range_level_2: 5
+range_level_3: 10
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§6§lSamurai Tanto"
+  lore: "§eThis short sword can be deadly in skilled warrior's hands"
+  description: "§7§oAds Spin ability"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Basic "
+  prefix_level_2: "§e§l Fine"
+  prefix_level_3: "§2§l§nMastercrafted§r "
+  addition_lore_1: "Rusty and worn"
+  addition_lore_2: "A fine craftsman's work"
+  addition_lore_3: "A blade worthy of a royalty"
+  texture_id_level_1: 1001022
+  texture_id_level_2: 1002022
+  texture_id_level_3: 1003022

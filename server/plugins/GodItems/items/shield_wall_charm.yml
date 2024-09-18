@@ -1,0 +1,41 @@
+
+regen_level_1: 1  #level of regeneration effect applied
+regen_level_2: 1
+regen_level_3: 2
+
+regen_duration_level_1: 2 #duration of regeneration effect and shield
+regen_duration_level_2: 5
+regen_duration_level_3: 10
+
+crit_health_level_1: 2  #critical health below which ability is triggered
+crit_health_level_2: 3
+crit_health_level_3: 4
+
+extra_cooldown: 5 # seconds, added to the normal cooldown of the shield after using this ability
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§2§lRing of the Protector"
+  lore: "§aA ring of a knight sworn to protect the realm"
+  description: "§7§oAdd Testudo ability (at low HP)"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Rough "
+  prefix_level_2: "§a§lMastercrafted "
+  prefix_level_3: "§6§l§nRoyal§r "
+  addition_lore_1: "Rusty and worn."
+  addition_lore_2: "A fine craftsman's work."
+  addition_lore_3: "Made from precious metals and kingly jewels"
+  texture_id_level_1: 1001009
+  texture_id_level_2: 1002009
+  texture_id_level_3: 1003009

@@ -1,0 +1,43 @@
+heal_strength: 3 #level of heal effect
+heal_party_strength: 2 #level of regeneration effect
+heal_party_duration: 5 # seconds duration of regeneration effect
+hp_amount: 4 # amount of extra hp given (2 = 1 heart)
+hp_duration: 30 #seconds af active hp bonus
+
+range: 6   # blocks of radius of party abilities
+
+
+cooldown_hp: 5 #seconds between 2 abilities of that kind
+cooldown_heal: 10 #seconds between 2 abilities of that kind
+cooldown_heal_party: 15  #seconds between 2 abilities of that kind
+cooldown_basic: 5 # seconds between any 2 abilities
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+
+hp_custom_name: "§6§lVitality of the Oak"
+heal_custom_name: "§2§lHealing Herbs"
+heal_party_custom_name: "§a§lNature's Embrace"
+
+
+appearance:
+  display_name: "§2§lDruid's Staff"
+  lore: "§aHarness the power of nature to/§aheal yourself and your allies"
+  description: "§7§o(Left Click) - Add extra health to nearby allies/§7§o(Right Click) - Heal yourself/§7§o(Sneak + Right Click) - Heal nearby party members"
+  texture_id: 1000015
+
+
+enchantments:
+  bane_of_arthropods: 0
+  fire_aspect: 0
+  knockback: 0
+  looting: 0
+  sharpness: 5
+  smite: 0
+  sweeping_edge: 0
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  damage: 6  # Attack damage
+  speed: 1.4  # Attack speed
+  attack_range: 3 #survival default is 3

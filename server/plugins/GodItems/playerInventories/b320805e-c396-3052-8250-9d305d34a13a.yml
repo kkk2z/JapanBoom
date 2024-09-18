@@ -1,0 +1,24 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OBSIDIAN
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: SPRUCE_PLANKS
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OAK_LOG

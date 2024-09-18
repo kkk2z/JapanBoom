@@ -1,0 +1,13 @@
+elder_guardian_drop: true # true - the key is dropped when an elder guardian is killed, false - it is not dropped
+
+appearance:
+  display_name: "§6§lAncient Shard"
+  lore: "§eA worn an rusty piece of metal"
+  description: "§7§oUsed for crafting"
+  texture_id: 1000038
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0

@@ -1,0 +1,56 @@
+################## Broken Leg #########################
+
+name: ChickenPox
+
+description: Fever caused by bites from the mosquitoes found in swampy ground.
+
+##Enabled worlds
+biomes:
+  - world
+  - world_nether
+  - world_the_end
+
+################## Disease settings #################
+
+infectionMethod: proximity
+infectionMethodType: chicken
+infectious: true
+infectionChance: 60  ## %chance on damage
+infectionMessage: The chicken feathers get your mouth making you cough
+prerequisiteDisease: none
+
+sicknessIncrease: 2
+
+cure: HenstoothPotion
+
+################## Disease Actions ################
+## actions
+
+enabledSickActions:
+  - damage-3
+
+sickActions:
+  damage: 80
+  
+################## Disease Effects ################
+## particles
+
+
+enabledSickEffects:
+  - sweat
+
+
+sickEffects:
+  sweat: 60 
+  
+################## Disease Sounds ################
+## sounds
+
+
+enabledSickSounds:
+  - heavyBreath
+
+
+sickSounds:
+  heavyBreath: 60
+

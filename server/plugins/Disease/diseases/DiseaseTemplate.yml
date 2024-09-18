@@ -1,0 +1,79 @@
+################## DISEASE TITLE #########################
+
+name: name of disease - one word no spaces
+
+description: enter description here - free text
+
+################## Disease settings #################
+
+infectionMethod: how contracted
+
+## options environmentDamage/biome/mobDamage/proximity/consume
+
+infectionMethodType: contraction details
+
+## options 
+fall/swamp/zombie/arrow/chicken/potion
+
+infectious: true/false whether can be contracted by proximity
+
+infectionChance: 10  
+
+## %chance on infection method being true
+infectionMessage: freetext message to user on contracting
+
+prerequisiteDisease: none  
+##name of disease that needs to be contracted first
+
+sicknessIncrease: number - how fast sickness incresease (2)
+
+cure: cure name one word, no spaces
+
+vialEnabled: true/false allow disease in throw vial 
+arrowEnabled: true/false allow disease to be put on arrow
+
+
+
+################## Disease Actions ################
+## actions: cough sneeze lashOut damage-1
+
+##actions enabled
+enabledSickActions:
+  - cough
+  - damage-1
+
+## which actions happen at which sickness level 
+sickActions:  
+  cough: 30
+  damage-1: 80
+
+
+
+################## Disease Effects ################
+## effects: vomit sweat poop bleedBody bleedHead blindness slowness confusion  
+
+##effects enabled
+enabledSickEffects:
+  - sweat
+  - blindness
+
+## which effects happen at which sickness level 
+sickEffects:
+  sweat: 50 
+  blindness: 80
+  
+################## Disease Sounds ################
+## sounds: burp heavyBreath sneeze choke cough crunch
+
+##sounds enabled
+enabledSickSounds:
+  - heavyBreath 
+  - cough
+
+## which sounds happen at which sickness level 
+
+sickSounds:
+  heavyBreath: 50 
+  cough: 80
+
+

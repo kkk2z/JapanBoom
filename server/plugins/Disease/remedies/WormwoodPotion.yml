@@ -1,0 +1,28 @@
+################## plague cure #########################
+
+name: WormwoodPotion
+
+description: Light brew with plague curing effects
+
+craftDescription: Mix sugar, and water bottle 
+
+curedDisease: Plague
+cureMessage: The potion cures the plague symptoms
+
+craftResultAmount: 1
+craftResultMaterial: POTION
+
+innoculationPossible: true
+
+
+recipeType: shapeless
+cureRecipe:
+  1: AIR
+  2: AIR
+  3: POTION
+  4: AIR
+  5: AIR
+  6: SUGAR
+  7: AIR
+  8: AIR
+  9: AIR

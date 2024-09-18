@@ -1,0 +1,30 @@
+
+bonus_speed_level_1: 0.05 # normal walk speed is 0.2, has to be less than 1
+bonus_speed_level_2: 0.1
+bonus_speed_level_3: 0.2
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity_level_1: 1.00 # higher the number bigger the chance to find that item (max 1.00)
+rarity_level_2: 1.00
+rarity_level_3: 1.00
+
+appearance:
+  display_name: "§8§lBracelet of the Thief"
+  lore: "§7A relic of the most cunning thieves,/§7it enhances your stealth abilities"
+  description: "§7§oGives speed when invisible"
+
+
+
+enchantments:
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+level_appearance:
+  prefix_level_1: "§7Worn "
+  prefix_level_2: "§7§lFine "
+  prefix_level_3: "§6§l§nLuxurious§r "
+  addition_lore_1: "Rusty and worn"
+  addition_lore_2: "A fine and polished bracelet"
+  addition_lore_3: "There are weird reflections on the/shiny surface"
+  texture_id_level_1: 1001003
+  texture_id_level_2: 1002003
+  texture_id_level_3: 1003003

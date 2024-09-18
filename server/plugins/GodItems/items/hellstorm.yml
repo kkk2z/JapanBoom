@@ -1,0 +1,28 @@
+basic_cooldown: 5 # seconds
+barrage_cooldown: 5 # seconds
+barrage_arrow_count: 25 # number of arrows in barrage
+barrage_spread: 3.00 #spread of arrows in barrage(higher spread means more area is covered)
+fire_rain_cooldown: 15 #seconds
+fire_rain_count: 120 #number of arrows in fire rain
+fire_rain_spread: 10.0 #spread of arrows in fire rain
+fire_rain_vert: 30 #vertical displacement of spawned arrows
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item
+
+barrage_custom_name: "§4§lBarrage"
+fire_rain_custom_name: "§4§lFire Rain"
+
+appearance:
+  display_name: "§4§lHellstorm"
+  lore: "§4A fiery storm from hell"
+  description: "§7§o(Shoot) - Barrage/§7§o(Sneak + Shoot) - Fire Rain"
+  texture_id: 1000021
+
+
+enchantments:
+  flame: 1
+  infinity: 0
+  power: 5
+  punch: 2
+  unbreaking: 3
+  curse_of_vanishing: 0

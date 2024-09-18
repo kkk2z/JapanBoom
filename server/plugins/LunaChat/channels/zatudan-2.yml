@@ -1,0 +1,19 @@
+broadcast: false
+visible: true
+color: ''
+moderator: []
+allowcc: true
+format: '&f[%color%ch&f]%prefix%displayname%suffix&a:&f %msg'
+hided: []
+range: 0
+ban_expires: {}
+japanize: none
+password: ''
+world: false
+members: []
+name: zatudan-2
+mute_expires: {}
+alias: ''
+banned: []
+muted: []
+desc: ''

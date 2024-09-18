@@ -1,0 +1,34 @@
+
+
+
+unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+rarity: 1.00 # higher the number bigger the chance to find that item
+
+appearance:
+  display_name: "§8§lTrickster's Chestplate"
+  lore: "§7A stealthy chestplate that allows/§7you to avoid unwanted eyes"
+  description: "§7§o(Sneak) - Become invisible"
+  texture_id: 1000003
+
+
+enchantments:
+  aqua_affinity: 0
+  blast_protection: 0
+  curse_of_binding: 0
+  depth_strider: 0
+  feather_falling: 5
+  fire_protection: 0
+  frost_walker: 0
+  projectile_protection: 0
+  protection: 5
+  respiration: 0
+  soul_speed: 0
+  thorns: 4
+  swift_sneak: 2
+  unbreaking: 3
+  curse_of_vanishing: 0
+
+attributes:
+  armor: 6 #can be an explicit number or one from 'netherite', 'iron', etc.
+  armor_toughness: 1 #can be an explicit number or one from 'netherite', 'iron', etc.
+  knockback_resistance: 0 #can be an explicit number or one from 'netherite', 'iron', etc.
