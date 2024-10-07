@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726736624421
+  login: 1726736514360
+money: '0'
+last-account-name: adepen1210
+logoutlocation:
+  world: cc5f1e03-f4f6-469f-b43c-243908401986
+  world-name: world
+  x: 153.61907415081072
+  y: 46.0
+  z: -142.89512721446303
+  yaw: 179.1048126220703
+  pitch: 60.97442626953125

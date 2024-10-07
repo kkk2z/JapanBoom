@@ -1,20 +1,344 @@
-[00:09:48] [Server thread/INFO]: Server Plugins (17):
-[00:09:48] [Server thread/INFO]: Paper Plugins:
-[00:09:48] [Server thread/INFO]:  - EconomyShopGUI
-[00:09:48] [Server thread/INFO]: Bukkit Plugins:
-[00:09:48] [Server thread/INFO]:  - CoreProtect, DeadChest, Disease, Essentials, GodItems, JustTPA, LoginSecurity, *LunaChat, PlugManX, QualityArmory
-[00:09:48] [Server thread/INFO]:  *ScoreboardStats, SilkSpawners, Vault, ViaBackwards, ViaRewind, ViaVersion
-[00:11:56] [Server thread/INFO]: Server Plugins (17):
-[00:11:56] [Server thread/INFO]: Paper Plugins:
-[00:11:56] [Server thread/INFO]:  - EconomyShopGUI
-[00:11:56] [Server thread/INFO]: Bukkit Plugins:
-[00:11:56] [Server thread/INFO]:  - CoreProtect, DeadChest, Disease, Essentials, GodItems, JustTPA, LoginSecurity, *LunaChat, PlugManX, QualityArmory
-[00:11:56] [Server thread/INFO]:  *ScoreboardStats, SilkSpawners, Vault, ViaBackwards, ViaRewind, ViaVersion
-[00:14:45] [Server thread/INFO]: Unknown or incomplete command, see below for error
-plp<--[HERE]
-[00:14:46] [Server thread/INFO]: Server Plugins (17):
-[00:14:46] [Server thread/INFO]: Paper Plugins:
-[00:14:46] [Server thread/INFO]:  - EconomyShopGUI
-[00:14:46] [Server thread/INFO]: Bukkit Plugins:
-[00:14:46] [Server thread/INFO]:  - CoreProtect, DeadChest, Disease, Essentials, GodItems, JustTPA, LoginSecurity, *LunaChat, PlugManX, QualityArmory
-[00:14:46] [Server thread/INFO]:  *ScoreboardStats, SilkSpawners, Vault, ViaBackwards, ViaRewind, ViaVersion
+[21:14:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[21:14:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) for Minecraft 1.21.1
+[21:14:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:14:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[21:14:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+ - CoreProtect (22.4), DeadChest (4.21.1), Disease (4.2.4), Essentials (2.20.1), GodItems (3.0.1), JustTPA (v20240824-beta), LoginSecurity (3.2.0), LunaChat (3.0.16), QualityArmory (2.0.15), ScoreboardStats (0.10.6), SilkSpawners (8.1.0), Vault (1.7.3-b131), ViaBackwards (5.0.3), ViaRewind (4.0.2), ViaVersion (5.0.3)
+[21:14:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:14:34] [ServerMain/INFO]: Loaded 1290 recipes
+[21:14:35] [ServerMain/INFO]: Loaded 1399 advancements
+[21:14:35] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:14:35] [Server thread/INFO]: Loading properties
+[21:14:35] [Server thread/INFO]: This server is running Paper version 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[21:14:36] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:14:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:14:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:14:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:14:38] [Server thread/INFO]: Default game type: SURVIVAL
+[21:14:38] [Server thread/INFO]: Generating keypair
+[21:14:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:14:39] [Server thread/INFO]: Using epoll channel type
+[21:14:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:14:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:14:40] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:14:52] [Server thread/WARN]: Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+[21:14:52] [Server thread/INFO]: Custom heat values reloaded into calculator
+[21:14:52] [Server thread/INFO]: radius 0
+[21:14:52] [Server thread/INFO]: fire 0
+[21:14:52] [Server thread/INFO]: torch 0
+[21:14:52] [Server thread/WARN]: Legacy plugin LunaChat v3.0.16 does not specify an api-version.
+[21:14:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[21:14:52] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[21:14:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:14:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:14:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:14:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:14:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[21:15:00] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[21:15:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[21:15:00] [Server thread/INFO]: [ScoreboardStats] Loading server plugin ScoreboardStats v0.10.6
+[21:15:00] [Server thread/WARN]: [ScoreboardStats] Ignoring attempt to change parent of plugin logger
+[21:15:00] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[21:15:00] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2
+[21:15:00] [Server thread/INFO]: [Disease] Loading server plugin Disease v4.2.4
+[21:15:00] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
+[21:15:00] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
+[21:15:00] [Server thread/INFO]: [GodItems] Optional dependency WorldGuard not found. WorldGuard related features will not work.
+[21:15:00] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v8.1.0
+[21:15:00] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[21:15:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[21:15:00] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
+[21:15:00] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[21:15:00] [Server thread/INFO]: [LunaChat] Loading server plugin LunaChat v3.0.16
+[21:15:00] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.15
+[21:15:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:15:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:15:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:15:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:15:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:15:00] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2
+[21:15:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:15:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:15:00] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[21:15:00] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[21:15:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:15:00] [Server thread/INFO]: Preparing level "world"
+[21:15:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:15:03] [Server thread/INFO]: Time elapsed: 2165 ms
+[21:15:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:15:03] [Server thread/INFO]: Time elapsed: 384 ms
+[21:15:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:15:04] [Server thread/INFO]: Time elapsed: 227 ms
+[21:15:04] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[21:15:04] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[21:15:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[21:15:04] [Server thread/INFO]: [ScoreboardStats] Enabling ScoreboardStats v0.10.6*
+[21:15:04] [Server thread/INFO]: [ScoreboardStats] Registered replacers: [PlayerPingVariable, BukkitGlobalVariables, BungeeCordVariables, GeneralVariables, VaultVariables, BukkitVariables]
+[21:15:04] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[21:15:05] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[21:15:05] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[21:15:05] [Server thread/INFO]: --------------------
+[21:15:05] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[21:15:05] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[21:15:05] [Server thread/INFO]: --------------------
+[21:15:05] [Server thread/INFO]: [Disease] Enabling Disease v4.2.4
+[21:15:05] [Server thread/INFO]: Plugin Loading
+[21:15:05] [Server thread/INFO]: Loading configuration file
+[21:15:05] [Server thread/INFO]: Loading Language file
+[21:15:05] [Server thread/INFO]: [Disease] Scoreboard Stats Found
+[21:15:05] [Server thread/INFO]: [Disease] Scoreboard Stats disabled in config
+[21:15:05] [Server thread/INFO]: [Disease] Citizens plugin not Found
+[21:15:05] [Server thread/INFO]: [Disease] Vault plugin Found
+[21:15:05] [Server thread/INFO]: [Disease] Vault Enabled
+[21:15:05] [Server thread/INFO]: [Disease] World Guard disabled in config
+[21:15:05] [Server thread/INFO]: [Disease] Temperature module loaded
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding allowed world: world
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding allowed world: world_nether
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding allowed world: world_the_end
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding disease: BrokenLeg
+[21:15:05] [Server thread/INFO]: [Disease] Loading disease BrokenLeg
+[21:15:05] [Server thread/INFO]: [Disease] Loaded disease BrokenLeg
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding disease: Plague
+[21:15:05] [Server thread/INFO]: [Disease] Loading disease Plague
+[21:15:05] [Server thread/INFO]: [Disease] Loaded disease Plague
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding disease: SwampFever
+[21:15:05] [Server thread/INFO]: [Disease] Loading disease SwampFever
+[21:15:05] [Server thread/INFO]: [Disease] Loaded disease SwampFever
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding disease: ChickenPox
+[21:15:05] [Server thread/INFO]: [Disease] Loading disease ChickenPox
+[21:15:05] [Server thread/INFO]: [Disease] Loaded disease ChickenPox
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding disease: Cholera
+[21:15:05] [Server thread/INFO]: [Disease] Loading disease Cholera
+[21:15:05] [Server thread/INFO]: [Disease] Loaded disease Cholera
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding remedy: Splint
+[21:15:05] [Server thread/INFO]: [Disease] Loading Remedy Splint
+[21:15:05] [Server thread/INFO]: [Disease] Building remedy Splint Shaped Recipe
+[21:15:05] [Server thread/INFO]: [Disease] Loaded Remedy Splint
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding remedy: WormwoodPotion
+[21:15:05] [Server thread/INFO]: [Disease] Loading Remedy WormwoodPotion
+[21:15:05] [Server thread/INFO]: [Disease] Building remedy WormwoodPotion Shapeless Recipe
+[21:15:05] [Server thread/INFO]: §9Creating custom WormwoodPotion recipe
+[21:15:05] [Server thread/INFO]: [Disease] Loaded Remedy WormwoodPotion
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding remedy: MudbanePotion
+[21:15:05] [Server thread/INFO]: [Disease] Loading Remedy MudbanePotion
+[21:15:05] [Server thread/INFO]: [Disease] Building remedy MudbanePotion Shapeless Recipe
+[21:15:05] [Server thread/INFO]: §9Creating custom MudbanePotion recipe
+[21:15:05] [Server thread/INFO]: [Disease] Loaded Remedy MudbanePotion
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding remedy: HenstoothPotion
+[21:15:05] [Server thread/INFO]: [Disease] Loading Remedy HenstoothPotion
+[21:15:05] [Server thread/INFO]: [Disease] Building remedy HenstoothPotion Shapeless Recipe
+[21:15:05] [Server thread/INFO]: §9Creating custom HenstoothPotion recipe
+[21:15:05] [Server thread/INFO]: [Disease] Loaded Remedy HenstoothPotion
+[21:15:05] [Server thread/INFO]: [Disease] §aAdding remedy: BrightWater
+[21:15:05] [Server thread/INFO]: [Disease] Loading Remedy BrightWater
+[21:15:05] [Server thread/INFO]: [Disease] Building remedy BrightWater Shapeless Recipe
+[21:15:05] [Server thread/INFO]: §9Creating custom BrightWater recipe
+[21:15:05] [Server thread/INFO]: [Disease] Loaded Remedy BrightWater
+[21:15:05] [Server thread/INFO]: [Disease] Loading choking items: [APPLE, BREAD, PORKCHOP, COOKED_PORKCHOP, FISH, COOKED_FISH, BEEF, COOKED_BEEF, CHICKEN, COOKED_CHICKEN, CARROT, POTATO, BAKED_POTATO, RABBIT, RABBIT_STEW, MUTTON, COOKED_MUTTON]
+[21:15:05] [Server thread/INFO]: [Disease] §aBYTE scoreboard disabled in config
+[21:15:05] [Server thread/INFO]: §aCreating Disease Vial Recipe
+[21:15:05] [Server thread/INFO]: §aCreating Syringe Recipe
+[21:15:05] [Server thread/INFO]: §aCreating vaccines Recipe
+[21:15:05] [Server thread/INFO]: §aCreating Disease Arrow Recipe
+[21:15:05] [Server thread/INFO]: §aCreating cold water recipe
+[21:15:05] [Server thread/INFO]: §aCreating boiling milk recipe
+[21:15:05] [Server thread/INFO]: [Disease] §cThanks for using the BYTE Disease plugin - www.byte.org.uk!
+[21:15:05] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
+[21:15:05] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[21:15:05] [Server thread/INFO]: [JustTPA] bStats enabled
+[21:15:05] [Server thread/INFO]: [JustTPA] Checking for updates...
+[21:15:05] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
+[21:15:05] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
+[21:15:05] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
+[21:15:06] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v8.1.0
+[21:15:07] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[21:15:07] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
+[21:15:07] [Server thread/INFO]: [SilkSpawners] Loading support for v1_21_R1
+[21:15:07] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[21:15:07] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[21:15:07] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[21:15:07] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[21:15:07] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "ja_jp"
+[21:15:07] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[21:15:07] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[21:15:07] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[21:15:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[21:15:08] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:15:10] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:15:10] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:15:10] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[21:15:10] [Server thread/INFO]: [Essentials] Using locale en
+[21:15:10] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:15:11] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:15:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:15:11] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:15:11] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
+[21:15:11] [Server thread/INFO]: [LunaChat] Enabling LunaChat v3.0.16*
+[21:15:11] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.15
+[21:15:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[21:15:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[21:15:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[21:15:12] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[21:15:13] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[21:15:13] [Server thread/INFO]: [spark] Starting background profiler...
+[21:15:14] [Server thread/INFO]: Done preparing level "world" (13.949s)
+[21:15:14] [Server thread/INFO]: Running delayed init tasks
+[21:15:14] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:15:14] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[21:15:14] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:15:14] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[21:15:14] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:15:14] [Server thread/INFO]: Done (51.677s)! For help, type "help"
+[21:15:14] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[21:15:14] [Server thread/INFO]: Timings Reset
+[21:15:15] [Craft Scheduler Thread - 7 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[21:16:34] [User Authenticator #0/INFO]: UUID of player kkk2z1 is b320805e-c396-3052-8250-9d305d34a13a
+[21:16:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[21:16:35] [Server thread/INFO]: [Disease] Loaded player kkk2z1
+[21:16:35] [Server thread/INFO]: [Disease] Curing player kkk2z1
+[21:16:35] [Server thread/INFO]: kkk2z1 joined the game
+[21:16:36] [Server thread/INFO]: kkk2z1[/[0:0:0:0:0:0:0:1]:55486] logged in with entity id 176 at ([world]7.699999988079072, 64.0, -1.3000000119209276)
+[21:16:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[21:16:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[21:16:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[21:16:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[21:16:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[21:16:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[21:16:39] [Server thread/INFO]: Server Plugins (15):
+[21:16:39] [Server thread/INFO]: Bukkit Plugins:
+[21:16:39] [Server thread/INFO]:  - CoreProtect, DeadChest, Disease, Essentials, GodItems, JustTPA, LoginSecurity, *LunaChat, QualityArmory, *ScoreboardStats
+[21:16:39] [Server thread/INFO]:  SilkSpawners, Vault, ViaBackwards, ViaRewind, ViaVersion
+[21:16:54] [Server thread/INFO]: kkk2z1 lost connection: Disconnected
+[21:16:55] [Server thread/INFO]: [Disease] Saving Disease details for kkk2z1
+[21:16:55] [Server thread/INFO]: kkk2z1 left the game
+[21:19:24] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /lag 
+[21:19:24] [Server thread/INFO]: Uptime: 5 minutes 1 second
+[21:19:24] [Server thread/INFO]: Current TPS = 20
+[21:19:24] [Server thread/INFO]: Maximum memory: 1,984 MB.
+[21:19:24] [Server thread/INFO]: Allocated memory: 1,028 MB.
+[21:19:24] [Server thread/INFO]: Free memory: 370 MB.
+[21:19:24] [Server thread/INFO]: World "world": 49 chunks, 88 entities, 20 tiles.
+[21:19:24] [Server thread/INFO]: Nether "world_nether": 49 chunks, 81 entities, 0 tiles.
+[21:19:24] [Server thread/INFO]: The End "world_the_end": 49 chunks, 10 entities, 0 tiles.
+[21:19:34] [Paper Async Task Handler Thread - 1/INFO]: [⚡] spark v1.10.105
+[21:19:34] [Paper Async Task Handler Thread - 1/INFO]: [⚡] Run /spark help to view usage information.
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: [⚡] spark v1.10.105
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler info
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler open
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler start
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:       [--timeout <timeout seconds>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:       [--thread *]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:       [--thread <thread name>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:       [--only-ticks-over <tick length millis>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:       [--interval <interval millis>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:       [--alloc]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler stop
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler cancel
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark tps
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark ping
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--player <username>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark healthreport
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--upload]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--memory]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--network]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark tickmonitor
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--threshold <percentage increase>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--threshold-tick <tick duration>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--without-gc]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark gc
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark gcmonitor
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark heapsummary
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--save-to-file]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark heapdump
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--compress <type>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: > /spark activity
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]:     [--page <page no>]
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: 
+[21:19:38] [Paper Async Task Handler Thread - 1/INFO]: [⚡] For full usage information, please go to: https://spark.lucko.me/docs/Command-Usage
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: [⚡] spark v1.10.105
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler info
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler open
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler start
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:       [--timeout <timeout seconds>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:       [--thread *]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:       [--thread <thread name>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:       [--only-ticks-over <tick length millis>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:       [--interval <interval millis>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:       [--alloc]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler stop
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark profiler cancel
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark tps
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark ping
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--player <username>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark healthreport
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--upload]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--memory]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--network]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark tickmonitor
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--threshold <percentage increase>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--threshold-tick <tick duration>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--without-gc]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark gc
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark gcmonitor
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark heapsummary
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--save-to-file]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark heapdump
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--compress <type>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: > /spark activity
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]:     [--page <page no>]
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: 
+[21:19:48] [Paper Async Task Handler Thread - 1/INFO]: [⚡] For full usage information, please go to: https://spark.lucko.me/docs/Command-Usage
+[21:32:09] [Server thread/INFO]: Stopping server
+[21:32:09] [Server thread/INFO]: [QualityArmory] Disabling QualityArmory v2.0.15
+[21:32:09] [Server thread/INFO]: [LunaChat] Disabling LunaChat v3.0.16
+[21:32:09] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
+[21:32:09] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[21:32:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[21:32:09] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[21:32:09] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[21:32:09] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[21:32:09] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v8.1.0
+[21:32:09] [Server thread/INFO]: [GodItems] Disabling GodItems v3.0.1
+[21:32:09] [Server thread/INFO]: [GodItems] Saved player inventories: true
+[21:32:09] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
+[21:32:09] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[21:32:09] [Server thread/INFO]: [Disease] Disabling Disease v4.2.4
+[21:32:09] [Server thread/INFO]: [Disease] Saving players to file
+[21:32:09] [Server thread/INFO]: [Disease] Byeeee Thanks for using BYTE Disease plugin - www.byte.org.uk!
+[21:32:09] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2
+[21:32:09] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[21:32:09] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[21:32:10] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[21:32:10] [Server thread/INFO]: [ScoreboardStats] Disabling ScoreboardStats v0.10.6
+[21:32:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[21:32:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:32:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[21:32:10] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:32:10] [Server thread/INFO]: Saving players
+[21:32:11] [Server thread/INFO]: Saving worlds
+[21:32:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 90 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[21:32:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world_nether' in 0.05s
+[21:32:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:32:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[21:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

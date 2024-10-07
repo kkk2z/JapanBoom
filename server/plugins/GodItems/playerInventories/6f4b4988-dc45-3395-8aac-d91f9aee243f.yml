@@ -1,0 +1,30 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: TNT
+    amount: 64
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2UAAQCogW6XEQAAAA==
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIRT
+    amount: 20
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OAK_SAPLING

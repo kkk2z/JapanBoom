@@ -1,8 +1,8 @@
 name: Ganter
-temp: 36.75000000000001
+temp: 36.99000000000004
 normalTemp: 37.0
 infection: Plague
-sickness: 26
+sickness: 56
 immunity:
   BrokenLeg: 0
   Plague: 0

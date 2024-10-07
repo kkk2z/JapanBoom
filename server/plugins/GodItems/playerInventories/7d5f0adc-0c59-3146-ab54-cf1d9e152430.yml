@@ -1,0 +1,118 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2UAAQCogW6XEQAAAA==
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: VILLAGER_SPAWN_EGG
+    amount: 64
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STICK
+    amount: 2
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom: H4sIAAAAAAAA/+NiYOBkEE0uLS7Jz40vyC/JzM+LT01LS00uKWYAAQ4GtgCwKINgTn5eenxeZnpGSXxZZjFQiJlBMsypJqAovyQ/OT/HMN7QOCQfSBrFG9UYMZYquDEAAEBgAgxdAAAA
+      potion-type: minecraft:long_night_vision
+      custom-effects: []
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OBSIDIAN
+    amount: 64
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OBSIDIAN
+    amount: 64
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OBSIDIAN
+    amount: 64
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OBSIDIAN
+    amount: 64
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OBSIDIAN
+    amount: 64
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: GUNPOWDER
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+    amount: 61
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ARROW
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: POINTED_DRIPSTONE
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: POINTED_DRIPSTONE
+    amount: 26
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DRIPSTONE_BLOCK
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2UAAQCogW6XEQAAAA==
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ROTTEN_FLESH
+    amount: 2
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: POINTED_DRIPSTONE

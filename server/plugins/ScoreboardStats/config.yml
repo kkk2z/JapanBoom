@@ -20,11 +20,13 @@ Scoreboard:
   Items:
     # The Title must have under 48 characters
     # Title: Type
-    '&9Online': '%online%'
-    '&9Money': '%money%'
+    '&9 On  line': '%online%'
+    '&9 Money': '%money%'
     # Your can choose your custom score here
-    '&a News': not found
-    
+    '&a Tps' : '%tps%'
+    '&1 max-Ram' : '%max_ram%'
+    'use-Ram' : '%used_ram%'
+    'XP' : '%exp%'
 
     
 # Let ScoreboardStats track stats (kills, deaths, mobkills, killstreak) You need no plugin for this

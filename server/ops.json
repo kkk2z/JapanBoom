@@ -1,5 +1,17 @@
 [
   {
+    "uuid": "7d5f0adc-0c59-3146-ab54-cf1d9e152430",
+    "name": "adepen1210",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6f4b4988-dc45-3395-8aac-d91f9aee243f",
+    "name": "st_piano",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "6802d39c-f336-33d3-a2af-d966793e1fc3",
     "name": "Ganter",
     "level": 4,

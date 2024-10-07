@@ -11,20 +11,39 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1726696090114
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1726617054944
-  login: 1726616983248
+  logout: 1726696200872
+  login: 1726695286636
+  kits:
+    basic: 1726636881136
 money: '0'
 last-account-name: Ganter
 logoutlocation:
   world: cc5f1e03-f4f6-469f-b43c-243908401986
   world-name: world
-  x: 20.999519279750295
-  y: 69.41999998688698
-  z: -129.84118277925666
-  yaw: -108.3000259399414
-  pitch: 22.4999942779541
+  x: 20.790364565634214
+  y: 98.0
+  z: -34.300000011920936
+  yaw: 69.45004272460938
+  pitch: 58.350006103515625
+homes:
+  spawn:
+    world: cc5f1e03-f4f6-469f-b43c-243908401986
+    world-name: world
+    x: 13.699999988079071
+    y: 64.0
+    z: -43.6987823263987
+    yaw: 80.70004272460938
+    pitch: 59.55000686645508
+lastlocation:
+  world: ae27f644-c63f-4ab5-b091-09420ac4b317
+  world-name: world_nether
+  x: 4.5
+  y: 71.0
+  z: 7.5
+  yaw: -17.24996566772461
+  pitch: 44.09999465942383
