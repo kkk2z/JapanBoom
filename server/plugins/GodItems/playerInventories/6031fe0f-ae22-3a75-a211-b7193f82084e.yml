@@ -1,0 +1,50 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIRT
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: RAW_COPPER
+    amount: 2
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 14
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: WOODEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 7
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: OAK_PLANKS
+    amount: 3
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ANVIL
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_INGOT

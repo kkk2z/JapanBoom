@@ -5,4 +5,21 @@ armor:
     type: AIR
     amount: 0
 charms: {}
-contents: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIRT
+    amount: 6
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: NETHER_STAR
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: SOUL_SAND
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: WITHER_SKELETON_SKULL

@@ -1,0 +1,139 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_CHESTPLATE
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+    amount: 64
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 10
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 93
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COOKED_PORKCHOP
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 2
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: FURNACE
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: CRAFTING_TABLE
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_INGOT
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: NETHER_STAR
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COAL
+    amount: 32
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BEEF
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BIRCH_PLANKS
+    amount: 7
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIRT
+    amount: 3
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BIRCH_LOG
+    amount: 2
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PORKCHOP
+    amount: 3
+  slot_17:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+    amount: 37
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: WOODEN_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 3
+  slot_19:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: RAW_COPPER
+    amount: 39
+  slot_20:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STICK
+    amount: 7
+  slot_21:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIORITE
+    amount: 26
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ANDESITE
+    amount: 17

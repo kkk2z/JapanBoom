@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1728473859844
+  login: 1728473845464
+money: '0'
+last-account-name: poteto_maru
+logoutlocation:
+  world: cc5f1e03-f4f6-469f-b43c-243908401986
+  world-name: world
+  x: 19.988359289596918
+  y: 95.0
+  z: -44.85501625335016
+  yaw: -166.71282958984375
+  pitch: 44.95263671875

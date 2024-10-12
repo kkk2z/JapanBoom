@@ -1,0 +1,11 @@
+name: minecraft_5224
+temp: 36.93999999999999
+normalTemp: 37.0
+infection: BrokenLeg
+sickness: 28
+immunity:
+  BrokenLeg: 0
+  Plague: 0
+  SwampFever: 0
+  ChickenPox: 0
+  Cholera: 0

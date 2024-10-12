@@ -1,8 +1,8 @@
 name: st_piano
-temp: 37.1
+temp: 37.0
 normalTemp: 37.0
-infection: none
-sickness: 0
+infection: BrokenLeg
+sickness: 8
 immunity:
   BrokenLeg: 0
   Plague: 0

@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1726780615123
-  login: 1726780597004
+  logout: 1728473720794
+  login: 1728473414314
 money: '0'
 last-account-name: kkk2z1
 logoutlocation:
   world: cc5f1e03-f4f6-469f-b43c-243908401986
   world-name: world
-  x: 9.660766315260872
-  y: 62.431071759713916
-  z: 5.676846736810513
-  yaw: -30.89996337890625
-  pitch: 38.10000228881836
+  x: 89.87479599070912
+  y: 109.875
+  z: -13.829565058944652
+  yaw: -97.49996948242188
+  pitch: 72.1500015258789
 lastlocation:
   world: cc5f1e03-f4f6-469f-b43c-243908401986
   world-name: world

@@ -1,0 +1,11 @@
+name: zenisu__
+temp: 37.05999999999998
+normalTemp: 37.0
+infection: none
+sickness: 0
+immunity:
+  BrokenLeg: 0
+  Plague: 0
+  SwampFever: 0
+  ChickenPox: 0
+  Cholera: 0

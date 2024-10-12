@@ -9,92 +9,83 @@ contents:
   slot_0:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: BOW
+    type: STONE_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2UAAQCogW6XEQAAAA==
+      enchants:
+        minecraft:fortune: 3
+      Damage: 119
+      custom: H4sIAAAAAAAA/w3MUQqAIBAFwJdClnSsOsiSWwnrFmlFt9fvgfGART9Top0BfB4uxHwJ/RgxLboepCWxluwbdwNMDHDbeZdH2cDKKy1ABSvZJXZHAAAA
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: VILLAGER_SPAWN_EGG
-    amount: 64
-  slot_22:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: STICK
-    amount: 2
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2VgYGBkAADpsHWOEQAAAA==
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: POTION
-    meta:
-      ==: ItemMeta
-      meta-type: POTION
-      custom: H4sIAAAAAAAA/+NiYOBkEE0uLS7Jz40vyC/JzM+LT01LS00uKWYAAQ4GtgCwKINgTn5eenxeZnpGSXxZZjFQiJlBMsypJqAovyQ/OT/HMN7QOCQfSBrFG9UYMZYquDEAAEBgAgxdAAAA
-      potion-type: minecraft:long_night_vision
-      custom-effects: []
+    type: COBBLESTONE
+    amount: 50
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: OBSIDIAN
-    amount: 64
+    type: COAL
+    amount: 2
   slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: OBSIDIAN
+    type: COBBLESTONE
     amount: 64
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: OBSIDIAN
-    amount: 64
+    type: COOKED_BEEF
+    amount: 63
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: OBSIDIAN
-    amount: 64
+    type: RAW_IRON
+    amount: 38
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: OBSIDIAN
-    amount: 64
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2UAAQCogW6XEQAAAA==
   slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: GUNPOWDER
+    type: COBBLESTONE
+    amount: 32
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: COBBLESTONE
-    amount: 61
+    type: RAW_COPPER
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
   slot_11:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: ARROW
+    type: DIRT
+    amount: 8
   slot_12:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: POINTED_DRIPSTONE
-    amount: 5
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: POINTED_DRIPSTONE
-    amount: 26
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
-  slot_14:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
     type: DRIPSTONE_BLOCK
-    amount: 8
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
@@ -102,17 +93,19 @@ contents:
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: DIAMOND_AXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      custom: H4sIAAAAAAAA/+NiYGBmYHNJzE1MT2UAAQCogW6XEQAAAA==
+    type: COAL
+    amount: 64
   slot_15:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: ROTTEN_FLESH
-    amount: 2
-  slot_16:
+    type: OAK_PLANKS
+    amount: 20
+  slot_18:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: POINTED_DRIPSTONE
+    type: OAK_SAPLING
+  slot_29:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: WHITE_WOOL
+    amount: 2

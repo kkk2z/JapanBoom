@@ -1,0 +1,11 @@
+name: poteto_maru
+temp: 37.1
+normalTemp: 37.0
+infection: BrokenLeg
+sickness: 8
+immunity:
+  BrokenLeg: 0
+  Plague: 0
+  SwampFever: 0
+  ChickenPox: 0
+  Cholera: 0
