@@ -1,908 +1,824 @@
-[11:23:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
-[11:23:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) for Minecraft 1.21.1
-[11:23:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:23:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
-[11:23:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+[09:45:07] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.2+13-LTS; Microsoft Microsoft-8905927) on Linux 6.1.43 (amd64)
+[09:45:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) for Minecraft 1.21.1
+[09:45:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:45:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[09:45:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
  - CoreProtect (22.4), DeadChest (4.21.1), Disease (4.2.4), Essentials (2.20.1), GodItems (3.0.1), JustTPA (v20240824-beta), LoginSecurity (3.2.0), LunaChat (3.0.16), QualityArmory (2.0.15), ScoreboardStats (0.10.6), SilkSpawners (8.1.0), Vault (1.7.3-b131), ViaBackwards (5.0.3), ViaRewind (4.0.2), ViaVersion (5.0.3)
-[11:23:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:23:53] [ServerMain/INFO]: Loaded 1290 recipes
-[11:23:53] [ServerMain/INFO]: Loaded 1399 advancements
-[11:23:54] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[11:23:54] [Server thread/INFO]: Loading properties
-[11:23:54] [Server thread/INFO]: This server is running Paper version 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[11:23:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[11:23:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:23:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:23:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[11:23:57] [Server thread/INFO]: Default game type: SURVIVAL
-[11:23:57] [Server thread/INFO]: Generating keypair
-[11:23:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:23:57] [Server thread/INFO]: Using epoll channel type
-[11:23:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:23:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:24:00] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[11:24:13] [Server thread/WARN]: Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
-[11:24:14] [Server thread/INFO]: Custom heat values reloaded into calculator
-[11:24:14] [Server thread/INFO]: radius 0
-[11:24:14] [Server thread/INFO]: fire 0
-[11:24:14] [Server thread/INFO]: torch 0
-[11:24:14] [Server thread/WARN]: Legacy plugin LunaChat v3.0.16 does not specify an api-version.
-[11:24:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
-[11:24:15] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
-[11:24:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:24:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[11:24:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[11:24:18] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[11:24:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[11:24:21] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[11:24:21] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
-[11:24:21] [Server thread/INFO]: [ScoreboardStats] Loading server plugin ScoreboardStats v0.10.6
-[11:24:21] [Server thread/WARN]: [ScoreboardStats] Ignoring attempt to change parent of plugin logger
-[11:24:21] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
-[11:24:21] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2
-[11:24:21] [Server thread/INFO]: [Disease] Loading server plugin Disease v4.2.4
-[11:24:21] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
-[11:24:21] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
-[11:24:21] [Server thread/INFO]: [GodItems] Optional dependency WorldGuard not found. WorldGuard related features will not work.
-[11:24:21] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v8.1.0
-[11:24:21] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
-[11:24:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[11:24:21] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
-[11:24:21] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
-[11:24:21] [Server thread/INFO]: [LunaChat] Loading server plugin LunaChat v3.0.16
-[11:24:21] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.15
-[11:24:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:24:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:24:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[11:24:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:24:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:24:21] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2
-[11:24:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:24:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:24:21] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[11:24:21] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[11:24:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:24:21] [Server thread/INFO]: Preparing level "world"
-[11:24:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:24:24] [Server thread/INFO]: Time elapsed: 2028 ms
-[11:24:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:24:25] [Server thread/INFO]: Time elapsed: 535 ms
-[11:24:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:24:25] [Server thread/INFO]: Time elapsed: 276 ms
-[11:24:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
-[11:24:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[11:24:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
-[11:24:25] [Server thread/INFO]: [ScoreboardStats] Enabling ScoreboardStats v0.10.6*
-[11:24:26] [Server thread/INFO]: [ScoreboardStats] Registered replacers: [BungeeCordVariables, PlayerPingVariable, BukkitGlobalVariables, GeneralVariables, BukkitVariables, VaultVariables]
-[11:24:26] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
-[11:24:27] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[11:24:27] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[11:24:27] [Server thread/INFO]: --------------------
-[11:24:27] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[11:24:27] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[11:24:27] [Server thread/INFO]: --------------------
-[11:24:27] [Server thread/INFO]: [Disease] Enabling Disease v4.2.4
-[11:24:27] [Server thread/INFO]: Plugin Loading
-[11:24:27] [Server thread/INFO]: Loading configuration file
-[11:24:27] [Server thread/INFO]: Loading Language file
-[11:24:27] [Server thread/INFO]: [Disease] Scoreboard Stats Found
-[11:24:27] [Server thread/INFO]: [Disease] Scoreboard Stats disabled in config
-[11:24:27] [Server thread/INFO]: [Disease] Citizens plugin not Found
-[11:24:27] [Server thread/INFO]: [Disease] Vault plugin Found
-[11:24:27] [Server thread/INFO]: [Disease] Vault Enabled
-[11:24:27] [Server thread/INFO]: [Disease] World Guard disabled in config
-[11:24:27] [Server thread/INFO]: [Disease] Temperature module loaded
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding allowed world: world
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding allowed world: world_nether
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding allowed world: world_the_end
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding disease: BrokenLeg
-[11:24:27] [Server thread/INFO]: [Disease] Loading disease BrokenLeg
-[11:24:27] [Server thread/INFO]: [Disease] Loaded disease BrokenLeg
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding disease: Plague
-[11:24:27] [Server thread/INFO]: [Disease] Loading disease Plague
-[11:24:27] [Server thread/INFO]: [Disease] Loaded disease Plague
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding disease: SwampFever
-[11:24:27] [Server thread/INFO]: [Disease] Loading disease SwampFever
-[11:24:27] [Server thread/INFO]: [Disease] Loaded disease SwampFever
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding disease: ChickenPox
-[11:24:27] [Server thread/INFO]: [Disease] Loading disease ChickenPox
-[11:24:27] [Server thread/INFO]: [Disease] Loaded disease ChickenPox
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding disease: Cholera
-[11:24:27] [Server thread/INFO]: [Disease] Loading disease Cholera
-[11:24:27] [Server thread/INFO]: [Disease] Loaded disease Cholera
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding remedy: Splint
-[11:24:27] [Server thread/INFO]: [Disease] Loading Remedy Splint
-[11:24:27] [Server thread/INFO]: [Disease] Building remedy Splint Shaped Recipe
-[11:24:27] [Server thread/INFO]: [Disease] Loaded Remedy Splint
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding remedy: WormwoodPotion
-[11:24:27] [Server thread/INFO]: [Disease] Loading Remedy WormwoodPotion
-[11:24:27] [Server thread/INFO]: [Disease] Building remedy WormwoodPotion Shapeless Recipe
-[11:24:27] [Server thread/INFO]: §9Creating custom WormwoodPotion recipe
-[11:24:27] [Server thread/INFO]: [Disease] Loaded Remedy WormwoodPotion
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding remedy: MudbanePotion
-[11:24:27] [Server thread/INFO]: [Disease] Loading Remedy MudbanePotion
-[11:24:27] [Server thread/INFO]: [Disease] Building remedy MudbanePotion Shapeless Recipe
-[11:24:27] [Server thread/INFO]: §9Creating custom MudbanePotion recipe
-[11:24:27] [Server thread/INFO]: [Disease] Loaded Remedy MudbanePotion
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding remedy: HenstoothPotion
-[11:24:27] [Server thread/INFO]: [Disease] Loading Remedy HenstoothPotion
-[11:24:27] [Server thread/INFO]: [Disease] Building remedy HenstoothPotion Shapeless Recipe
-[11:24:27] [Server thread/INFO]: §9Creating custom HenstoothPotion recipe
-[11:24:27] [Server thread/INFO]: [Disease] Loaded Remedy HenstoothPotion
-[11:24:27] [Server thread/INFO]: [Disease] §aAdding remedy: BrightWater
-[11:24:27] [Server thread/INFO]: [Disease] Loading Remedy BrightWater
-[11:24:27] [Server thread/INFO]: [Disease] Building remedy BrightWater Shapeless Recipe
-[11:24:27] [Server thread/INFO]: §9Creating custom BrightWater recipe
-[11:24:27] [Server thread/INFO]: [Disease] Loaded Remedy BrightWater
-[11:24:27] [Server thread/INFO]: [Disease] Loading choking items: [APPLE, BREAD, PORKCHOP, COOKED_PORKCHOP, FISH, COOKED_FISH, BEEF, COOKED_BEEF, CHICKEN, COOKED_CHICKEN, CARROT, POTATO, BAKED_POTATO, RABBIT, RABBIT_STEW, MUTTON, COOKED_MUTTON]
-[11:24:27] [Server thread/INFO]: [Disease] §aBYTE scoreboard disabled in config
-[11:24:27] [Server thread/INFO]: §aCreating Disease Vial Recipe
-[11:24:27] [Server thread/INFO]: §aCreating Syringe Recipe
-[11:24:27] [Server thread/INFO]: §aCreating vaccines Recipe
-[11:24:27] [Server thread/INFO]: §aCreating Disease Arrow Recipe
-[11:24:27] [Server thread/INFO]: §aCreating cold water recipe
-[11:24:27] [Server thread/INFO]: §aCreating boiling milk recipe
-[11:24:27] [Server thread/INFO]: [Disease] §cThanks for using the BYTE Disease plugin - www.byte.org.uk!
-[11:24:27] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
-[11:24:27] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[11:24:27] [Server thread/INFO]: [JustTPA] bStats enabled
-[11:24:27] [Server thread/INFO]: [JustTPA] Checking for updates...
-[11:24:27] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
-[11:24:27] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
-[11:24:27] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
-[11:24:28] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v8.1.0
-[11:24:28] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
-[11:24:28] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
-[11:24:28] [Server thread/INFO]: [SilkSpawners] Loading support for v1_21_R1
-[11:24:28] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
-[11:24:29] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
-[11:24:29] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[11:24:29] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[11:24:29] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "ja_jp"
-[11:24:29] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[11:24:29] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[11:24:29] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[11:24:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[11:24:29] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[11:24:31] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[11:24:31] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[11:24:31] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[11:24:31] [Server thread/INFO]: [Essentials] Using locale en
-[11:24:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:24:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:24:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[11:24:32] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[11:24:32] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
-[11:24:32] [Server thread/INFO]: [LunaChat] Enabling LunaChat v3.0.16*
-[11:24:33] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.15
-[11:24:33] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[11:24:33] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[11:24:33] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
-[11:24:34] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
-[11:24:35] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
-[11:24:35] [Server thread/INFO]: [spark] Starting background profiler...
-[11:24:36] [Server thread/INFO]: Done preparing level "world" (14.586s)
-[11:24:36] [Server thread/INFO]: Running delayed init tasks
-[11:24:36] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[11:24:36] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
-[11:24:36] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
-[11:24:36] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[11:24:36] [Server thread/INFO]: Done (57.073s)! For help, type "help"
-[11:24:36] [Server thread/INFO]: Timings Reset
-[11:24:36] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
-[11:24:36] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
-[11:24:37] [Craft Scheduler Thread - 7 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
-[11:26:42] [User Authenticator #0/INFO]: UUID of player minecraft_5224 is 6031fe0f-ae22-3a75-a211-b7193f82084e
-[11:26:42] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[11:26:43] [Server thread/INFO]: [Disease] Loaded player minecraft_5224
-[11:26:43] [Server thread/INFO]: [Disease] Curing player minecraft_5224
-[11:26:43] [Server thread/INFO]: minecraft_5224 joined the game
-[11:26:43] [Server thread/INFO]: minecraft_5224[/[0:0:0:0:0:0:0:1]:39420] logged in with entity id 180 at ([world]23.5, 104.0, -51.5)
-[11:26:44] [User Authenticator #0/INFO]: UUID of player 1pop12 is 1afbcd46-00a1-37f9-9cb0-22a5a46bfc24
-[11:26:44] [Server thread/INFO]: [Disease] Loaded player 1pop12
-[11:26:44] [Server thread/INFO]: [Disease] Curing player 1pop12
-[11:26:44] [Server thread/INFO]: 1pop12 joined the game
-[11:26:44] [Server thread/INFO]: 1pop12[/[0:0:0:0:0:0:0:1]:39424] logged in with entity id 210 at ([world]26.5, 109.0, -41.5)
-[11:26:46] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:26:46] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:26:46] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:26:46] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:26:46] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:26:46] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:26:46] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:26:46] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:26:46] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:26:46] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:26:46] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:26:46] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:26:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
-[11:27:02] [Server thread/INFO]: 1pop12 lost connection: Disconnected
-[11:27:02] [Server thread/INFO]: [Disease] Saving Disease details for 1pop12
-[11:27:02] [Server thread/INFO]: 1pop12 left the game
-[11:27:12] [User Authenticator #0/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
-[11:27:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:27:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:27:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:27:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:27:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:27:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:27:12] [Server thread/INFO]: [Disease] Loaded player adepen1210
-[11:27:12] [Server thread/INFO]: [Disease] Curing player adepen1210
-[11:27:12] [Server thread/INFO]: adepen1210 joined the game
-[11:27:12] [Server thread/INFO]: adepen1210[/[0:0:0:0:0:0:0:1]:35696] logged in with entity id 339 at ([world]153.61907415081072, 46.0, -142.89512721446303)
-[11:27:30] [Server thread/INFO]: adepen1210 issued server command: /shop
-[11:27:32] [Server thread/INFO]: Server Plugins (15):
-[11:27:32] [Server thread/INFO]: Bukkit Plugins:
-[11:27:32] [Server thread/INFO]:  - CoreProtect, DeadChest, Disease, Essentials, GodItems, JustTPA, LoginSecurity, *LunaChat, QualityArmory, *ScoreboardStats
-[11:27:32] [Server thread/INFO]:  SilkSpawners, Vault, ViaBackwards, ViaRewind, ViaVersion
-[11:27:42] [Server thread/INFO]: [Not Secure] [Server] SHOPは、死にました
-[11:27:47] [Async Chat Thread - #0/INFO]: [Not Secure] minecraft_5224: konntyaa (混んちゃー)
-[11:27:47] [Async Chat Thread - #0/INFO]: [Not Secure] adepen1210: ok desu (おｋ です)
-[11:27:53] [Server thread/INFO]: minecraft_5224 lost connection: Disconnected
-[11:27:53] [Server thread/INFO]: [Disease] Saving Disease details for minecraft_5224
-[11:27:53] [Server thread/INFO]: minecraft_5224 left the game
-[11:28:00] [Server thread/INFO]: adepen1210 issued server command: /locate
-[11:28:05] [Server thread/INFO]: adepen1210 issued server command: /help
-[11:28:09] [User Authenticator #0/INFO]: UUID of player poteto_maru is ba49d456-32b9-3c85-9870-8a5694568334
-[11:28:09] [Server thread/INFO]: [Disease] Loaded player poteto_maru
-[11:28:09] [Server thread/INFO]: [Disease] Curing player poteto_maru
-[11:28:09] [Server thread/INFO]: poteto_maru joined the game
-[11:28:09] [Server thread/INFO]: poteto_maru[/[0:0:0:0:0:0:0:1]:56916] logged in with entity id 634 at ([world]6.5, 66.0, -57.5)
-[11:28:09] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:28:09] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:28:09] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:28:09] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:28:09] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:28:09] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:28:14] [Server thread/INFO]: Checking version, please wait...
-[11:28:15] [Thread-13/INFO]: This server is running Paper version 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-You are 37 version(s) behind
+[09:45:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:45:15] [ServerMain/INFO]: Loaded 1290 recipes
+[09:45:16] [ServerMain/INFO]: Loaded 1399 advancements
+[09:45:16] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[09:45:16] [Server thread/WARN]: ****************************
+[09:45:16] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[09:45:16] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[09:45:16] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[09:45:16] [Server thread/WARN]: ****************************
+[09:45:16] [Server thread/INFO]: Loading properties
+[09:45:16] [Server thread/INFO]: This server is running Paper version 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[09:45:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:45:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:45:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:45:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[09:45:18] [Server thread/INFO]: Default game type: SURVIVAL
+[09:45:18] [Server thread/INFO]: Generating keypair
+[09:45:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:45:18] [Server thread/INFO]: Using epoll channel type
+[09:45:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:45:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:45:19] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[09:45:28] [Server thread/WARN]: Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+[09:45:29] [Server thread/WARN]: Legacy plugin LunaChat v3.0.16 does not specify an api-version.
+[09:45:29] [Server thread/INFO]: Custom heat values reloaded into calculator
+[09:45:29] [Server thread/INFO]: radius 0
+[09:45:29] [Server thread/INFO]: fire 0
+[09:45:29] [Server thread/INFO]: torch 0
+[09:45:29] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[09:45:29] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[09:45:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:45:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:45:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:45:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:45:34] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[09:45:34] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[09:45:34] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:45:34] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[09:45:34] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2
+[09:45:34] [Server thread/INFO]: [ScoreboardStats] Loading server plugin ScoreboardStats v0.10.6
+[09:45:34] [Server thread/WARN]: [ScoreboardStats] Ignoring attempt to change parent of plugin logger
+[09:45:34] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
+[09:45:34] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
+[09:45:34] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[09:45:34] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v8.1.0
+[09:45:34] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.15
+[09:45:34] [Server thread/INFO]: [LunaChat] Loading server plugin LunaChat v3.0.16
+[09:45:34] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[09:45:34] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
+[09:45:34] [Server thread/INFO]: [GodItems] Optional dependency WorldGuard not found. WorldGuard related features will not work.
+[09:45:34] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[09:45:34] [Server thread/INFO]: [Disease] Loading server plugin Disease v4.2.4
+[09:45:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:45:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:45:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:45:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:45:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:45:34] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2
+[09:45:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:45:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:45:34] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[09:45:34] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[09:45:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:45:34] [Server thread/INFO]: Preparing level "world"
+[09:45:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:45:36] [Server thread/INFO]: Time elapsed: 1212 ms
+[09:45:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:45:36] [Server thread/INFO]: Time elapsed: 231 ms
+[09:45:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:45:36] [Server thread/INFO]: Time elapsed: 83 ms
+[09:45:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[09:45:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[09:45:36] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[09:45:36] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[09:45:37] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[09:45:37] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[09:45:37] [Server thread/INFO]: --------------------
+[09:45:37] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[09:45:37] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[09:45:37] [Server thread/INFO]: --------------------
+[09:45:37] [Server thread/INFO]: [ScoreboardStats] Enabling ScoreboardStats v0.10.6*
+[09:45:37] [Server thread/INFO]: [ScoreboardStats] Registered replacers: [BukkitGlobalVariables, PlayerPingVariable, BungeeCordVariables, GeneralVariables, BukkitVariables, VaultVariables]
+[09:45:37] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
+[09:45:37] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[09:45:37] [Server thread/INFO]: [JustTPA] bStats enabled
+[09:45:37] [Server thread/INFO]: [JustTPA] Checking for updates...
+[09:45:37] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
+[09:45:37] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v8.1.0
+[09:45:37] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[09:45:37] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
+[09:45:37] [Server thread/INFO]: [SilkSpawners] Loading support for v1_21_R1
+[09:45:38] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[09:45:38] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[09:45:38] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.15
+[09:45:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[09:45:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[09:45:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[09:45:38] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[09:45:38] [Server thread/INFO]: [LunaChat] Enabling LunaChat v3.0.16*
+[09:45:39] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[09:45:39] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[09:45:39] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "ja_jp"
+[09:45:39] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[09:45:39] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[09:45:39] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[09:45:39] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
+[09:45:39] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
+[09:45:39] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
+[09:45:39] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[09:45:39] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[09:45:40] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:45:40] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:45:40] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[09:45:40] [Server thread/INFO]: [Essentials] Using locale en_US
+[09:45:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:45:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:45:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:45:41] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[09:45:41] [Server thread/INFO]: [Disease] Enabling Disease v4.2.4
+[09:45:41] [Server thread/INFO]: Plugin Loading
+[09:45:41] [Server thread/INFO]: Loading configuration file
+[09:45:41] [Server thread/INFO]: Loading Language file
+[09:45:41] [Server thread/INFO]: [Disease] Scoreboard Stats Found
+[09:45:41] [Server thread/INFO]: [Disease] Scoreboard Stats disabled in config
+[09:45:41] [Server thread/INFO]: [Disease] Citizens plugin not Found
+[09:45:41] [Server thread/INFO]: [Disease] Vault plugin Found
+[09:45:41] [Server thread/INFO]: [Disease] Vault Enabled
+[09:45:41] [Server thread/INFO]: [Disease] World Guard disabled in config
+[09:45:41] [Server thread/INFO]: [Disease] Temperature module loaded
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding allowed world: world
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding allowed world: world_nether
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding allowed world: world_the_end
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding disease: BrokenLeg
+[09:45:41] [Server thread/INFO]: [Disease] Loading disease BrokenLeg
+[09:45:41] [Server thread/INFO]: [Disease] Loaded disease BrokenLeg
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding disease: Plague
+[09:45:41] [Server thread/INFO]: [Disease] Loading disease Plague
+[09:45:41] [Server thread/INFO]: [Disease] Loaded disease Plague
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding disease: SwampFever
+[09:45:41] [Server thread/INFO]: [Disease] Loading disease SwampFever
+[09:45:41] [Server thread/INFO]: [Disease] Loaded disease SwampFever
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding disease: ChickenPox
+[09:45:41] [Server thread/INFO]: [Disease] Loading disease ChickenPox
+[09:45:41] [Server thread/INFO]: [Disease] Loaded disease ChickenPox
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding disease: Cholera
+[09:45:41] [Server thread/INFO]: [Disease] Loading disease Cholera
+[09:45:41] [Server thread/INFO]: [Disease] Loaded disease Cholera
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding remedy: Splint
+[09:45:41] [Server thread/INFO]: [Disease] Loading Remedy Splint
+[09:45:41] [Server thread/INFO]: [Disease] Building remedy Splint Shaped Recipe
+[09:45:41] [Server thread/INFO]: [Disease] Loaded Remedy Splint
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding remedy: WormwoodPotion
+[09:45:41] [Server thread/INFO]: [Disease] Loading Remedy WormwoodPotion
+[09:45:41] [Server thread/INFO]: [Disease] Building remedy WormwoodPotion Shapeless Recipe
+[09:45:41] [Server thread/INFO]: §9Creating custom WormwoodPotion recipe
+[09:45:41] [Server thread/INFO]: [Disease] Loaded Remedy WormwoodPotion
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding remedy: MudbanePotion
+[09:45:41] [Server thread/INFO]: [Disease] Loading Remedy MudbanePotion
+[09:45:41] [Server thread/INFO]: [Disease] Building remedy MudbanePotion Shapeless Recipe
+[09:45:41] [Server thread/INFO]: §9Creating custom MudbanePotion recipe
+[09:45:41] [Server thread/INFO]: [Disease] Loaded Remedy MudbanePotion
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding remedy: HenstoothPotion
+[09:45:41] [Server thread/INFO]: [Disease] Loading Remedy HenstoothPotion
+[09:45:41] [Server thread/INFO]: [Disease] Building remedy HenstoothPotion Shapeless Recipe
+[09:45:41] [Server thread/INFO]: §9Creating custom HenstoothPotion recipe
+[09:45:41] [Server thread/INFO]: [Disease] Loaded Remedy HenstoothPotion
+[09:45:41] [Server thread/INFO]: [Disease] §aAdding remedy: BrightWater
+[09:45:41] [Server thread/INFO]: [Disease] Loading Remedy BrightWater
+[09:45:41] [Server thread/INFO]: [Disease] Building remedy BrightWater Shapeless Recipe
+[09:45:41] [Server thread/INFO]: §9Creating custom BrightWater recipe
+[09:45:41] [Server thread/INFO]: [Disease] Loaded Remedy BrightWater
+[09:45:41] [Server thread/INFO]: [Disease] Loading choking items: [APPLE, BREAD, PORKCHOP, COOKED_PORKCHOP, FISH, COOKED_FISH, BEEF, COOKED_BEEF, CHICKEN, COOKED_CHICKEN, CARROT, POTATO, BAKED_POTATO, RABBIT, RABBIT_STEW, MUTTON, COOKED_MUTTON]
+[09:45:41] [Server thread/INFO]: [Disease] §aBYTE scoreboard disabled in config
+[09:45:41] [Server thread/INFO]: §aCreating Disease Vial Recipe
+[09:45:41] [Server thread/INFO]: §aCreating Syringe Recipe
+[09:45:41] [Server thread/INFO]: §aCreating vaccines Recipe
+[09:45:41] [Server thread/INFO]: §aCreating Disease Arrow Recipe
+[09:45:41] [Server thread/INFO]: §aCreating cold water recipe
+[09:45:41] [Server thread/INFO]: §aCreating boiling milk recipe
+[09:45:41] [Server thread/INFO]: [Disease] §cThanks for using the BYTE Disease plugin - www.byte.org.uk!
+[09:45:41] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[09:45:41] [Server thread/INFO]: [spark] Starting background profiler...
+[09:45:41] [Server thread/INFO]: Done preparing level "world" (6.960s)
+[09:45:41] [Server thread/INFO]: Running delayed init tasks
+[09:45:41] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:45:41] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[09:45:41] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[09:45:41] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:45:41] [Server thread/INFO]: Done (35.521s)! For help, type "help"
+[09:45:41] [Server thread/INFO]: Timings Reset
+[09:45:41] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:45:41] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
+[09:45:41] [Server thread/INFO]: Unknown or incomplete command, see below for error
+eagler<--[HERE]
+[09:45:42] [Craft Scheduler Thread - 2 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[09:45:47] [Server thread/INFO]: [JustTPA] You must be a player to use this command.
+[09:46:34] [User Authenticator #0/INFO]: UUID of player 1pop12 is 1afbcd46-00a1-37f9-9cb0-22a5a46bfc24
+[09:46:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[09:46:35] [Server thread/INFO]: [Disease] Loaded player 1pop12
+[09:46:35] [Server thread/INFO]: [Disease] Curing player 1pop12
+[09:46:35] [Server thread/INFO]: 1pop12 joined the game
+[09:46:35] [Server thread/INFO]: 1pop12[/10.0.0.1:55068] logged in with entity id 163 at ([world]26.4852211374427, 109.0, -41.69416202765891)
+[09:46:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:46:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:46:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:46:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:46:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:46:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:46:50] [Async Chat Thread - #1/INFO]: [Not Secure] 1pop12: a misutta (あ ミスった)
+[09:47:34] [Server thread/INFO]: 1pop12 lost connection: Disconnected
+[09:47:34] [Server thread/INFO]: [Disease] Saving Disease details for 1pop12
+[09:47:34] [Server thread/INFO]: 1pop12 left the game
+[09:47:47] [User Authenticator #1/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[09:47:48] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[09:47:48] [Server thread/INFO]: [Disease] Curing player adepen1210
+[09:47:48] [Server thread/INFO]: adepen1210 joined the game
+[09:47:48] [Server thread/INFO]: adepen1210[/10.0.0.1:37326] logged in with entity id 361 at ([world]313.73549576057894, 134.90994992956763, -190.85630239824383)
+[09:47:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:47:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:47:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:47:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:47:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:47:48] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:48:04] [Server thread/INFO]: adepen1210 issued server command: /gamemode c
+[09:48:09] [Server thread/INFO]: adepen1210 issued server command: /lac update
+[09:48:09] [Craft Scheduler Thread - 13 - LoginSecurity/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit.jar...
+[09:48:10] [Craft Scheduler Thread - 13 - LoginSecurity/INFO]: [LoginSecurity] Download complete!
+[09:48:18] [Server thread/INFO]: adepen1210 issued server command: /reload
+[09:48:18] [Server thread/INFO]: adepen1210: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[09:48:52] [Server thread/INFO]: adepen1210 issued server command: /reload confirm
+[09:48:52] [Server thread/INFO]: adepen1210: Please note that this command is not supported and may cause issues when using some plugins.
+[09:48:52] [Server thread/INFO]: adepen1210: If you encounter any issues please use the /stop command to restart your server.
+[09:48:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:48:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:48:52] [Server thread/INFO]: [Disease] Disabling Disease v4.2.4
+[09:48:52] [Server thread/INFO]: [Disease] Saving players to file
+[09:48:52] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[09:48:52] [Server thread/INFO]: [Disease] Byeeee Thanks for using BYTE Disease plugin - www.byte.org.uk!
+[09:48:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[09:48:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[09:48:52] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[09:48:52] [Server thread/INFO]: [GodItems] Disabling GodItems v3.0.1
+[09:48:52] [Server thread/INFO]: [GodItems] Saved player inventories: true
+[09:48:52] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[09:48:52] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[09:48:52] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[09:48:52] [Server thread/INFO]: [LunaChat] Disabling LunaChat v3.0.16
+[09:48:52] [Server thread/INFO]: [QualityArmory] Disabling QualityArmory v2.0.15
+[09:48:52] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v8.1.0
+[09:48:52] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
+[09:48:52] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
+[09:48:52] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[09:48:52] [Server thread/INFO]: [ScoreboardStats] Disabling ScoreboardStats v0.10.6
+[09:48:52] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2
+[09:48:52] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[09:48:52] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[09:48:53] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[09:48:53] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[09:48:53] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[09:48:53] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[09:48:53] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[09:48:53] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[09:48:53] [Server thread/WARN]: adepen1210 moved too quickly! 1.3487768240446485,2.609694437310509,-9.600166692576693
+[09:48:53] [Server thread/INFO]: Loaded 1290 recipes
+[09:48:53] [Server thread/INFO]: Loaded 1399 advancements
+[09:48:54] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:48:54] [Server thread/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[09:48:54] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+ - CoreProtect (22.4), DeadChest (4.21.1), Disease (4.2.4), Essentials (2.20.1), GodItems (3.0.1), JustTPA (v20240824-beta), LoginSecurity (3.2.0), LunaChat (3.0.16), QualityArmory (2.0.15), ScoreboardStats (0.10.6), SilkSpawners (8.1.0), Vault (1.7.3-b131), ViaBackwards (5.0.3), ViaRewind (4.0.2), ViaVersion (5.0.3)
+[09:48:55] [Server thread/WARN]: Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+[09:48:55] [Server thread/WARN]: Legacy plugin LunaChat v3.0.16 does not specify an api-version.
+[09:48:55] [Server thread/INFO]: Custom heat values reloaded into calculator
+[09:48:55] [Server thread/INFO]: radius 0
+[09:48:55] [Server thread/INFO]: fire 0
+[09:48:55] [Server thread/INFO]: torch 0
+[09:48:55] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[09:48:55] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[09:48:55] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[09:48:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:48:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:48:58] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:48:58] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:48:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[09:48:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[09:48:59] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:48:59] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[09:48:59] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.2
+[09:48:59] [Server thread/INFO]: [ScoreboardStats] Loading server plugin ScoreboardStats v0.10.6
+[09:48:59] [Server thread/WARN]: [ScoreboardStats] Ignoring attempt to change parent of plugin logger
+[09:48:59] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA vv20240824-beta
+[09:48:59] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.1
+[09:48:59] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[09:48:59] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v8.1.0
+[09:48:59] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.15
+[09:48:59] [Server thread/INFO]: [LunaChat] Loading server plugin LunaChat v3.0.16
+[09:48:59] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[09:48:59] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
+[09:48:59] [Server thread/INFO]: [GodItems] Optional dependency WorldGuard not found. WorldGuard related features will not work.
+[09:48:59] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[09:48:59] [Server thread/INFO]: [Disease] Loading server plugin Disease v4.2.4
+[09:48:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:48:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:49:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:49:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:49:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:49:00] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.2
+[09:49:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[09:49:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[09:49:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[09:49:00] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[09:49:00] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[09:49:00] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[09:49:00] [Server thread/INFO]: --------------------
+[09:49:00] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[09:49:00] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[09:49:00] [Server thread/INFO]: --------------------
+[09:49:00] [Server thread/INFO]: [ScoreboardStats] Enabling ScoreboardStats v0.10.6*
+[09:49:00] [Server thread/INFO]: [ScoreboardStats] Registered replacers: [PlayerPingVariable, BukkitGlobalVariables, BungeeCordVariables, GeneralVariables, BukkitVariables, VaultVariables]
+[09:49:00] [Server thread/INFO]: [JustTPA] Enabling JustTPA vv20240824-beta
+[09:49:00] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[09:49:00] [Server thread/INFO]: [JustTPA] bStats enabled
+[09:49:00] [Server thread/INFO]: [JustTPA] Checking for updates...
+[09:49:00] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
+[09:49:00] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v8.1.0
+[09:49:01] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[09:49:01] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
+[09:49:01] [Server thread/INFO]: [SilkSpawners] Loading support for v1_21_R1
+[09:49:01] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[09:49:01] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[09:49:01] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.15
+[09:49:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[09:49:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[09:49:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[09:49:01] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[09:49:01] [Server thread/INFO]: [LunaChat] Enabling LunaChat v3.0.16*
+[09:49:02] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[09:49:02] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[09:49:02] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "ja_jp"
+[09:49:02] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[09:49:02] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[09:49:02] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[09:49:02] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
+[09:49:02] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
+[09:49:02] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
+[09:49:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[09:49:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[09:49:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:49:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:49:03] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[09:49:03] [Server thread/INFO]: [Essentials] Using locale en_US
+[09:49:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:49:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:49:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:49:03] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[09:49:03] [Server thread/INFO]: [Disease] Enabling Disease v4.2.4
+[09:49:03] [Server thread/INFO]: Plugin Loading
+[09:49:03] [Server thread/INFO]: Loading configuration file
+[09:49:03] [Server thread/INFO]: Loading Language file
+[09:49:03] [Server thread/INFO]: [Disease] Scoreboard Stats Found
+[09:49:03] [Server thread/INFO]: [Disease] Scoreboard Stats disabled in config
+[09:49:03] [Server thread/INFO]: [Disease] Citizens plugin not Found
+[09:49:03] [Server thread/INFO]: [Disease] Vault plugin Found
+[09:49:03] [Server thread/INFO]: [Disease] Vault Enabled
+[09:49:03] [Server thread/INFO]: [Disease] World Guard disabled in config
+[09:49:03] [Server thread/INFO]: [Disease] Temperature module loaded
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding allowed world: world
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding allowed world: world_nether
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding allowed world: world_the_end
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding disease: BrokenLeg
+[09:49:03] [Server thread/INFO]: [Disease] Loading disease BrokenLeg
+[09:49:03] [Server thread/INFO]: [Disease] Loaded disease BrokenLeg
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding disease: Plague
+[09:49:03] [Server thread/INFO]: [Disease] Loading disease Plague
+[09:49:03] [Server thread/INFO]: [Disease] Loaded disease Plague
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding disease: SwampFever
+[09:49:03] [Server thread/INFO]: [Disease] Loading disease SwampFever
+[09:49:03] [Server thread/INFO]: [Disease] Loaded disease SwampFever
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding disease: ChickenPox
+[09:49:03] [Server thread/INFO]: [Disease] Loading disease ChickenPox
+[09:49:03] [Server thread/INFO]: [Disease] Loaded disease ChickenPox
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding disease: Cholera
+[09:49:03] [Server thread/INFO]: [Disease] Loading disease Cholera
+[09:49:03] [Server thread/INFO]: [Disease] Loaded disease Cholera
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding remedy: Splint
+[09:49:03] [Server thread/INFO]: [Disease] Loading Remedy Splint
+[09:49:03] [Server thread/INFO]: [Disease] Building remedy Splint Shaped Recipe
+[09:49:03] [Server thread/INFO]: [Disease] Loaded Remedy Splint
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding remedy: WormwoodPotion
+[09:49:03] [Server thread/INFO]: [Disease] Loading Remedy WormwoodPotion
+[09:49:03] [Server thread/INFO]: [Disease] Building remedy WormwoodPotion Shapeless Recipe
+[09:49:03] [Server thread/INFO]: §9Creating custom WormwoodPotion recipe
+[09:49:03] [Server thread/INFO]: [Disease] Loaded Remedy WormwoodPotion
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding remedy: MudbanePotion
+[09:49:03] [Server thread/INFO]: [Disease] Loading Remedy MudbanePotion
+[09:49:03] [Server thread/INFO]: [Disease] Building remedy MudbanePotion Shapeless Recipe
+[09:49:03] [Server thread/INFO]: §9Creating custom MudbanePotion recipe
+[09:49:03] [Server thread/INFO]: [Disease] Loaded Remedy MudbanePotion
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding remedy: HenstoothPotion
+[09:49:03] [Server thread/INFO]: [Disease] Loading Remedy HenstoothPotion
+[09:49:03] [Server thread/INFO]: [Disease] Building remedy HenstoothPotion Shapeless Recipe
+[09:49:03] [Server thread/INFO]: §9Creating custom HenstoothPotion recipe
+[09:49:03] [Server thread/INFO]: [Disease] Loaded Remedy HenstoothPotion
+[09:49:03] [Server thread/INFO]: [Disease] §aAdding remedy: BrightWater
+[09:49:03] [Server thread/INFO]: [Disease] Loading Remedy BrightWater
+[09:49:03] [Server thread/INFO]: [Disease] Building remedy BrightWater Shapeless Recipe
+[09:49:03] [Server thread/INFO]: §9Creating custom BrightWater recipe
+[09:49:03] [Server thread/INFO]: [Disease] Loaded Remedy BrightWater
+[09:49:03] [Server thread/INFO]: [Disease] Loading choking items: [APPLE, BREAD, PORKCHOP, COOKED_PORKCHOP, FISH, COOKED_FISH, BEEF, COOKED_BEEF, CHICKEN, COOKED_CHICKEN, CARROT, POTATO, BAKED_POTATO, RABBIT, RABBIT_STEW, MUTTON, COOKED_MUTTON]
+[09:49:03] [Server thread/INFO]: [Disease] §aBYTE scoreboard disabled in config
+[09:49:03] [Server thread/INFO]: §aCreating Disease Vial Recipe
+[09:49:03] [Server thread/INFO]: §aCreating Syringe Recipe
+[09:49:03] [Server thread/INFO]: §aCreating vaccines Recipe
+[09:49:03] [Server thread/INFO]: §aCreating Disease Arrow Recipe
+[09:49:03] [Server thread/INFO]: §aCreating cold water recipe
+[09:49:03] [Server thread/INFO]: §aCreating boiling milk recipe
+[09:49:03] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[09:49:03] [Server thread/INFO]: [Disease] Curing player adepen1210
+[09:49:03] [Server thread/INFO]: [Disease] §cThanks for using the BYTE Disease plugin - www.byte.org.uk!
+[09:49:03] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[09:49:04] [Server thread/INFO]: adepen1210: Reload complete.
+[09:49:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11904ms or 238 ticks behind
+[09:49:04] [Server thread/INFO]: Timings Reset
+[09:49:04] [Craft Scheduler Thread - 17 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:49:04] [Craft Scheduler Thread - 17 - Essentials/INFO]: [Essentials] Fetching version information...
+[09:49:04] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[09:49:04] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:49:04] [Craft Scheduler Thread - 19 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:49:04] [Craft Scheduler Thread - 19 - Vault/INFO]: [Vault] No new version available
+[09:49:04] [Craft Scheduler Thread - 15 - JustTPA/INFO]: [JustTPA] You are using the latest version for your server.
+[09:49:04] [Server thread/INFO]: adepen1210 issued server command: /ver
+[09:49:11] [User Authenticator #2/INFO]: UUID of player kkk2z1 is b320805e-c396-3052-8250-9d305d34a13a
+[09:49:11] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[09:49:12] [Server thread/INFO]: [Disease] Loaded player kkk2z1
+[09:49:12] [Server thread/INFO]: [Disease] Curing player kkk2z1
+[09:49:12] [Server thread/INFO]: kkk2z1 joined the game
+[09:49:12] [Server thread/INFO]: kkk2z1[/10.0.0.1:37844] logged in with entity id 705 at ([world]89.89418809405967, 109.61240472535172, -13.821398201034787)
+[09:49:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:49:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:49:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:49:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:49:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:49:12] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:49:13] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5070f8c7-6bc9-4a81-9adf-c1123243424a, mapped to Bat['Bat'/719, uuid='5070f8c7-6bc9-4a81-9adf-c1123243424a', l='ServerLevel[world]', x=182.49, y=-35.77, z=24.59, cpos=[11, 1], tl=1943, v=true], can't add Bat['Bat'/726, uuid='5070f8c7-6bc9-4a81-9adf-c1123243424a', l='ServerLevel[world]', x=185.70, y=-34.29, z=43.04, cpos=[11, 2], tl=2151, v=false]
+[09:49:14] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5070f8c7-6bc9-4a81-9adf-c1123243424a, mapped to Bat['Bat'/719, uuid='5070f8c7-6bc9-4a81-9adf-c1123243424a', l='ServerLevel[world]', x=182.49, y=-35.77, z=24.59, cpos=[11, 1], tl=1943, v=true], can't add Bat['Bat'/735, uuid='5070f8c7-6bc9-4a81-9adf-c1123243424a', l='ServerLevel[world]', x=190.45, y=-37.88, z=53.60, cpos=[11, 3], tl=2403, v=false]
+[09:49:34] [Netty Epoll Server IO #2/WARN]: [ViaVersion] ERROR IN Protocol1_20_5To1_20_3 IN REMAP OF SET_CREATIVE_MODE_SLOT (0x2F)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+[09:49:34] [Netty Epoll Server IO #2/WARN]: Source 0: com.viaversion.viaversion.rewriter.ItemRewriter$8 (Anonymous)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:98)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: Caused by: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+[09:49:34] [Netty Epoll Server IO #2/WARN]: Source 0: com.viaversion.viaversion.rewriter.ItemRewriter$8 (Anonymous)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: Caused by: java.lang.IllegalStateException: zip file closed
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaBackwards-5.0.3.jar//com.viaversion.viabackwards.protocol.v1_20_5to1_20_3.rewriter.BlockItemPacketRewriter1_20_5.handleItemToServer(BlockItemPacketRewriter1_20_5.java:383)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.rewriter.ItemRewriter.handleServerboundItem(ItemRewriter.java:577)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.rewriter.ItemRewriter$8.lambda$register$0(ItemRewriter.java:191)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.handle(PacketHandlers.java:179)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.api.protocol.AbstractProtocol.transform(AbstractProtocol.java:405)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.protocol.packet.PacketWrapperImpl.apply(PacketWrapperImpl.java:369)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.protocol.ProtocolPipelineImpl.transform(ProtocolPipelineImpl.java:122)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.connection.UserConnectionImpl.transform(UserConnectionImpl.java:337)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.connection.UserConnectionImpl.transformServerbound(UserConnectionImpl.java:318)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.api.connection.UserConnection.transformIncoming(UserConnection.java:248)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:53)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at ViaVersion-5.0.3.jar//com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:33)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[09:49:34] [Netty Epoll Server IO #2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[09:49:34] [Server thread/INFO]: adepen1210 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Source 0: com.viaversion.viaversion.rewriter.ItemRewriter$8 (Anonymous)
+[09:49:35] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[09:49:35] [Server thread/INFO]: adepen1210 left the game
+[09:49:46] [User Authenticator #2/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[09:49:46] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[09:49:46] [Server thread/INFO]: [Disease] Curing player adepen1210
+[09:49:46] [Server thread/INFO]: adepen1210 joined the game
+[09:49:46] [Server thread/INFO]: adepen1210[/10.0.0.1:58116] logged in with entity id 856 at ([world]205.44092716243074, 118.0, -211.24647032790392)
+[09:49:46] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:49:46] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:49:46] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:49:46] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:49:46] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:49:46] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:50:33] [Server thread/INFO]: adepen1210 issued server command: /give @p 1.19.4_netherite_smelthing_template
+[09:50:37] [Server thread/INFO]: adepen1210 issued server command: /give @p
+[09:50:46] [Server thread/INFO]: adepen1210 issued server command: /locate
+[09:51:19] [Server thread/INFO]: adepen1210 lost connection: Disconnected
+[09:51:19] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[09:51:19] [Server thread/INFO]: adepen1210 left the game
+[09:51:37] [User Authenticator #3/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[09:51:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:51:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:51:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:51:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:51:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:51:37] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:51:37] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[09:51:37] [Server thread/INFO]: [Disease] Curing player adepen1210
+[09:51:37] [Server thread/INFO]: adepen1210 joined the game
+[09:51:37] [Server thread/INFO]: adepen1210[/10.0.0.1:48012] logged in with entity id 1528 at ([world]262.1424453276932, 113.0, -173.2292866264769)
+[09:51:41] [Server thread/INFO]: kkk2z1 issued server command: /eagler
+[09:51:50] [Server thread/INFO]: adepen1210 lost connection: Disconnected
+[09:51:50] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[09:51:50] [Server thread/INFO]: adepen1210 left the game
+[09:51:59] [User Authenticator #3/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[09:52:00] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[09:52:00] [Server thread/INFO]: [Disease] Curing player adepen1210
+[09:52:00] [Server thread/INFO]: adepen1210 joined the game
+[09:52:00] [Server thread/INFO]: adepen1210[/10.0.0.1:41496] logged in with entity id 1831 at ([world]263.09125374998064, 113.00435224062119, -174.25696613026676)
+[09:52:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[09:52:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[09:52:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[09:52:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[09:52:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[09:52:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[09:52:15] [Server thread/INFO]: kkk2z1 issued server command: /kill adepen1210
+[09:52:15] [Server thread/INFO]: adepen1210 died
+[09:52:23] [Server thread/INFO]: adepen1210 issued server command: /grave
+[09:52:27] [Server thread/INFO]: kkk2z1 issued server command: /tp adepen1210
+[09:52:37] [Server thread/INFO]: adepen1210 issued server command: /tp 364 112 -174
+[09:52:41] [Async Chat Thread - #2/INFO]: [Not Secure] kkk2z1: ari (あり)
+[09:52:46] [Server thread/INFO]: adepen1210 issued server command: /tp 264 112 -174
+[09:52:46] [Server thread/INFO]: kkk2z1 issued server command: /tp adepen1210
+[09:52:51] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: un? (運？)
+[09:53:02] [Async Chat Thread - #2/INFO]: [Not Secure] kkk2z1: dekita (できた)
+[09:53:08] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 410e727f-3c53-4dd4-b8d0-fc0ffd228b8c, mapped to Bat['Bat'/796, uuid='410e727f-3c53-4dd4-b8d0-fc0ffd228b8c', l='ServerLevel[world]', x=239.44, y=-17.28, z=29.13, cpos=[14, 1], tl=3601, v=false], can't add Bat['Bat'/2542, uuid='410e727f-3c53-4dd4-b8d0-fc0ffd228b8c', l='ServerLevel[world]', x=256.52, y=-21.23, z=-1.25, cpos=[16, -1], tl=4639, v=false]
+[09:53:08] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 99904631-4bcc-4d24-9dd7-96676d3fa2a2, mapped to Bat['Bat'/798, uuid='99904631-4bcc-4d24-9dd7-96676d3fa2a2', l='ServerLevel[world]', x=235.50, y=-2.42, z=32.20, cpos=[14, 2], tl=2414, v=false], can't add Bat['Bat'/2555, uuid='99904631-4bcc-4d24-9dd7-96676d3fa2a2', l='ServerLevel[world]', x=254.32, y=-3.42, z=11.66, cpos=[15, 0], tl=1358, v=false]
+[09:53:09] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 99904631-4bcc-4d24-9dd7-96676d3fa2a2, mapped to Bat['Bat'/798, uuid='99904631-4bcc-4d24-9dd7-96676d3fa2a2', l='ServerLevel[world]', x=235.50, y=-2.42, z=32.20, cpos=[14, 2], tl=2414, v=false], can't add Bat['Bat'/2573, uuid='99904631-4bcc-4d24-9dd7-96676d3fa2a2', l='ServerLevel[world]', x=250.25, y=-1.66, z=21.56, cpos=[15, 1], tl=1541, v=false]
+[09:53:10] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: a- sabakai? (あー サバ会？)
+[09:53:13] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: saba (サバ)
+[09:53:30] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: zyouzi kidou dekita kanzikai? (常時 機動 できた 幹事会？)
+[09:53:32] [Async Chat Thread - #2/INFO]: [Not Secure] kkk2z1: codesandbox なら常時起動できそうな気がする
+[09:53:44] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: a- (あー)
+[09:53:52] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: zyouzi kidouni seikouka (常時 起動に 性効果)
+[09:53:58] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: ugew (うげw)
+[09:55:01] [Server thread/WARN]: kkk2z1 moved too quickly! 17.15987870461845,3.5751322336897715,14.135431125842786
+[09:55:25] [Async Chat Thread - #4/INFO]: [Not Secure] kkk2z1: teka (てか)
+[09:55:33] [Async Chat Thread - #4/INFO]: [Not Secure] kkk2z1: codesandbox no houga memori ooi (娘で三d簿x の 法が メモリ 多い)
+[09:55:47] [Async Chat Thread - #4/INFO]: [Not Secure] adepen1210: ma? (魔？)
+[09:55:54] [Async Chat Thread - #4/INFO]: [Not Secure] kkk2z1: sonnna kannzixtupoi (そんな 感じっぽい)
+[09:56:01] [Server thread/INFO]: kkk2z1 issued server command: /ping
+[09:56:01] [Async Chat Thread - #4/INFO]: [Not Secure] adepen1210: he- (へー)
+[09:56:06] [Server thread/INFO]: kkk2z1 issued server command: /tps
+[09:57:13] [Server thread/INFO]: kkk2z1 lost connection: Disconnected
+[09:57:13] [Server thread/INFO]: [Disease] Saving Disease details for kkk2z1
+[09:57:13] [Server thread/INFO]: kkk2z1 left the game
+[09:57:13] [Server thread/INFO]: adepen1210 lost connection: Disconnected
+[09:57:13] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[09:57:13] [Server thread/INFO]: adepen1210 left the game
+[10:00:22] [User Authenticator #4/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[10:00:23] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[10:00:23] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:00:23] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:00:23] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:00:23] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:00:23] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:00:23] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[10:00:23] [Server thread/INFO]: [Disease] Curing player adepen1210
+[10:00:23] [Server thread/INFO]: adepen1210 joined the game
+[10:00:23] [Server thread/INFO]: adepen1210[/10.0.0.1:48580] logged in with entity id 3104 at ([world]340.3217283638028, 112.48642732554723, -106.64448513683907)
+[10:00:25] [User Authenticator #4/INFO]: UUID of player kkk2z1 is b320805e-c396-3052-8250-9d305d34a13a
+[10:00:25] [Server thread/INFO]: [Disease] Loaded player kkk2z1
+[10:00:25] [Server thread/INFO]: [Disease] Curing player kkk2z1
+[10:00:25] [Server thread/INFO]: kkk2z1 joined the game
+[10:00:25] [Server thread/INFO]: kkk2z1[/10.0.0.1:43202] logged in with entity id 3253 at ([world]343.1114628035756, 113.0, -90.88318544282032)
+[10:00:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[10:00:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:00:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:00:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:00:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:00:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:01:02] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: betuno plugin toka ireruyoteitte arimasukane( (別の pぅ銀 とか いれる予定って ありますかね（)
+[10:01:08] [Async Chat Thread - #6/INFO]: [Not Secure] kkk2z1: nai (ない)
+[10:01:14] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: a-( (あー（)
+[10:01:27] [Async Chat Thread - #6/INFO]: [Not Secure] kkk2z1: Test dasi (T絵st だし)
+[10:01:33] [Server thread/INFO]: kkk2z1 lost connection: Disconnected
+[10:01:33] [Server thread/INFO]: [Disease] Saving Disease details for kkk2z1
+[10:01:33] [Server thread/INFO]: kkk2z1 left the game
+[10:01:35] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: dana (だな)
+[10:01:55] [Server thread/INFO]: [Not Secure] [Server] チームズplz
+[10:01:57] [Server thread/INFO]: [Not Secure] [Server] 落ち
+[10:02:09] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: ok (おｋ)
+[10:02:18] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: teams iruyo (テアMS いるよ)
+[10:03:16] [Server thread/INFO]: adepen1210 issued server command: /summon enderman
+[10:03:16] [Server thread/INFO]: [adepen1210: Summoned new Enderman]
+[10:03:19] [Server thread/INFO]: adepen1210 issued server command: /summon enderman
+[10:03:19] [Server thread/INFO]: [adepen1210: Summoned new Enderman]
+[10:03:20] [Server thread/INFO]: adepen1210 issued server command: /summon enderman
+[10:03:20] [Server thread/INFO]: [adepen1210: Summoned new Enderman]
+[10:03:20] [Server thread/INFO]: adepen1210 issued server command: /summon enderman
+[10:03:20] [Server thread/INFO]: [adepen1210: Summoned new Enderman]
+[10:06:48] [Server thread/INFO]: adepen1210 lost connection: Disconnected
+[10:06:48] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[10:06:48] [Server thread/INFO]: adepen1210 left the game
+[10:07:48] [User Authenticator #5/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[10:07:48] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[10:07:48] [Server thread/INFO]: [Disease] Curing player adepen1210
+[10:07:48] [Server thread/INFO]: adepen1210 joined the game
+[10:07:48] [Server thread/INFO]: adepen1210[/10.0.0.1:46468] logged in with entity id 4445 at ([world]449.1125050838427, 74.23960356869091, -29.356346022071882)
+[10:07:48] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[10:07:48] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:07:48] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:07:48] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:07:48] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:07:48] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:09:11] [Server thread/INFO]: adepen1210 issued server command: /weather clear
+[10:13:25] [Server thread/INFO]: adepen1210 lost connection: Disconnected
+[10:13:25] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[10:13:25] [Server thread/INFO]: adepen1210 left the game
+[10:13:58] [User Authenticator #6/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[10:13:58] [Server thread/INFO]: [Disease] Loaded player adepen1210
+[10:13:58] [Server thread/INFO]: [Disease] Curing player adepen1210
+[10:13:58] [Server thread/INFO]: adepen1210 joined the game
+[10:13:58] [Server thread/INFO]: adepen1210[/10.0.0.1:32916] logged in with entity id 6000 at ([world]556.761655523342, 94.65237094028657, -50.93084864513583)
+[10:13:58] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[10:13:58] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:13:58] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:13:58] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:13:58] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:13:58] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:15:49] [Server thread/INFO]: Checking version, please wait...
+[10:15:49] [Thread-19/INFO]: This server is running Paper version 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+You are 38 version(s) behind
 Download the new version at: https://papermc.io/downloads/paper
-[11:28:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
-[11:28:18] [Server thread/INFO]: There are 2 out of maximum 100 players online.
-[11:28:18] [Server thread/INFO]: default: adepen1210, poteto_maru
-[11:28:45] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: konn tya (今 茶)
-[11:28:47] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: irongolem trap tukuruwaw (異論語ぇm t等p 作るわw)
-[11:28:48] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: w (w)
-[11:28:57] [Async Chat Thread - #0/INFO]: [Not Secure] adepen1210: aiango-remu torappu tukuruwa (アイアンゴーレム トラップ 作るわ)
-[11:28:58] [Async Chat Thread - #0/INFO]: [Not Secure] poteto_maru: honnyakuw (翻訳w)
-[11:29:22] [Async Chat Thread - #0/INFO]: [Not Secure] poteto_maru: teka sikakura mitaini nihonngo ninaruno (てか 資格等 みたいに 日本語 になるの)
-[11:29:26] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: un (運)
-[11:29:26] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: iine (いいね)
-[11:29:30] [Server thread/INFO]: [Not Secure] [Server] plugin 入れた
-[11:29:38] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: lunachat (ぅナチャt)
-[11:29:46] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: teka kore sabuaka () (てか これ サブ垢 （）)
-[11:29:47] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: tte puraguin (って プラグイン)
-[11:30:03] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210:  hehehehhehe ( へヘヘッへへ)
-[11:30:08] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: w (w)
-[11:30:14] [User Authenticator #1/INFO]: UUID of player kkk2z1 is b320805e-c396-3052-8250-9d305d34a13a
-[11:30:14] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:30:14] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:30:14] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:30:14] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:30:14] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:30:14] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:30:14] [Server thread/INFO]: [Disease] Loaded player kkk2z1
-[11:30:14] [Server thread/INFO]: [Disease] Curing player kkk2z1
-[11:30:14] [Server thread/INFO]: kkk2z1 joined the game
-[11:30:14] [Server thread/INFO]: kkk2z1[/[0:0:0:0:0:0:0:1]:41892] logged in with entity id 1195 at ([world]9.660766315260872, 62.406069650005335, 5.676846736810513)
-[11:30:15] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: a kara-ko-do tukaenn (あ カラーコード 使えん)
-[11:30:26] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: & de dekirundakedone (＆ で できるんだけどね)
-[11:30:35] [Async Chat Thread - #1/INFO]: [Not Secure] kkk2z1:  a ( あ)
-[11:30:39] [Async Chat Thread - #1/INFO]: [Not Secure] kkk2z1:  sekusu ( セクス)
-[11:30:40] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: konntyaa (混んちゃー)
-[11:30:44] [Async Chat Thread - #1/INFO]: [Not Secure] kkk2z1: ya (や)
-[11:30:45] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: sekkusu (セックス)
-[11:30:49] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: daro (だろ)
-[11:30:49] [Async Chat Thread - #1/INFO]: [Not Secure] poteto_maru: w (w)
-[11:30:51] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: koubun misu (構文 ミス)
-[11:30:53] [Async Chat Thread - #1/INFO]: [Not Secure] kkk2z1: ya (や)
-[11:30:53] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: daro (だろ)
-[11:30:56] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: ya (や)
-[11:31:00] [Async Chat Thread - #1/INFO]: [Not Secure] kkk2z1: sex (背x)
-[11:31:07] [Server thread/INFO]: adepen1210 issued server command: /tp @a adepen1210
-[11:31:16] [Server thread/INFO]: This server is running Paper version 1.21.1-82-master@1348e44 (2024-09-16T19:02:37Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-You are 37 version(s) behind
-Download the new version at: https://papermc.io/downloads/paper
-[11:31:22] [Async Chat Thread - #0/INFO]: [Not Secure] adepen1210: imakara otouto kima-su (今から 弟 きまーす)
-[11:31:25] [User Authenticator #2/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:31:26] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:31:26] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:31:26] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:31:26] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:31:26] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:31:26] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:31:26] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:31:26] [Server thread/INFO]: [Disease] Curing player st_piano
-[11:31:26] [Server thread/INFO]: st_piano joined the game
-[11:31:26] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:57110] logged in with entity id 1608 at ([world]124.1471014248367, 130.11568315942944, -21.295543997348485)
-[11:31:42] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: saba mesi sine (サバ 飯 しね)
-[11:32:01] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: anarogunaniwa sine (アナログなにわ しね)
-[11:32:02] [Server thread/INFO]: st_piano has made the advancement [Spooky Scary Skeleton]
-[11:32:09] [Async Chat Thread - #1/INFO]: [Not Secure] adepen1210: anarogu haniwa sine (アナログ は庭 しね)
-[11:32:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Failed to get old item for 383
-[11:32:37] [Server thread/INFO]: st_piano has made the advancement [Withering Heights]
-[11:33:32] [Server thread/INFO]: adepen1210 issued server command: /give @p
-[11:33:36] [Server thread/INFO]: adepen1210 issued server command: /
-[11:33:42] [Server thread/INFO]: kkk2z1 issued server command: /execute as @a[nbt={Spawned:0}] run tp @s ~215 ~215 ~215
-[11:33:47] [Async Chat Thread - #2/INFO]: [Not Secure] kkk2z1: a (あ)
-[11:33:52] [Server thread/INFO]: kkk2z1 issued server command: /execute as @a[nbt={Spawned:0}] run tp @s ~215 ~215 ~215
-[11:33:59] [Async Chat Thread - #2/INFO]: [Not Secure] adepen1210: nasita (なした)
-[11:34:01] [Server thread/INFO]: kkk2z1 issued server command: /execute as @a[nbt={Spawned:0}] run tp @s ~215 ~215 ~215
-[11:34:17] [Server thread/INFO]: kkk2z1 issued server command: /spawn
-[11:34:21] [Async Chat Thread - #3/INFO]: [Not Secure] kkk2z1: ... (。。。)
-[11:34:29] [Server thread/INFO]: poteto_maru was shot by a skull from Wither
-[11:34:29] [Server thread/INFO]: st_piano issued server command: /effect give @s minecraft:strength 999 2444
-[11:34:32] [Server thread/INFO]: st_piano issued server command: /effect give @s minecraft:strength 999 244
-[11:34:32] [Server thread/INFO]: [st_piano: Applied effect Strength to st_piano]
-[11:34:35] [Async Chat Thread - #2/INFO]: [Not Secure] poteto_maru: fa (ファ)
-[11:34:48] [Server thread/INFO]: [Disease] infecting player poteto_maru with BrokenLeg
-[11:34:59] [Server thread/INFO]: kkk2z1 has made the advancement [Spooky Scary Skeleton]
-[11:35:09] [Server thread/INFO]: kkk2z1 has made the advancement [Withering Heights]
-[11:35:19] [Server thread/INFO]: Villager Villager['Librarian'/2692, uuid='12f1b01e-5b34-4789-8505-ca275c186293', l='ServerLevel[world]', x=226.67, y=117.88, z=-202.50, cpos=[14, -13], tl=449, v=true] died, message: 'Librarian was slain by Zombie'
-[11:35:20] [Thread-9/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.entity.CraftVillager$CraftProfession
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
-[11:35:20] [Thread-9/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
-[11:35:20] [Thread-9/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[11:35:20] [Thread-9/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
-[11:35:20] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[11:35:20] [Thread-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[11:35:20] [Server thread/INFO]: kkk2z1 lost connection: Disconnected
-[11:35:20] [Server thread/INFO]: [Disease] Saving Disease details for kkk2z1
-[11:35:20] [Server thread/INFO]: kkk2z1 left the game
-[11:35:24] [Server thread/INFO]: Villager Villager['Librarian'/2694, uuid='c37f08f7-b287-4c2e-9634-453aa0bcbd9e', l='ServerLevel[world]', x=226.43, y=117.88, z=-202.35, cpos=[14, -13], tl=529, v=true] died, message: 'Librarian was slain by Zombie'
-[11:35:25] [Thread-9/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.entity.CraftVillager$CraftProfession
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
-[11:35:25] [Thread-9/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
-[11:35:25] [Thread-9/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[11:35:25] [Thread-9/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
-[11:35:25] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[11:35:25] [Thread-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[11:35:32] [Server thread/INFO]: Villager Villager['Villager'/355, uuid='20e41a24-efb0-4d68-b4ab-ad2923059d18', l='ServerLevel[world]', x=165.71, y=43.56, z=-153.59, cpos=[10, -10], tl=14643, v=true] died, message: 'Villager was slain by Zombie'
-[11:35:33] [Thread-9/WARN]: java.io.NotSerializableException: org.bukkit.craftbukkit.entity.CraftVillager$CraftProfession
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
-[11:35:33] [Thread-9/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.util.ArrayList.writeObject(ArrayList.java:948)
-[11:35:33] [Thread-9/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1072)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.statement.EntityStatement.insert(EntityStatement.java:27)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:49)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[11:35:33] [Thread-9/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.ResultSet.next()" because "resultSet" is null
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.database.logger.EntityKillLogger.log(EntityKillLogger.java:51)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.EntityKillProcess.process(EntityKillProcess.java:24)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.process.Process.processConsumer(Process.java:205)
-[11:35:33] [Thread-9/WARN]: 	at CoreProtect-22.4.jar//net.coreprotect.consumer.Consumer.run(Consumer.java:133)
-[11:35:33] [Thread-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[11:35:50] [Server thread/INFO]: adepen1210 issued server command: /ver
-[11:36:12] [Server thread/INFO]: poteto_maru was slain by Drowned
-[11:36:24] [Async Chat Thread - #4/INFO]: [Not Secure] adepen1210: doraundoka (ドラウンド化)
-[11:36:27] [Async Chat Thread - #4/INFO]: [Not Secure] adepen1210: doraundo ka (ドラウンド 化)
-[11:36:49] [Server thread/INFO]: poteto_maru was shot by a skull from Wither
-[11:36:52] [Server thread/INFO]: adepen1210 has reached the goal [Sky's the Limit]
-[11:36:52] [Async Chat Thread - #4/INFO]: [Not Secure] poteto_maru: omonnna (お門な)
-[11:37:00] [Server thread/INFO]: adepen1210 issued server command: /
-[11:37:02] [Server thread/INFO]: poteto_maru was blown up by Wither
-[11:37:17] [Server thread/INFO]: poteto_maru lost connection: Disconnected
-[11:37:17] [Server thread/INFO]: [Disease] Saving Disease details for poteto_maru
-[11:37:17] [Server thread/INFO]: poteto_maru left the game
-[11:37:17] [Server thread/INFO]: st_piano issued server command: /tp poteto_maru
-[11:37:25] [User Authenticator #3/INFO]: UUID of player poteto_maru is ba49d456-32b9-3c85-9870-8a5694568334
-[11:37:25] [Server thread/INFO]: [Disease] Loaded player poteto_maru
-[11:37:25] [Server thread/INFO]: poteto_maru joined the game
-[11:37:25] [Server thread/INFO]: poteto_maru[/[0:0:0:0:0:0:0:1]:50216] logged in with entity id 4063 at ([world]21.136732579003983, 95.0, -44.69999998807907)
-[11:37:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:37:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:37:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:37:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:37:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:37:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:37:28] [Server thread/INFO]: st_piano issued server command: /otp poteto_maru
-[11:37:39] [Server thread/INFO]: poteto_maru lost connection: Disconnected
-[11:37:39] [Server thread/INFO]: [Disease] Saving Disease details for poteto_maru
-[11:37:39] [Server thread/INFO]: poteto_maru left the game
-[11:37:45] [Server thread/INFO]: adepen1210 issued server command: /tpahere
-[11:37:52] [Server thread/INFO]: adepen1210 issued server command: /tpahere poteto
-[11:37:52] [User Authenticator #3/INFO]: UUID of player minecraft_5224 is 6031fe0f-ae22-3a75-a211-b7193f82084e
-[11:37:52] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:37:52] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:37:52] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:37:52] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:37:52] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:37:52] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:37:52] [Server thread/INFO]: [Disease] Loaded player minecraft_5224
-[11:37:52] [Server thread/INFO]: [Disease] Curing player minecraft_5224
-[11:37:52] [Server thread/INFO]: minecraft_5224 joined the game
-[11:37:52] [Server thread/INFO]: minecraft_5224[/[0:0:0:0:0:0:0:1]:35212] logged in with entity id 4296 at ([world]28.48192353808761, 107.0, -39.091013966340135)
-[11:38:04] [Server thread/INFO]: adepen1210 issued server command: /tpahere minecraft_5224
-[11:38:11] [Server thread/INFO]: minecraft_5224 was slain by st_piano
-[11:38:11] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: ./tpaccept (。／tパッセpt)
-[11:38:16] [Async Chat Thread - #6/INFO]: [Not Secure] minecraft_5224: feee (フェええ)
-[11:38:22] [Async Chat Thread - #7/INFO]: [Not Secure] st_piano: a gomen (あ ごめん)
-[11:38:38] [Server thread/INFO]: adepen1210 issued server command: /tpahere minecraft_5224
-[11:38:41] [Server thread/INFO]: adepen1210 issued server command: /tpahere minecraft_5224
-[11:38:44] [Server thread/INFO]: st_piano issued server command: /effect clear
-[11:38:44] [Server thread/INFO]: [st_piano: Removed every effect from st_piano]
-[11:38:46] [Async Chat Thread - #7/INFO]: [Not Secure] adepen1210: summon (スッ門)
-[11:38:52] [Server thread/INFO]: adepen1210 issued server command: /summon enderman
-[11:38:52] [Server thread/INFO]: [adepen1210: Summoned new Enderman]
-[11:39:10] [Server thread/INFO]: adepen1210 issued server command: /tpahere minecraft_5224
-[11:39:18] [Async Chat Thread - #7/INFO]: [Not Secure] adepen1210: ./tpaccept (。／tパッセpt)
-[11:39:55] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:40:00] [Async Chat Thread - #7/INFO]: [Not Secure] adepen1210: haikou hakken (廃校 発見)
-[11:40:07] [Server thread/INFO]: minecraft_5224 has made the advancement [Diamonds!]
-[11:40:11] [Async Chat Thread - #6/INFO]: [Not Secure] minecraft_5224: e w (絵 w)
-[11:40:19] [Async Chat Thread - #6/INFO]: [Not Secure] adepen1210: ./tpa (。／tパ)
-[11:40:49] [Server thread/INFO]: st_piano issued server command: /enchant alldamage
-[11:40:54] [Server thread/INFO]: adepen1210 issued server command: /give @p mobspawner
-[11:40:54] [Server thread/INFO]: st_piano issued server command: /enchant alldamage
-[11:40:56] [Server thread/INFO]: minecraft_5224 issued server command: /gamemode c
-[11:40:56] [Server thread/INFO]: [Essentials] minecraft_5224 was denied access to command.
-[11:40:58] [Server thread/INFO]: adepen1210 issued server command: /give @p mob
-[11:41:03] [Server thread/INFO]: adepen1210 issued server command: /give @p spawner
-[11:41:03] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:287) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[11:41:03] [Server thread/INFO]: minecraft_5224 has made the advancement [Cover Me with Diamonds]
-[11:41:04] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:41:06] [Server thread/INFO]: adepen1210 issued server command: /give @p spawner
-[11:41:06] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:287) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[11:41:13] [Server thread/INFO]: adepen1210 issued server command: /give spawner
-[11:41:19] [Server thread/INFO]: adepen1210 issued server command: /give mobspawner
-[11:41:21] [Server thread/INFO]: st_piano issued server command: /enchant sharpness 10
-[11:41:24] [Server thread/INFO]: st_piano issued server command: /enchant sharpness 10
-[11:41:34] [Server thread/INFO]: st_piano issued server command: /enchant sharpness 4
-[11:41:51] [Server thread/INFO]: st_piano issued server command: /enchant sweepingedge
-[11:41:55] [Server thread/INFO]: st_piano issued server command: /enchant sweepingedge 2
-[11:42:13] [Server thread/INFO]: adepen1210 issued server command: /effect @s strngth 9999
-[11:42:16] [Server thread/INFO]: st_piano issued server command: /enchant fireaspect
-[11:42:19] [Server thread/INFO]: st_piano issued server command: /enchant fireaspect 2
-[11:42:24] [Server thread/INFO]: st_piano issued server command: /enchant fireaspect  3
-[11:42:28] [Server thread/INFO]: st_piano issued server command: /enchant fireaspect
-[11:42:36] [Server thread/INFO]: st_piano issued server command: /enchant fireaspect 2
-[11:42:42] [Server thread/INFO]: minecraft_5224 has made the advancement [Stone Age]
-[11:42:54] [Server thread/INFO]: adepen1210 issued server command: /rtp
-[11:43:05] [Server thread/INFO]: st_piano issued server command: /enchant
-[11:43:21] [Server thread/INFO]: adepen1210 issued server command: /gamemode s
-[11:45:15] [User Authenticator #4/INFO]: UUID of player zenisu__ is 66907cc0-b309-332c-b106-002817defaa4
-[11:45:15] [Server thread/INFO]: [Disease] Loaded player zenisu__
-[11:45:15] [Server thread/INFO]: [Disease] Curing player zenisu__
-[11:45:15] [Server thread/INFO]: zenisu__ joined the game
-[11:45:15] [Server thread/INFO]: zenisu__[/[0:0:0:0:0:0:0:1]:57030] logged in with entity id 6142 at ([world]25.5, 112.0, -41.5)
-[11:45:15] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:45:15] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:45:15] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:45:15] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:45:15] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:45:15] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:45:21] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: kon (コン)
-[11:45:26] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: kontiha (こんちは)
-[11:45:42] [Server thread/INFO]: st_piano issued server command: /gamemode s
-[11:46:10] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:46:17] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:46:22] [Async Chat Thread - #9/INFO]: [Not Secure] zenisu__: ping takasugiru (ピンg 高すぎる)
-[11:46:26] [Async Chat Thread - #9/INFO]: [Not Secure] adepen1210: wwww (wwww)
-[11:46:38] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:46:43] [Server thread/INFO]: zenisu__ has made the advancement [Stone Age]
-[11:46:44] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:46:54] [Server thread/INFO]: [Disease] infecting player minecraft_5224 with BrokenLeg
-[11:46:55] [Server thread/INFO]: zenisu__ has made the advancement [Getting an Upgrade]
-[11:47:08] [Server thread/INFO]: zenisu__ was burned to a crisp while fighting st_piano
-[11:47:23] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:47:25] [Server thread/INFO]: zenisu__ lost connection: Disconnected
-[11:47:25] [Server thread/INFO]: [Disease] Saving Disease details for zenisu__
-[11:47:25] [Server thread/INFO]: zenisu__ left the game
-[11:47:32] [User Authenticator #5/INFO]: UUID of player zenisu__ is 66907cc0-b309-332c-b106-002817defaa4
-[11:47:32] [Server thread/INFO]: [Disease] Loaded player zenisu__
-[11:47:32] [Server thread/INFO]: [Disease] Curing player zenisu__
-[11:47:32] [Server thread/INFO]: zenisu__ joined the game
-[11:47:32] [Server thread/INFO]: zenisu__[/[0:0:0:0:0:0:0:1]:38674] logged in with entity id 6855 at ([world]46.44825210930529, 100.0, -61.297154246356946)
-[11:47:32] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:47:32] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:47:32] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:47:32] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:47:32] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:47:32] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:47:35] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:47:39] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:47:45] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:47:46] [Server thread/INFO]: zenisu__ lost connection: Disconnected
-[11:47:46] [Server thread/INFO]: [Disease] Saving Disease details for zenisu__
-[11:47:46] [Server thread/INFO]: zenisu__ left the game
-[11:47:51] [Server thread/WARN]: minecraft_5224 moved wrongly!
-[11:47:52] [User Authenticator #5/INFO]: UUID of player zenisu__ is 66907cc0-b309-332c-b106-002817defaa4
-[11:47:52] [Server thread/INFO]: [Disease] Loaded player zenisu__
-[11:47:52] [Server thread/INFO]: [Disease] Curing player zenisu__
-[11:47:52] [Server thread/INFO]: zenisu__ joined the game
-[11:47:52] [Server thread/INFO]: zenisu__[/[0:0:0:0:0:0:0:1]:48564] logged in with entity id 6929 at ([world]47.25003261149483, 100.0, -60.65298422012438)
-[11:47:52] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:47:52] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:47:52] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:47:52] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:47:52] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:47:52] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:48:00] [Server thread/INFO]: st_piano issued server command: /gamemode c
-[11:48:06] [Server thread/INFO]: zenisu__ lost connection: Disconnected
-[11:48:06] [Server thread/INFO]: [Disease] Saving Disease details for zenisu__
-[11:48:06] [Server thread/INFO]: zenisu__ left the game
-[11:48:12] [Server thread/INFO]: adepen1210 has made the advancement [Getting an Upgrade]
-[11:48:13] [User Authenticator #5/INFO]: UUID of player zenisu__ is 66907cc0-b309-332c-b106-002817defaa4
-[11:48:13] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:48:13] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:48:13] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:48:13] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:48:13] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:48:13] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:48:13] [Server thread/INFO]: [Disease] Loaded player zenisu__
-[11:48:13] [Server thread/INFO]: [Disease] Curing player zenisu__
-[11:48:13] [Server thread/INFO]: zenisu__ joined the game
-[11:48:13] [Server thread/INFO]: zenisu__[/[0:0:0:0:0:0:0:1]:36012] logged in with entity id 7048 at ([world]46.272306015179254, 101.0, -59.95541964285667)
-[11:48:21] [Server thread/INFO]: st_piano issued server command: /gamemode s
-[11:48:24] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:49:12] [Server thread/WARN]: st_piano moved wrongly!
-[11:49:45] [Server thread/INFO]: st_piano issued server command: /kill minecraft_5224
-[11:49:45] [Server thread/INFO]: minecraft_5224 died
-[11:50:15] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:50:25] [Server thread/INFO]: st_piano issued server command: /tp zenisu__
-[11:50:31] [Server thread/INFO]: zenisu__ has made the advancement [Acquire Hardware]
-[11:50:39] [Server thread/INFO]: zenisu__ was slain by st_piano
-[11:50:45] [Async Chat Thread - #10/INFO]: [Not Secure] zenisu__: hu (負)
-[11:50:52] [Async Chat Thread - #10/INFO]: [Not Secure] st_piano: hu (負)
-[11:50:59] [Async Chat Thread - #10/INFO]: [Not Secure] st_piano: im op (異ｍ おｐ)
-[11:51:16] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:51:23] [Server thread/INFO]: [Disease] infecting player st_piano with BrokenLeg
-[11:51:32] [Server thread/INFO]: minecraft_5224 was slain by st_piano
-[11:51:39] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:51:49] [Server thread/INFO]: minecraft_5224 was doomed to fall
-[11:51:53] [Server thread/INFO]: st_piano issued server command: /tp minecraft_5224
-[11:51:59] [Server thread/INFO]: adepen1210 issued server command: /kill st_piano
-[11:51:59] [Server thread/INFO]: st_piano died
-[11:52:06] [Server thread/INFO]: zenisu__ has made the advancement [Isn't It Iron Pick]
-[11:52:09] [Async Chat Thread - #12/INFO]: [Not Secure] adepen1210: korosisugidesu (殺しすぎです)
-[11:52:14] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:52:14] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:52:14] [Server thread/INFO]: st_piano left the game
-[11:52:20] [User Authenticator #6/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:52:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:52:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:52:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:52:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:52:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:52:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:52:20] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:52:20] [Server thread/INFO]: st_piano joined the game
-[11:52:20] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:35460] logged in with entity id 8265 at ([world]26.5, 107.0, -50.5)
-[11:52:28] [Server thread/INFO]: adepen1210 issued server command: /
-[11:52:33] [Server thread/INFO]: st_piano issued server command: /kill all
-[11:52:34] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:52:34] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:52:34] [Server thread/INFO]: st_piano left the game
-[11:52:40] [User Authenticator #6/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:52:40] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:52:40] [Server thread/INFO]: st_piano joined the game
-[11:52:40] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:54586] logged in with entity id 8370 at ([world]26.497108053560012, 108.0, -49.08716211801434)
-[11:52:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:52:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:52:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:52:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:52:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:52:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:52:54] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:52:54] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:52:54] [Server thread/INFO]: st_piano left the game
-[11:53:01] [User Authenticator #6/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:53:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:53:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:53:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:53:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:53:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:53:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:53:01] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:53:01] [Server thread/INFO]: st_piano joined the game
-[11:53:01] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:41302] logged in with entity id 8490 at ([world]28.179418268614157, 106.0, -39.951995945843564)
-[11:53:15] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:53:15] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:53:15] [Server thread/INFO]: st_piano left the game
-[11:53:22] [Server thread/INFO]: minecraft_5224 has made the advancement [Getting an Upgrade]
-[11:53:27] [User Authenticator #6/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:53:27] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:53:27] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:53:27] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:53:27] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:53:27] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:53:27] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:53:27] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:53:27] [Server thread/INFO]: st_piano joined the game
-[11:53:27] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:37040] logged in with entity id 8589 at ([world]28.214543962259555, 106.0, -41.24159952000255)
-[11:53:29] [Server thread/INFO]: zenisu__ has made the advancement [Suit Up]
-[11:53:41] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:53:41] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:53:41] [Server thread/INFO]: st_piano left the game
-[11:53:47] [User Authenticator #6/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:53:47] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:53:47] [Server thread/INFO]: st_piano joined the game
-[11:53:47] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:59160] logged in with entity id 8680 at ([world]42.69999998807907, 98.0, -37.626892055316944)
-[11:53:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:53:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:53:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:53:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:53:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:53:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:53:56] [Server thread/INFO]: st_piano issued server command: /kill
-[11:54:02] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:54:02] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:54:02] [Server thread/INFO]: st_piano left the game
-[11:54:07] [User Authenticator #6/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:54:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:54:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:54:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:54:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:54:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:54:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:54:07] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:54:07] [Server thread/INFO]: st_piano joined the game
-[11:54:07] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:49314] logged in with entity id 8775 at ([world]42.69999998807907, 98.0, -37.626892055316944)
-[11:54:11] [Server thread/INFO]: st_piano issued server command: /rtp
-[11:54:21] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:54:21] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:54:21] [Server thread/INFO]: st_piano left the game
-[11:55:28] [User Authenticator #7/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:55:28] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:55:28] [Server thread/INFO]: st_piano joined the game
-[11:55:28] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:35216] logged in with entity id 9164 at ([world]42.69999998807907, 98.0, -37.626892055316944)
-[11:55:28] [Server thread/INFO]: minecraft_5224 died
-[11:55:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:55:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:55:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:55:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:55:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:55:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:55:32] [Server thread/INFO]: st_piano issued server command: /rtp
-[11:55:33] [Server thread/INFO]: st_piano issued server command: /kill
-[11:55:43] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:55:43] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:55:43] [Server thread/INFO]: st_piano left the game
-[11:55:44] [Async Chat Thread - #14/INFO]: [Not Secure] adepen1210: tetuwo atumerutameni Y50 made kouka tyuu (鉄を 集めるために Y５０ まで 効果 中)
-[11:55:50] [User Authenticator #7/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:55:50] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:55:50] [Server thread/INFO]: st_piano joined the game
-[11:55:50] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:60180] logged in with entity id 9250 at ([world]37.39389243681898, 93.0, -44.028998360870254)
-[11:55:50] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:55:50] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:55:50] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:55:50] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:55:50] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:55:50] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:55:58] [Server thread/INFO]: st_piano issued server command: /rtp
-[11:55:59] [Async Chat Thread - #16/INFO]: [Not Secure] zenisu__: tetuima32ko (鉄今３２個)
-[11:56:01] [Server thread/INFO]: minecraft_5224 has made the advancement [Acquire Hardware]
-[11:56:03] [Async Chat Thread - #16/INFO]: [Not Secure] adepen1210: eguw (エグw)
-[11:56:04] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:56:04] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:56:04] [Server thread/INFO]: st_piano left the game
-[11:56:21] [User Authenticator #7/INFO]: UUID of player st_piano is 6f4b4988-dc45-3395-8aac-d91f9aee243f
-[11:56:21] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[11:56:21] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[11:56:21] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[11:56:21] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[11:56:21] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[11:56:21] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[11:56:21] [Server thread/INFO]: [Disease] Loaded player st_piano
-[11:56:21] [Server thread/INFO]: st_piano joined the game
-[11:56:21] [Server thread/INFO]: st_piano[/[0:0:0:0:0:0:0:1]:44008] logged in with entity id 9377 at ([world]45.45035293707856, 102.09534301202932, -35.30000001192093)
-[11:56:27] [Server thread/INFO]: st_piano issued server command: /rtp
-[11:56:27] [Async Chat Thread - #16/INFO]: [Not Secure] zenisu__: sabaibarugatizei (サバイバルガチ勢)
-[11:56:32] [Async Chat Thread - #16/INFO]: [Not Secure] adepen1210: kusa (草)
-[11:56:34] [Server thread/INFO]: st_piano issued server command: /
-[11:56:36] [Server thread/INFO]: st_piano lost connection: Disconnected
-[11:56:36] [Server thread/INFO]: [Disease] Saving Disease details for st_piano
-[11:56:36] [Server thread/INFO]: st_piano left the game
-[11:57:28] [Server thread/INFO]: adepen1210 issued server command: /gamemode spec
-[11:58:03] [Server thread/INFO]: minecraft_5224 lost connection: Disconnected
-[11:58:03] [Server thread/INFO]: [Disease] Saving Disease details for minecraft_5224
-[11:58:03] [Server thread/INFO]: minecraft_5224 left the game
-[11:58:12] [Server thread/INFO]: adepen1210 issued server command: /gamemode c
-[11:58:14] [Server thread/INFO]: adepen1210 issued server command: /gamemode s
-[11:58:34] [Server thread/INFO]: adepen1210 issued server command: /enchant @p fortune 3
-[11:58:38] [Server thread/INFO]: adepen1210 issued server command: /enchant @p fortune
-[11:58:45] [Server thread/INFO]: adepen1210 issued server command: /enchant fortune 3
-[11:58:54] [Async Chat Thread - #17/INFO]: [Not Secure] zenisu__: sorosorootirukamo (そろそろ落ちるかも)
-[11:58:57] [Async Chat Thread - #17/INFO]: [Not Secure] adepen1210: ok (おｋ)
-[11:59:07] [Async Chat Thread - #17/INFO]: [Not Secure] zenisu__: 10zigurainiaitetarahairu (１０時ぐらいに空いてたら入る)
-[11:59:58] [Server thread/INFO]: adepen1210 issued server command: /give cookedbeef 64
-[12:00:02] [Server thread/INFO]: adepen1210 issued server command: /give cookedbeef
-[12:00:11] [Server thread/INFO]: adepen1210 issued server command: /give cookedfish
-[12:00:14] [Server thread/INFO]: zenisu__ lost connection: Disconnected
-[12:00:14] [Server thread/INFO]: [Disease] Saving Disease details for zenisu__
-[12:00:14] [Server thread/INFO]: zenisu__ left the game
-[12:00:16] [Server thread/INFO]: adepen1210 issued server command: /give
-[12:00:26] [Server thread/INFO]: adepen1210 issued server command: /give @p fish
-[12:00:26] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:287) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[12:00:40] [Server thread/INFO]: adepen1210 issued server command: /gamemode c
-[12:00:57] [Server thread/INFO]: adepen1210 issued server command: /gamemode s
-[12:01:26] [Server thread/INFO]: adepen1210 issued server command: /gamemode spec
-[12:01:47] [Async Chat Thread - #19/INFO]: [Not Secure] adepen1210: ima oredakekayo( (今 俺だけかよ（)
-[12:01:55] [Async Chat Thread - #19/INFO]: [Not Secure] adepen1210: samisiina (さみしいな)
-[12:02:39] [Server thread/INFO]: adepen1210 lost connection: Disconnected
-[12:02:39] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
-[12:02:39] [Server thread/INFO]: adepen1210 left the game
+[10:15:53] [Server thread/INFO]: [Not Secure] [Server] うおお
+[10:16:00] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: sugokunai?w (すごくない？w)
+[10:16:06] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: hutuuni ugoiteruyow (普通に 動いてるよw)
+[10:16:09] [User Authenticator #7/INFO]: UUID of player kkk2z1 is b320805e-c396-3052-8250-9d305d34a13a
+[10:16:09] [Server thread/INFO]: [Disease] Loaded player kkk2z1
+[10:16:09] [Server thread/INFO]: [Disease] Curing player kkk2z1
+[10:16:09] [Server thread/INFO]: kkk2z1 joined the game
+[10:16:09] [Server thread/INFO]: kkk2z1[/10.0.0.1:59320] logged in with entity id 6685 at ([world]360.9420069310831, 41.0, -29.269201717939247)
+[10:16:09] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[10:16:09] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:16:09] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:16:09] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:16:09] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:16:09] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:16:10] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: ikkai otitakedo (一回 落ちたけど)
+[10:16:13] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: mata hiraitara (また 開いたら)
+[10:16:16] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: ugokaseta (動かせた)
+[10:16:17] [Async Chat Thread - #8/INFO]: [Not Secure] kkk2z1: un (運)
+[10:16:19] [Async Chat Thread - #8/INFO]: [Not Secure] kkk2z1: o? (お？)
+[10:16:24] [Async Chat Thread - #9/INFO]: [Not Secure] kkk2z1: ma? (魔？)
+[10:16:27] [Async Chat Thread - #9/INFO]: [Not Secure] adepen1210: un (運)
+[10:16:33] [Server thread/INFO]: [Not Secure] [Server] ダウンしたのに動いたん!?
+[10:16:46] [Async Chat Thread - #9/INFO]: [Not Secure] adepen1210: hellow world no yatu hiraite resuta-to sitara iketa (へっぉw をrld の やつ 開いて レスターと したら 行けた)
+[10:16:55] [Async Chat Thread - #9/INFO]: [Not Secure] kkk2z1: o- seiko- (オー セイコー)
+[10:17:46] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: mite (見て)
+[10:17:51] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: ugokuyatu tukutta (動くやつ 作った)
+[10:17:51] [Server thread/INFO]: kkk2z1 issued server command: /tp adepen1210
+[10:18:04] [Async Chat Thread - #8/INFO]: [Not Secure] kkk2z1: o-- (オーー)
+[10:18:15] [Async Chat Thread - #8/INFO]: [Not Secure] adepen1210: tomaranaiyo burokku maeni okumade wwww (止まらないよ ブロック 前に 置くまで wwww)
+[10:19:16] [Server thread/INFO]: [Not Secure] [Server] 試しに
+[10:19:20] [Async Chat Thread - #10/INFO]: [Not Secure] adepen1210: un (運)
+[10:19:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+落として再起動できるか遊ぶ<--[HERE]
+[10:19:29] [Server thread/INFO]: [Not Secure] [Server] 落として再起動できるか遊ぶ
+[10:19:36] [Async Chat Thread - #10/INFO]: [Not Secure] adepen1210: ok (おｋ)
+[10:19:41] [Server thread/INFO]: Stopping server
+[10:19:41] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:117) ~[paper-1.21.1.jar:1.21.1-82-1348e44]
+Caused by: java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[10:19:41] [Server thread/INFO]: [Disease] Disabling Disease v4.2.4
+[10:19:41] [Server thread/INFO]: [Disease] Saving players to file
+[10:19:41] [Server thread/INFO]: [Disease] Saving Disease details for adepen1210
+[10:19:41] [Server thread/INFO]: [Disease] Saving Disease details for kkk2z1
+[10:19:41] [Server thread/INFO]: [Disease] Byeeee Thanks for using BYTE Disease plugin - www.byte.org.uk!
+[10:19:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[10:19:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[10:19:41] [Server thread/INFO]: [GodItems] Disabling GodItems v3.0.1
+[10:19:41] [Server thread/INFO]: [GodItems] Saved player inventories: true
+[10:19:41] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[10:19:41] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[10:19:41] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[10:19:41] [Server thread/INFO]: [LunaChat] Disabling LunaChat v3.0.16
+[10:19:41] [Server thread/INFO]: [QualityArmory] Disabling QualityArmory v2.0.15
+[10:19:41] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v8.1.0
+[10:19:41] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.1
+[10:19:41] [Server thread/INFO]: [JustTPA] Disabling JustTPA vv20240824-beta
+[10:19:41] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[10:19:41] [Server thread/INFO]: [ScoreboardStats] Disabling ScoreboardStats v0.10.6
+[10:19:41] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.2
+[10:19:41] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[10:19:41] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[10:19:42] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[10:19:42] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:19:42] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[10:19:42] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.3
+[10:19:42] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:19:42] [Server thread/INFO]: Saving players
+[10:19:42] [Server thread/INFO]: adepen1210 lost connection: Server closed
+[10:19:42] [Server thread/INFO]: adepen1210 left the game
+[10:19:42] [Server thread/INFO]: kkk2z1 lost connection: Server closed
+[10:19:42] [Server thread/INFO]: kkk2z1 left the game
+[10:19:42] [Server thread/INFO]: Saving worlds
+[10:19:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:19:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:19:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:19:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:19:43] [Server thread/INFO]: [ChunkHolderManager] Saved 755 block chunks, 497 entity chunks, 0 poi chunks in world 'world' in 1.10s
+[10:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[10:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:19:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
+[10:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

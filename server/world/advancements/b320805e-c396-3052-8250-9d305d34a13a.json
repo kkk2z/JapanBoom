@@ -7,10 +7,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-10-12 10:18:02 +0000",
       "minecraft:forest": "2024-09-16 21:14:53 +0000",
+      "minecraft:taiga": "2024-10-12 10:00:56 +0000",
       "minecraft:ocean": "2024-09-17 21:01:37 +0000",
       "minecraft:river": "2024-09-16 21:24:32 +0000",
       "minecraft:lukewarm_ocean": "2024-09-17 20:58:29 +0000",
+      "minecraft:meadow": "2024-10-12 09:49:25 +0000",
+      "minecraft:stony_shore": "2024-10-12 10:18:06 +0000",
+      "minecraft:lush_caves": "2024-10-12 10:01:04 +0000",
       "minecraft:plains": "2024-09-16 21:24:36 +0000"
     },
     "done": false
@@ -363,9 +368,9 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
+  "minecraft:recipes/misc/beacon": {
     "criteria": {
-      "wither_skull": "2024-10-09 11:34:59 +0000"
+      "has_nether_star": "2024-10-09 11:34:40 +0000"
     },
     "done": true
   },
@@ -381,21 +386,21 @@
     },
     "done": true
   },
-  "minecraft:nether/summon_wither": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "summoned": "2024-10-09 11:35:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2024-10-09 11:34:40 +0000"
+      "wither_skull": "2024-10-09 11:34:59 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
       "has_wither_skeleton_skull": "2024-10-09 11:34:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-10-09 11:35:09 +0000"
     },
     "done": true
   },

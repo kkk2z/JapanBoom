@@ -2921,3 +2921,297 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.api.platf
 12:01:25 [SEVERE] [EaglercraftXBungee] [DECODER][/[0:0:0:0:0:0:0:1%0]:53106] Packet TabCompleteRequest had extra bytes! (1)
 12:02:39 [INFO] [adepen1210] -> UpstreamBridge has disconnected
 12:02:39 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+09:45:22 [INFO] Using mbed TLS based native cipher.
+09:45:22 [INFO] Using zlib based native compressor.
+09:45:22 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:5341487:1859
+09:45:22 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:45:23 [INFO] Epoll is working, utilising it!
+09:45:23 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+09:45:23 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+09:45:23 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+09:45:23 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+09:45:23 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+09:45:23 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+09:45:23 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [WARNING] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+09:45:23 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+09:45:23 [WARNING] :>  
+09:45:23 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+09:45:23 [WARNING] :>  
+09:45:23 [WARNING] :>  This plugin wasn't tested to be 'working'
+09:45:23 [WARNING] :>  with ANY version of BungeeCord (and forks)
+09:45:23 [WARNING] :>  apart from the versions listed below:
+09:45:23 [WARNING] :>  
+09:45:23 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:8a88ce4:1849
+09:45:23 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+09:45:23 [WARNING] :>  
+09:45:23 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+09:45:23 [WARNING] :>  
+09:45:23 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+09:45:23 [WARNING] :>  
+09:45:23 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+09:45:23 [INFO] Loaded plugin EaglercraftXBungee version 1.2.6 by lax1dude
+09:45:23 [WARNING] Forced host server pvp is not defined
+09:45:23 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:45:23 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+09:45:23 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+09:45:23 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+09:45:23 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+09:45:23 [INFO] Enabled plugin EaglercraftXBungee version 1.2.6 by lax1dude
+09:45:23 [INFO] Listening on /0.0.0.0:25577
+09:45:24 [INFO] [EaglercraftXBungee] Loaded certificate: /project/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+09:46:33 [INFO] [EaglercraftXBungee] [/10.0.0.1:42332]: Connected via websocket
+09:46:33 [INFO] [EaglercraftXBungee] [/10.0.0.1:42332]: Origin header is null
+09:46:34 [INFO] [EaglercraftXBungee] [/10.0.0.1:42332]: Logged in as '1pop12'
+09:46:34 [INFO] [1pop12] -> UpstreamBridge has connected
+09:46:34 [INFO] [1pop12] <-> ServerConnector [lobby] has connected
+09:47:34 [INFO] [1pop12] -> UpstreamBridge has disconnected
+09:47:34 [INFO] [1pop12] <-> DownstreamBridge <-> [lobby] has disconnected
+09:47:46 [INFO] [EaglercraftXBungee] [/10.0.0.1:44796]: Connected via websocket
+09:47:46 [INFO] [EaglercraftXBungee] [/10.0.0.1:44796]: Origin header is null
+09:47:47 [INFO] [EaglercraftXBungee] [/10.0.0.1:44796]: Logged in as 'adepen1210'
+09:47:47 [INFO] [adepen1210] -> UpstreamBridge has connected
+09:47:47 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+09:48:16 [SEVERE] [EaglercraftXBungee] [DECODER][/10.0.0.1:44796] Packet TabCompleteRequest had extra bytes! (1)
+09:49:10 [INFO] [EaglercraftXBungee] [/10.0.0.1:59610]: Connected via websocket
+09:49:10 [INFO] [EaglercraftXBungee] [/10.0.0.1:59610]: Origin header is null
+09:49:11 [INFO] [EaglercraftXBungee] [/10.0.0.1:59610]: Logged in as 'kkk2z1'
+09:49:11 [INFO] [kkk2z1] -> UpstreamBridge has connected
+09:49:11 [INFO] [kkk2z1] <-> ServerConnector [lobby] has connected
+09:49:34 [INFO] [adepen1210] disconnected with: §fInternal Exception: io.netty.handler.codec.DecoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Source 0: com.viaversion.viaversion.rewriter.ItemRewriter$8 (Anonymous)
+09:49:34 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+09:49:34 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+09:49:45 [INFO] [EaglercraftXBungee] [/10.0.0.1:47500]: Connected via websocket
+09:49:45 [INFO] [EaglercraftXBungee] [/10.0.0.1:47500]: Origin header is null
+09:49:46 [INFO] [EaglercraftXBungee] [/10.0.0.1:47500]: Logged in as 'adepen1210'
+09:49:46 [INFO] [adepen1210] -> UpstreamBridge has connected
+09:49:46 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+09:50:07 [SEVERE] [EaglercraftXBungee] [DECODER][/10.0.0.1:47500] Packet TabCompleteRequest had extra bytes! (9)
+09:50:36 [SEVERE] [EaglercraftXBungee] [DECODER][/10.0.0.1:47500] Packet TabCompleteRequest had extra bytes! (9)
+09:51:19 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+09:51:19 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+09:51:35 [INFO] [EaglercraftXBungee] [/10.0.0.1:40608]: Connected via websocket
+09:51:35 [INFO] [EaglercraftXBungee] [/10.0.0.1:40608]: Origin header is null
+09:51:36 [INFO] [EaglercraftXBungee] [/10.0.0.1:40608]: Logged in as 'adepen1210'
+09:51:36 [INFO] [adepen1210] -> UpstreamBridge has connected
+09:51:36 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+09:51:50 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+09:51:50 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+09:51:58 [INFO] [EaglercraftXBungee] [/10.0.0.1:56438]: Connected via websocket
+09:51:58 [INFO] [EaglercraftXBungee] [/10.0.0.1:56438]: Origin header is null
+09:51:59 [INFO] [EaglercraftXBungee] [/10.0.0.1:56438]: Logged in as 'adepen1210'
+09:51:59 [INFO] [adepen1210] -> UpstreamBridge has connected
+09:51:59 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+09:57:13 [SEVERE] Exception in thread "main" 
+09:57:13 [SEVERE] java.io.IOException: Input/output error
+
+09:57:13 [SEVERE] 	at java.base/java.io.FileInputStream.read0(Native Method)
+
+09:57:13 [SEVERE] 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+
+09:57:13 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+
+09:57:13 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+
+09:57:13 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+
+09:57:13 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+
+09:57:13 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+
+09:57:13 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+
+09:57:13 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+
+09:57:13 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+
+09:57:13 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+
+09:57:13 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+
+09:57:13 [INFO] Closing listener [id: 0xc7058b8a, L:/[0:0:0:0:0:0:0:0%0]:25577]
+09:57:13 [INFO] Closing pending connections
+09:57:13 [INFO] Disconnecting 2 connections
+09:57:13 [INFO] [adepen1210] disconnected with: §f§cThe proxy server is restarting
+09:57:13 [INFO] [kkk2z1] disconnected with: §f§cThe proxy server is restarting
+09:57:13 [INFO] [kkk2z1] -> UpstreamBridge has disconnected
+09:57:13 [INFO] [kkk2z1] <-> DownstreamBridge <-> [lobby] has disconnected
+09:57:13 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+09:57:13 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+09:57:13 [INFO] Saving reconnect locations
+09:57:13 [INFO] Disabling plugins
+09:57:13 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+09:57:13 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+09:57:13 [INFO] Closing IO threads
+09:57:15 [INFO] Thank you and goodbye
+09:57:31 [INFO] Using mbed TLS based native cipher.
+09:57:31 [INFO] Using zlib based native compressor.
+09:57:31 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:5341487:1859
+09:57:31 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:57:31 [INFO] Epoll is working, utilising it!
+09:57:31 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+09:57:31 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+09:57:31 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+09:57:31 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+09:57:31 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+09:57:31 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+09:57:31 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:31 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:31 [WARNING] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+09:57:31 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:31 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:31 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:31 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:31 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+09:57:31 [WARNING] :>  
+09:57:31 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+09:57:31 [WARNING] :>  
+09:57:31 [WARNING] :>  This plugin wasn't tested to be 'working'
+09:57:31 [WARNING] :>  with ANY version of BungeeCord (and forks)
+09:57:31 [WARNING] :>  apart from the versions listed below:
+09:57:31 [WARNING] :>  
+09:57:31 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:8a88ce4:1849
+09:57:31 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:de8345a:579
+09:57:31 [WARNING] :>  
+09:57:31 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+09:57:31 [WARNING] :>  
+09:57:31 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+09:57:31 [WARNING] :>  
+09:57:31 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+09:57:32 [INFO] Loaded plugin EaglercraftXBungee version 1.2.6 by lax1dude
+09:57:32 [WARNING] Forced host server pvp is not defined
+09:57:32 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:32 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:32 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:32 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:32 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:32 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:5341487:1859 by SpigotMC
+09:57:32 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+09:57:32 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+09:57:32 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+09:57:32 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+09:57:32 [INFO] Enabled plugin EaglercraftXBungee version 1.2.6 by lax1dude
+09:57:32 [INFO] Listening on /0.0.0.0:25577
+09:57:33 [INFO] [EaglercraftXBungee] Loaded certificate: /project/workspace/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+10:00:21 [INFO] [EaglercraftXBungee] [/10.0.0.1:40348]: Connected via websocket
+10:00:21 [INFO] [EaglercraftXBungee] [/10.0.0.1:40348]: Origin header is null
+10:00:22 [INFO] [EaglercraftXBungee] [/10.0.0.1:40348]: Logged in as 'adepen1210'
+10:00:22 [INFO] [adepen1210] -> UpstreamBridge has connected
+10:00:22 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+10:00:24 [INFO] [EaglercraftXBungee] [/10.0.0.1:40362]: Connected via websocket
+10:00:24 [INFO] [EaglercraftXBungee] [/10.0.0.1:40362]: Origin header is null
+10:00:25 [INFO] [EaglercraftXBungee] [/10.0.0.1:40362]: Logged in as 'kkk2z1'
+10:00:25 [INFO] [kkk2z1] -> UpstreamBridge has connected
+10:00:25 [INFO] [kkk2z1] <-> ServerConnector [lobby] has connected
+10:01:33 [INFO] [kkk2z1] -> UpstreamBridge has disconnected
+10:01:33 [INFO] [kkk2z1] <-> DownstreamBridge <-> [lobby] has disconnected
+10:06:48 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+10:06:48 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+10:07:47 [INFO] [EaglercraftXBungee] [/10.0.0.1:39048]: Connected via websocket
+10:07:47 [INFO] [EaglercraftXBungee] [/10.0.0.1:39048]: Origin header is null
+10:07:48 [INFO] [EaglercraftXBungee] [/10.0.0.1:39048]: Logged in as 'adepen1210'
+10:07:48 [INFO] [adepen1210] -> UpstreamBridge has connected
+10:07:48 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+10:13:25 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+10:13:25 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+10:13:57 [INFO] [EaglercraftXBungee] [/10.0.0.1:38588]: Connected via websocket
+10:13:57 [INFO] [EaglercraftXBungee] [/10.0.0.1:38588]: Origin header is null
+10:13:57 [INFO] [EaglercraftXBungee] [/10.0.0.1:38588]: Logged in as 'adepen1210'
+10:13:57 [INFO] [adepen1210] -> UpstreamBridge has connected
+10:13:57 [INFO] [adepen1210] <-> ServerConnector [lobby] has connected
+10:16:08 [INFO] [EaglercraftXBungee] [/10.0.0.1:60878]: Connected via websocket
+10:16:08 [INFO] [EaglercraftXBungee] [/10.0.0.1:60878]: Origin header is null
+10:16:09 [INFO] [EaglercraftXBungee] [/10.0.0.1:60878]: Logged in as 'kkk2z1'
+10:16:09 [INFO] [kkk2z1] -> UpstreamBridge has connected
+10:16:09 [INFO] [kkk2z1] <-> ServerConnector [lobby] has connected
+10:19:41 [SEVERE] Exception in thread "main" 
+10:19:41 [SEVERE] java.io.IOException: Input/output error
+
+10:19:41 [SEVERE] 	at java.base/java.io.FileInputStream.read0(Native Method)
+
+10:19:41 [SEVERE] 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+
+10:19:41 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+
+10:19:41 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+
+10:19:41 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+
+10:19:41 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+
+10:19:41 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+
+10:19:41 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+
+10:19:41 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+
+10:19:41 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+
+10:19:41 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+
+10:19:41 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+
+10:19:41 [INFO] Closing listener [id: 0xbf367eee, L:/[0:0:0:0:0:0:0:0%0]:25577]
+10:19:41 [INFO] Closing pending connections
+10:19:41 [INFO] Disconnecting 2 connections
+10:19:41 [INFO] [adepen1210] disconnected with: §f§cThe proxy server is restarting
+10:19:41 [INFO] [kkk2z1] disconnected with: §f§cThe proxy server is restarting
+10:19:41 [INFO] [kkk2z1] <-> DownstreamBridge <-> [lobby] has disconnected
+10:19:41 [INFO] [kkk2z1] -> UpstreamBridge has disconnected
+10:19:41 [INFO] [adepen1210] <-> DownstreamBridge <-> [lobby] has disconnected
+10:19:41 [INFO] [adepen1210] -> UpstreamBridge has disconnected
+10:19:42 [INFO] Saving reconnect locations
+10:19:42 [INFO] Disabling plugins
+10:19:42 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+10:19:42 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+10:19:42 [INFO] Closing IO threads
+10:19:44 [INFO] Thank you and goodbye

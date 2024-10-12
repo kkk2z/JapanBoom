@@ -29,18 +29,17 @@ contents:
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: COBBLESTONE
-    amount: 50
+    type: STICKY_PISTON
+    amount: 64
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: COAL
-    amount: 2
+    type: SLIME_BLOCK
+    amount: 64
   slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: COBBLESTONE
-    amount: 64
+    type: OAK_BOAT
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
@@ -49,12 +48,7 @@ contents:
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: RAW_IRON
-    amount: 38
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
+    type: IRON_BLOCK
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
@@ -67,7 +61,7 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
     type: COBBLESTONE
-    amount: 32
+    amount: 64
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
@@ -93,19 +87,61 @@ contents:
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: COAL
+    type: OBSERVER
     amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
   slot_15:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
     type: OAK_PLANKS
     amount: 20
-  slot_18:
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+    amount: 18
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ROTTEN_FLESH
+  slot_16:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
     type: OAK_SAPLING
-  slot_29:
+  slot_17:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
     type: WHITE_WOOL
     amount: 2
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DANDELION
+  slot_19:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: MOSS_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=
+  slot_20:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: GUNPOWDER
+  slot_21:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COMPARATOR
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: RAW_IRON
+    amount: 38
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISaxkYAAAU3jGJA8AAAA=

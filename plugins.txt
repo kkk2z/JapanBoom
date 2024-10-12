@@ -6,3 +6,13 @@ zenchantments
 https://dev.bukkit.org/projects/zenchantments
 qualityarmory
 https://dev.bukkit.org/projects/qualityarmory
+
+
+
+
+
+sudo apt install openjdk-21-jdk
+
+cd http
+node main.js
+で、畳敷同様
